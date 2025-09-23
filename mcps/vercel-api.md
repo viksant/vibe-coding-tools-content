@@ -1,7 +1,7 @@
 ---
 title: "Vercel API"
 description: "Integrates with Vercel's API for natural language-driven project management and deployment automation to streamline development workflows."
-category: "mcps"
+category: "mcps-servers"
 tags: ["mcp", "deployment", "api", "integration", "automation", "monitoring"]
 tech_stack: ["Vercel", "Next.js", "Serverless Functions", "Edge Network", "Frontend Deployment"]
 ---

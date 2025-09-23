@@ -1,7 +1,7 @@
 ---
 title: "21st.dev Magic AI Agent"
 description: "AI-powered frontend development assistant that generates and iterates on UI components directly in your code editor"
-category: "mcp-servers"
+category: "mcps-servers"
 tags: ["mcp", "api", "server", "automation", "ai", "machine-learning"]
 tech_stack: ["React", "TypeScript", "CSS/SCSS", "Frontend Development", "UI/UX Design"]
 ---

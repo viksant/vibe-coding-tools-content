@@ -1,7 +1,7 @@
 ---
 title: "302_browser_use_mcp"
 description: "Automated remote browser for task automation using Browser Use and Sandbox technology"
-category: "mcp-servers"
+category: "mcps-servers"
 tags: ["mcp", "web", "api", "data", "automation", "security"]
 tech_stack: ["Browser Use", "Sandbox", "Web Automation", "Selenium", "Playwright"]
 ---
