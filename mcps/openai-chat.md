@@ -1,12 +1,10 @@
 ---
 title: "OpenAI Chat"
 description: "Generate text using OpenAI's language models for various applications and use cases."
-category: "mcps-servers"
-tags: ["mcp", "api", "integration", "ai", "machine-learning"]
+category: "mcp-servers"
+tags: ["api", "integration", "ai", "machine-learning", "text-generation", "NLP", "chatbot"]
 tech_stack: ["OpenAI", "GPT-4", "GPT-3.5", "Natural Language Processing", "AI Text Generation"]
 ---
-
-# OpenAI Chat
 
 This MCP provides seamless integration with OpenAI's powerful language models, enabling developers to generate high-quality text content programmatically. It offers a straightforward interface to leverage models like GPT-4 and GPT-3.5 for tasks such as content creation, code generation, summarization, and conversational AI applications.
 

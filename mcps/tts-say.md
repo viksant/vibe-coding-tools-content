@@ -1,12 +1,10 @@
 ---
 title: "TTS Say"
 description: "Converts text to speech using OpenAI's API and local audio playback for voice-enabled applications."
-category: "mcps-servers"
-tags: ["mcp", "utility", "api", "real-time", "conversion", "integration"]
-tech_stack: ["OpenAI TTS API", "Text-to-Speech", "Audio Playback", "Voice Synthesis"]
+category: "mcp-servers"
+tags: ["utility", "api", "real-time", "conversion", "integration", "text-to-speech", "voice output", "audio notifications"]
+tech_stack: ["OpenAI TTS API", "Text-to-Speech", "Audio Playback", "Voice Synthesis", "Cloud-based synthesis", "Local audio handling"]
 ---
-
-# TTS Say
 
 The TTS Say MCP provides seamless text-to-speech conversion capabilities by integrating with OpenAI's advanced TTS API and local sound playback systems. This enables developers to add natural-sounding voice output to their applications, from interactive assistants and accessibility tools to audio notifications and multimedia content generation.
 

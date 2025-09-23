@@ -1,11 +1,15 @@
 ---
 title: "Hasura GraphQL Server"
 description: "Connect AI agents to Hasura GraphQL APIs for schema discovery, query execution, and data aggregation."
-category: "mcps-servers"
-tags: ["mcp", "utility", "api", "server", "data", "real-time"]
-tech_stack: ["Hasura", "GraphQL", "PostgreSQL", "API Gateway", "Database"]
+category: "mcp-servers"
+tags: ["utility", "api", "server", "data", "real-time", "AI agents", "schema discovery", "query execution", "data aggregation"]
+tech_stack: ["Hasura", "GraphQL", "PostgreSQL", "API Gateway", "Database", "AI"]
 ---
 
-# Hasura GraphQL Server
+This MCP server provides AI agents with direct access to Hasura GraphQL APIs, enabling comprehensive interaction with your data layer. 
 
-This MCP server provides AI agents with direct access to Hasura GraphQL APIs, enabling comprehensive interaction with your data layer. Agents can automatically discover GraphQL schemas, execute complex queries and mutations, aggregate data from multiple sources, and monitor API health status. This transforms AI assistants into powerful data exploration tools that can retrieve precise information, perform data transformations, and provide real-time insights without manual API configuration. Developers can build intelligent applications that leverage structured data access through natural language interfaces.
+Agents can automatically discover GraphQL schemas, execute complex queries and mutations, aggregate data from multiple sources, and monitor API health status. 
+
+This transforms AI assistants into powerful data exploration tools that can retrieve precise information, perform data transformations, and provide real-time insights without manual API configuration. 
+
+Developers can build intelligent applications that leverage structured data access through natural language interfaces.

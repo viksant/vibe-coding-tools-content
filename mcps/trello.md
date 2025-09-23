@@ -1,12 +1,10 @@
 ---
 title: "Trello"
 description: "Integrates with Trello API to manage boards, lists, and cards using natural language for project tracking and workflow optimization."
-category: "mcps-servers"
-tags: ["mcp", "utility", "api", "integration", "automation", "tools"]
-tech_stack: ["Trello", "REST APIs", "Project Management", "Workflow Automation", "Task Tracking"]
+category: "mcp-servers"
+tags: ["utility", "api", "integration", "automation", "project management", "natural language processing"]
+tech_stack: ["Trello", "REST APIs", "Project Management", "Workflow Automation", "Task Tracking", "Natural Language Interface"]
 ---
-
-# Trello
 
 This MCP provides a natural language interface to the Trello API, enabling developers to manage their project boards, lists, and cards through conversational commands. It abstracts away the complexity of API endpoints and authentication, allowing users to create cards, move items between lists, assign members, set due dates, and organize workflows using simple English instructions.
 

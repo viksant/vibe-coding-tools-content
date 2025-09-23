@@ -1,11 +1,13 @@
 ---
 title: "Vantage"
 description: "Analyze and query cloud cost data across providers with intelligent cost management insights."
-category: "mcps-servers"
-tags: ["mcp", "finance", "integration", "automation", "service", "cloud"]
-tech_stack: ["AWS", "Azure", "GCP", "Cloud Cost Management", "FinOps"]
+category: "mcp-servers"
+tags: ["finance", "integration", "automation", "service", "cloud", "cost optimization", "budget forecasting", "resource allocation"]
+tech_stack: ["AWS", "Azure", "GCP", "Cloud Cost Management", "FinOps", "natural language processing"]
 ---
 
-# Vantage
+Vantage MCP enables organizations to gain deep visibility into their cloud spending patterns through natural language queries about cost history, tagging efficiency, and provider integrations. 
 
-Vantage MCP enables organizations to gain deep visibility into their cloud spending patterns through natural language queries about cost history, tagging efficiency, and provider integrations. The service provides actionable insights for cost optimization, budget forecasting, and resource allocation across multi-cloud environments. By leveraging MCP standardization, teams can integrate cost intelligence directly into their development workflows and financial operations.
+The service provides actionable insights for cost optimization, budget forecasting, and resource allocation across multi-cloud environments. 
+
+By leveraging MCP standardization, teams can integrate cost intelligence directly into their development workflows and financial operations.

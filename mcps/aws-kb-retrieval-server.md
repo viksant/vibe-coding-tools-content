@@ -1,11 +1,13 @@
 ---
 title: "Aws Kb Retrieval Server"
 description: "MCP server for AWS Knowledge Base retrieval using Bedrock Agent Runtime."
-category: "mcps-servers"
-tags: ["mcp", "utility", "server", "data", "automation", "ai"]
-tech_stack: ["AWS Bedrock", "Knowledge Base", "AWS Services"]
+category: "mcp-servers"
+tags: ["utility", "server", "data", "automation", "ai", "knowledge retrieval", "AI assistants"]
+tech_stack: ["AWS Bedrock", "Knowledge Base", "AWS Services", "AI applications"]
 ---
 
-# Aws Kb Retrieval Server
+The AWS KB Retrieval Server MCP implementation enables AI assistants to access and query information from AWS Knowledge Bases through the Bedrock Agent Runtime. 
 
-The AWS KB Retrieval Server MCP implementation enables AI assistants to access and query information from AWS Knowledge Bases through the Bedrock Agent Runtime. This provides structured access to organizational knowledge, documentation, and data repositories stored in AWS. Developers can build AI applications that leverage enterprise knowledge for customer support, internal documentation, and information retrieval workflows.
+This provides structured access to organizational knowledge, documentation, and data repositories stored in AWS. 
+
+Developers can build AI applications that leverage enterprise knowledge for customer support, internal documentation, and information retrieval workflows.
