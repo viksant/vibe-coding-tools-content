@@ -3,7 +3,7 @@ title: Maximizing Productivity with Claude Code
 description: >-
   Essential tips and strategies for efficient AI-assisted development using
   Claude Code
-author: viksant
+author: holabuenastardes6854
 date: "2025-09-23"
 tags:
   - productivity
@@ -15,7 +15,6 @@ tech_stack:
   - AI
   - Development Tools
 category: tips-tricks
-subcategory: general
 ---
 
 # Maximizing Productivity with Claude Code
