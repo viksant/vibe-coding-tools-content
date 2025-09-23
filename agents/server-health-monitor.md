@@ -258,8 +258,8 @@ if curl -s --head  --request GET http://localhost/health | grep "200 OK" > /dev/
    echo "Service is up"
 else
    echo "Service is down"
-   # Trigger alert
-   curl -X POST -H 'Content-type: application/json' --data '{"text":"Service is down!"}' https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+  # Trigger alert (configure SLACK_WEBHOOK_URL environment variable)
+  curl -X POST -H 'Content-type: application/json' --data '{"text":"Service is down!"}' $SLACK_WEBHOOK_URL
 fi
 ```
 
