@@ -11,8 +11,3 @@ tech_stack: ["News APIs", "Data Analytics", "Content Curation", "Business Intell
 Newsbang MCP is an intelligent Media Command Platform that enables developers to integrate comprehensive news intelligence directly into their applications. The platform offers three core capabilities: real-time top headlines to keep users informed of breaking developments, intelligent news search to find relevant stories across vast datasets, and deep-dive analysis reports that provide expert insights beyond surface-level information.
 
 This MCP transforms raw news data into valuable business intelligence by enabling automated monitoring, trend analysis, and opportunity identification. Developers can build applications for market research, competitive intelligence, content curation, and decision support systems. The platform helps organizations stay ahead of trends, understand market dynamics, and make data-driven decisions by providing structured access to news content with analytical depth.
-
-## Details
-
-- **GitHub**: https://github.com/NewsBang/newsbang-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/s6xpjftwtqd.webp

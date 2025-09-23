@@ -9,8 +9,3 @@ tech_stack: ["JavaScript", "Node.js", "Web APIs", "MiniMax API", "Browser Integr
 # MiniMax-MCP-JS
 
 The official MiniMax Model Context Protocol JavaScript implementation provides seamless browser and Node.js integration with MiniMax's comprehensive AI services. This MCP enables web developers to incorporate text-to-image generation, text-to-video conversion, image-to-video transformation, text-to-speech synthesis, and voice cloning capabilities directly into their JavaScript applications. The implementation supports both client-side and server-side usage, making it perfect for web applications, browser extensions, and serverless functions that require advanced generative AI features with minimal setup complexity.
-
-## Details
-
-- **GitHub**: https://github.com/MiniMax-AI/MiniMax-MCP-JS
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/rt75b3ywr1i.jpg

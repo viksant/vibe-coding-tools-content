@@ -9,8 +9,3 @@ tech_stack: ["OpenAI API", "Web Search", "REST APIs", "Python", "HTTP Clients"]
 # openai-websearch-mcp
 
 This MCP provides seamless integration with OpenAI's web search capabilities through the Model Context Protocol. It enables developers to incorporate real-time web search functionality into their applications with minimal setup effort. The one-click installation and configuration process streamlines development workflows, allowing teams to quickly leverage OpenAI's powerful search API for research, data gathering, and information retrieval tasks without complex implementation overhead.
-
-## Details
-
-- **GitHub**: https://github.com/ConechoAI/openai-websearch-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/8if5j4fq9au.png

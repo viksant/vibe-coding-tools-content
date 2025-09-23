@@ -11,8 +11,3 @@ tech_stack: ["Stata", "Visual Studio Code", "Cursor IDE", "Statistical Analysis"
 This MCP extension bridges the gap between Stata statistical software and modern development environments, enabling data scientists and researchers to work within their preferred coding environment. It allows direct execution of Stata commands, .do files, and real-time output viewing without switching applications. The integration with MCP protocol provides AI assistants with contextual understanding of Stata workflows, enabling intelligent code completion, error detection, and statistical analysis assistance directly within the editor.
 
 Developers can leverage this extension for enhanced productivity in statistical programming, data analysis pipelines, and research workflows. The real-time feedback loop and AI integration make complex statistical operations more accessible while maintaining the full power of Stata's analytical capabilities within a modern development environment.
-
-## Details
-
-- **GitHub**: https://github.com/hanlulong/stata-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/oi1csr3pb2i.png

@@ -11,8 +11,3 @@ tech_stack: ["Setu API", "UPI", "Payment Gateway", "Mobile Payments", "Fintech"]
 This MCP provides a direct interface to Setu's UPI payment infrastructure, enabling developers to programmatically create, manage, and track UPI payment links within their applications. It abstracts the complexity of payment gateway integration, offering simple API calls for generating deeplinks that can be shared via SMS, email, or embedded directly in apps for instant payment initiation.
 
 Developers can use this MCP to build payment flows for e-commerce platforms, subscription services, donation systems, and peer-to-peer payment applications. The integration supports transaction status tracking, payment verification, and customizable payment parameters, making it ideal for businesses needing reliable UPI payment capabilities without building the underlying infrastructure from scratch.
-
-## Details
-
-- **GitHub**: https://github.com/SetuHQ/setu-mcps/tree/HEAD/upi-deeplinks
-- **Logo**: 

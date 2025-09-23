@@ -11,8 +11,3 @@ tech_stack: ["Deepseek R1", "AI/ML", "Natural Language Processing", "Text Genera
 This MCP provides seamless integration with the Deepseek R1 language model, offering developers powerful text generation and analysis capabilities. It enables applications to leverage advanced AI for content creation, document analysis, and intelligent decision support systems. The interface simplifies complex AI operations, making sophisticated language model capabilities accessible through straightforward API calls.
 
 Developers can use this MCP to build applications that require natural language processing, automated content generation, or data analysis with AI assistance. It supports various use cases including automated report generation, intelligent chatbots, content summarization, and data-driven insights extraction. The MCP handles model interactions efficiently, allowing developers to focus on building their application logic while benefiting from state-of-the-art language model capabilities.
-
-## Details
-
-- **GitHub**: https://github.com/66julienmartin/MCP-server-Deepseek_R1
-- **Logo**: 

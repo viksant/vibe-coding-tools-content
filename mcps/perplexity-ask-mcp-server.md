@@ -9,8 +9,3 @@ tech_stack: ["Perplexity API", "Web Search", "Information Retrieval"]
 # Perplexity Ask MCP Server
 
 The Perplexity Ask MCP Server integrates Perplexity's web search capabilities into the Model Context Protocol ecosystem. This enables AI assistants to perform real-time web searches, retrieve current information, and access external knowledge without leaving the MCP environment. Developers can build applications that incorporate up-to-date web content, research capabilities, and information verification through natural language queries.
-
-## Details
-
-- **GitHub**: https://github.com/ppl-ai/modelcontextprotocol
-- **Logo**: https://avatars.githubusercontent.com/u/110299016?v=4

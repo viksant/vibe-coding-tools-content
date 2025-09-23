@@ -11,8 +11,3 @@ tech_stack: ["MongoDB Atlas", "MongoDB", "TypeScript", "Database Management", "C
 This MCP provides seamless integration with MongoDB Atlas, allowing developers to programmatically manage their cloud database infrastructure through TypeScript. It enables full lifecycle management of Atlas clusters including creation, configuration, and scaling, along with comprehensive user administration and network access controls. Developers can automate database operations, manage connection strings securely, and implement infrastructure-as-code practices for their MongoDB deployments.
 
 The integration supports modern development workflows by providing type-safe interactions with the MongoDB Atlas API, reducing manual operations and enabling automated provisioning pipelines. Use cases include automated testing environments, multi-tenant application setups, and CI/CD pipelines that require dynamic database resource management. This MCP significantly accelerates development velocity by eliminating manual Atlas console operations and providing programmatic control over database resources.
-
-## Details
-
-- **GitHub**: https://github.com/mongodb-developer/mcp-mongodb-atlas
-- **Logo**: 

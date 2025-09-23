@@ -9,8 +9,3 @@ tech_stack: ["EdgeOne", "CDN", "HTML", "Static Site Deployment"]
 # EdgeOne Pages MCP
 
 The EdgeOne Pages MCP enables developers to deploy static HTML content directly to Tencent Cloud's EdgeOne Pages service with minimal configuration. This server simplifies the process of publishing web content by automatically generating accessible public URLs, making it ideal for rapid prototyping, documentation sites, and static web applications. Developers can integrate this into their workflows to streamline deployment processes and ensure content is served through a global CDN for optimal performance and reliability.
-
-## Details
-
-- **GitHub**: https://github.com/TencentEdgeOne/edgeone-pages-mcp
-- **Logo**: https://avatars.githubusercontent.com/u/176978739?v=4

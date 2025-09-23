@@ -11,8 +11,3 @@ tech_stack: ["Local Falcon", "SEO Monitoring", "Rank Tracking", "Local Search", 
 The Local Falcon MCP enables developers to programmatically interact with Local Falcon's comprehensive local SEO monitoring platform. This integration allows you to retrieve detailed scan results, analyze ranking data across multiple locations, and initiate new tracking scans for specific keywords and business locations. You can automate rank tracking workflows, monitor SERP performance over time, and gather competitive intelligence data.
 
 With this MCP, developers can build automated SEO monitoring systems, create custom dashboards for tracking local search performance, and integrate Local Falcon's location-based ranking data into broader marketing analytics platforms. The API provides access to granular ranking metrics, competitor comparisons, and geographic performance insights that help businesses optimize their local search presence and track the effectiveness of SEO strategies across different service areas.
-
-## Details
-
-- **GitHub**: https://github.com/local-falcon/mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/qivw6ah6ys.svg

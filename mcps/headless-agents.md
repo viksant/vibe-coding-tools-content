@@ -11,8 +11,3 @@ tech_stack: ["Headless Agents API", "Task Automation", "Workflow Orchestration",
 This MCP server bridges Claude Desktop with the Headless Agents API, enabling developers to leverage sophisticated agent capabilities directly within their Claude workflow. It transforms Claude from a conversational AI into an automation powerhouse by providing access to specialized agents that can perform complex tasks, retrieve information from various sources, and make intelligent decisions based on contextual understanding.
 
 Developers can use this integration to automate multi-step processes, orchestrate complex workflows, and build intelligent systems that combine Claude's reasoning with specialized agent capabilities. The MCP supports use cases ranging from automated research and data analysis to workflow orchestration and decision support systems, making it ideal for building sophisticated AI-powered applications that require both conversational intelligence and automated execution capabilities.
-
-## Details
-
-- **GitHub**: https://github.com/Headless-Agents/headless-agents-mcp-ts
-- **Logo**: 

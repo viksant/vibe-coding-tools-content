@@ -9,8 +9,3 @@ tech_stack: ["Smartlead", "Email Marketing", "API Integration", "Workflow Automa
 # Official Smartlead MCP Server
 
 The Official Smartlead MCP Server provides a streamlined interface to the Smartlead API, enabling AI assistants and automation tools to seamlessly interact with comprehensive email marketing capabilities. This MCP facilitates automated campaign management, lead nurturing workflows, and performance analytics integration without requiring deep API expertise. With enhanced connectivity to workflow automation platforms like n8n, developers can build sophisticated marketing automation pipelines that leverage Smartlead's full feature set while maintaining clean, maintainable code architecture.
-
-## Details
-
-- **GitHub**: https://github.com/jean-technologies/smartlead-mcp-server-local/blob/main/DEVELOPER_ONBOARDING.md
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/re7w3n3wl8.webp

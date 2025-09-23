@@ -11,8 +11,3 @@ tech_stack: ["Text-to-Speech", "AI Voice Generation", "Real-time Audio", "Voice 
 The Daisys TTS MCP Server is a powerful text-to-speech solution that enables developers to create custom AI-powered voices and integrate real-time speech synthesis into their applications. This server provides tools for generating unique voices tailored to specific characters, assistants, or creative projects, along with instant text-to-speech capabilities for dynamic voice output.
 
 This MCP is ideal for game developers, content creators, and AI assistant builders who need personalized voice experiences. It supports creative projects, educational tools, and interactive applications by providing flexible voice customization and immediate speech generation, making digital interactions more engaging and personalized through high-quality synthetic speech.
-
-## Details
-
-- **GitHub**: https://github.com/daisys-ai/daisys-mcp/blob/main/README.md
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/dxhjohum1ef.png

@@ -9,8 +9,3 @@ tech_stack: ["Clay API", "Social Media APIs", "Messaging Platforms", "Contact Ma
 # Clay
 
 The Clay MCP server provides comprehensive contact management capabilities by integrating with multiple communication platforms including email, calendar, Twitter/X, LinkedIn, iMessage, Facebook, and WhatsApp. It enables AI models to perform intelligent searches across your entire network, retrieve specific contact information, and execute contact management tasks. Developers can build applications that answer complex relationship queries, create and organize contact groups, set reminders, and maintain detailed notes for each contact, all through a unified API interface.
-
-## Details
-
-- **GitHub**: https://github.com/clay-inc/clay-mcp/
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/yl165nmafgs.png

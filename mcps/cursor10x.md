@@ -9,8 +9,3 @@ tech_stack: ["Cursor IDE", "AI Assistants", "Persistent Memory", "Code Relations
 # Cursor10x
 
 Cursor10x MCP is a persistent multi-dimensional memory system designed specifically for Cursor development environments. It enhances AI assistants by maintaining conversation context, project history, and code relationships across multiple sessions. This enables developers to work more effectively with AI assistants that have persistent memory of previous interactions, code patterns, and project context. The system provides continuous context awareness, allowing for more intelligent code suggestions, better problem-solving assistance, and improved development continuity.
-
-## Details
-
-- **GitHub**: https://github.com/aurda012/cursor10x-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/1qikjzbwm61.jpg

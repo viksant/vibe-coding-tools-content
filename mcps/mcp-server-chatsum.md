@@ -11,8 +11,3 @@ tech_stack: ["Chat Platforms", "Natural Language Processing", "Text Summarizatio
 The Mcp Server Chatsum provides automated summarization of chat messages and conversations, enabling developers to quickly extract key information from lengthy discussions. This tool is particularly valuable for team collaborations, customer support transcripts, and meeting follow-ups where important decisions or action items need to be distilled from extended chat histories.
 
 By integrating with chat platforms and messaging systems, this MCP helps developers save time on information review, improve documentation accuracy, and maintain better project context. It supports both real-time summarization of ongoing conversations and batch processing of historical chat logs, making it versatile for various development workflows and team communication needs.
-
-## Details
-
-- **GitHub**: https://github.com/chatmcp/mcp-server-chatsum
-- **Logo**: N/A - Text Fallback (M)

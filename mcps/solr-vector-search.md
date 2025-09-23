@@ -11,8 +11,3 @@ tech_stack: ["Apache Solr", "Vector Search", "Semantic Search", "Document Retrie
 This MCP server bridges Apache Solr's powerful search capabilities with modern vector embedding technology, enabling hybrid search that combines traditional keyword matching with semantic understanding. Developers can perform contextual searches against structured data repositories without requiring direct database access, using both text-based queries and vector similarity for more accurate and relevant results.
 
 The integration supports advanced use cases like semantic document retrieval, recommendation systems, and intelligent search applications. By leveraging Solr's indexing infrastructure alongside vector embeddings, it provides a scalable solution for applications needing both precise keyword filtering and semantic understanding, making it ideal for content discovery platforms, knowledge bases, and AI-powered search interfaces.
-
-## Details
-
-- **GitHub**: https://github.com/allenday/solr-mcp
-- **Logo**: 

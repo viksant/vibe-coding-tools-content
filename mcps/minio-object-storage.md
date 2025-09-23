@@ -11,8 +11,3 @@ tech_stack: ["MinIO", "S3", "Object Storage", "Cloud-Native", "Storage Managemen
 This MCP server provides a comprehensive bridge to MinIO object storage, allowing developers to programmatically manage buckets, objects, and perform file operations through a standardized interface. It supports essential object storage functionalities including bucket creation/deletion, object upload/download, and file listing operations, making it ideal for building and managing cloud-native applications that require scalable storage solutions.
 
 The server enables real-time monitoring of MinIO server health and performance metrics, helping developers maintain reliable storage infrastructure. This is particularly valuable for applications requiring S3-compatible storage, data lakes, or backup solutions, providing the flexibility to work with both on-premises and cloud-based MinIO deployments while ensuring consistent API interactions across different environments.
-
-## Details
-
-- **GitHub**: https://github.com/pavelanni/mcp-server-minio-go
-- **Logo**: 

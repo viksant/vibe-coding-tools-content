@@ -11,8 +11,3 @@ tech_stack: ["PDF", "DOCX", "HTML", "CSV", "EPUB"]
 Document Forge provides developers with a unified API for working with diverse document formats, enabling seamless extraction of text and metadata, format conversion between popular file types, and programmatic manipulation of document content. This eliminates the need for multiple specialized libraries and simplifies complex document workflows.
 
 Developers can build applications that process PDF invoices, convert DOCX reports to HTML for web display, parse CSV data for analysis, or manage EPUB ebooks programmatically. The MCP handles format-specific complexities behind a consistent interface, making it ideal for content management systems, data processing pipelines, and automated document generation tools.
-
-## Details
-
-- **GitHub**: https://github.com/cablate/mcp-doc-forge
-- **Logo**: 

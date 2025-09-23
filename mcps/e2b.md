@@ -11,8 +11,3 @@ tech_stack: ["Cloud Computing", "Sandbox Environments", "Code Execution", "Secur
 E2B is a Model Context Protocol server that provides secure, isolated cloud sandboxes for executing code in a controlled environment. This enables AI assistants to run, test, and debug code snippets safely without compromising local development environments or requiring complex setup configurations.
 
 The sandbox environment supports multiple programming languages and provides a secure space for code experimentation, algorithm testing, and educational purposes. Developers can leverage E2B for automated code validation, learning new programming concepts, or testing potentially risky code in a protected environment before deploying to production systems.
-
-## Details
-
-- **GitHub**: https://github.com/e2b-dev/mcp-server
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/pyd9x15usz8.png

@@ -11,8 +11,3 @@ tech_stack: ["DeFi", "Blockchain", "DEX", "Cryptocurrency", "Multi-chain Analyti
 DexPaprika MCP connects developers to comprehensive multi-chain DeFi data through natural language interfaces. This integration provides real-time access to token prices, trading volumes, liquidity metrics, and historical performance analytics across multiple blockchain networks. Developers can query complex DeFi datasets using simple conversational language, eliminating the need for manual API calls or complex data aggregation scripts.
 
 The tool enables rapid prototyping of DeFi dashboards, automated research workflows, and data-driven strategy development. By abstracting away the complexity of multi-chain data aggregation, it allows teams to focus on analysis and insights rather than infrastructure. Use cases include portfolio tracking applications, arbitrage opportunity detection, liquidity analysis for trading strategies, and comparative performance analytics across different decentralized exchanges and blockchain ecosystems.
-
-## Details
-
-- **GitHub**: https://github.com/coinpaprika/dexpaprika-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/akw3vbvs2m6.png

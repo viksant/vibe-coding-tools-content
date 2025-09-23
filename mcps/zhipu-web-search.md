@@ -9,8 +9,3 @@ tech_stack: ["Web Search", "Search API", "Intent Recognition", "Knowledge Retrie
 # Zhipu Web Search
 
 Zhipu Web Search MCP Server is a specialized search engine designed for large language models, integrating four different search engines to provide flexible comparison and switching capabilities. It enhances traditional web crawling with advanced intent recognition, returning structured results optimized for AI processing including titles, URLs, summaries, and site metadata. This enables AI applications to achieve dynamic knowledge acquisition and precise scenario adaptation, making it ideal for research assistants, content generation tools, and intelligent information retrieval systems.
-
-## Details
-
-- **GitHub**: https://github.com/THUDM
-- **Logo**: https://cdn.bigmodel.cn/static/platform/images/logo/bigmodel-pure-logo.png

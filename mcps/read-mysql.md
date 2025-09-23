@@ -11,8 +11,3 @@ tech_stack: ["MySQL", "SQL", "Database", "Data Analysis", "Relational Database"]
 This MCP provides secure, read-only access to MySQL databases, enabling developers to execute SQL queries and analyze data patterns without risking data modification. It's ideal for data exploration, reporting, and debugging scenarios where you need to inspect database contents safely.
 
 Developers can use this MCP to integrate MySQL data analysis directly into their workflows, supporting use cases like generating reports, validating data integrity, and understanding application behavior through database insights. The read-only nature ensures production data safety while providing full visibility into database structures and contents.
-
-## Details
-
-- **GitHub**: https://github.com/benborla/mcp-server-mysql
-- **Logo**: 

@@ -9,8 +9,3 @@ tech_stack: ["Python", "MiniMax API", "Image Processing", "Video Generation", "S
 # MiniMax-MCP
 
 The official MiniMax Model Context Protocol Python implementation provides seamless access to MiniMax's advanced AI capabilities. This MCP enables developers to integrate text-to-image generation, text-to-video conversion, image-to-video transformation, text-to-speech synthesis, and voice cloning directly into their applications. The Python implementation offers a robust interface for leveraging MiniMax's multimodal AI services, making it ideal for content creation applications, multimedia processing pipelines, and AI-powered creative tools that require high-quality generative AI outputs.
-
-## Details
-
-- **GitHub**: https://github.com/MiniMax-AI/MiniMax-MCP
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/6w12j869vtl.jpg

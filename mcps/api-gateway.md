@@ -11,8 +11,3 @@ tech_stack: ["REST APIs", "OpenAPI", "Docker", "Claude Desktop", "Cursor"]
 API Gateway MCP enables developers to seamlessly integrate any REST API into their AI assistant workflow using OpenAPI/Swagger specifications. This eliminates the need for manual API calls, Postman interfaces, or additional coding—simply describe what you want to achieve through natural language, and the AI handles the actual API communication. The tool supports multiple APIs simultaneously with custom headers, making it ideal for complex backend operations.
 
 With Docker-based deployment that runs in seconds, API Gateway works seamlessly with Claude Desktop and Cursor environments. This transforms your AI assistant into a powerful backend operator capable of executing real API requests across various services. Developers can now automate workflows, test endpoints, and interact with their entire API ecosystem through conversational interfaces, significantly accelerating development and testing cycles.
-
-## Details
-
-- **GitHub**: https://github.com/rflpazini/mcp-api-gateway
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/ii0sah9tlpf.png

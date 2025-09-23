@@ -11,8 +11,3 @@ tech_stack: ["UniProt", "Bioinformatics", "Protein Research", "Computational Bio
 The UniProt MCP provides seamless integration with the UniProt API, offering developers cached access to comprehensive protein information including sequences, functions, structures, and annotations. This enables bioinformatics applications to retrieve reliable protein data without direct API calls, improving performance and reducing rate limiting issues.
 
 Developers can leverage this MCP to build protein research tools, computational biology platforms, and drug discovery applications. It supports use cases such as protein sequence analysis, functional annotation pipelines, structural biology research, and comparative genomics studies by providing standardized access to UniProt's vast knowledgebase of protein data.
-
-## Details
-
-- **GitHub**: https://github.com/TakumiY235/uniprot-mcp-server
-- **Logo**: 

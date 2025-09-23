@@ -11,8 +11,3 @@ tech_stack: ["Epsilla", "Vector Databases", "Embeddings", "Semantic Search", "AI
 This MCP provides seamless integration with Epsilla vector databases through the pyepsilla client library, enabling developers to work with high-performance vector storage and retrieval. It supports essential vector database operations including creating collections, inserting embeddings, and performing similarity searches with optimized query performance.
 
 The integration is particularly valuable for AI applications requiring semantic search, recommendation systems, and RAG implementations. Developers can leverage Epsilla's efficient indexing and query capabilities to build applications that understand and process vector embeddings at scale, making it ideal for machine learning pipelines and intelligent search solutions.
-
-## Details
-
-- **GitHub**: https://github.com/epsilla-cloud/mcp-epsilla
-- **Logo**: 

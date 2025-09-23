@@ -9,8 +9,3 @@ tech_stack: ["Taboola", "Advertising", "API Integration", "Data Analytics", "Mar
 # Taboola_MCP
 
 The Taboola_MCP enables developers to programmatically access and retrieve information from Taboola advertising accounts through a clean API interface. This MCP provides structured access to campaign data, performance metrics, and account information, making it easier to integrate Taboola advertising data into custom dashboards, reporting tools, and automated marketing workflows. By abstracting the Taboola API complexities, it allows developers to focus on building applications that leverage advertising data without deep knowledge of the underlying platform specifics.
-
-## Details
-
-- **GitHub**: https://github.com/matlafu/taboola_mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/m0h2g9p54p.avif

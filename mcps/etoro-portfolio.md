@@ -11,8 +11,3 @@ tech_stack: ["eToro", "Financial APIs", "Investment Platforms", "Portfolio Manag
 This MCP provides seamless integration with eToro's API, enabling developers to programmatically access comprehensive financial data including portfolio holdings, instrument details, and search capabilities. It eliminates CORS restrictions that typically hinder web-based financial applications, allowing for direct server-to-server communication with eToro's investment platform.
 
 Developers can build sophisticated investment analysis tools, portfolio tracking dashboards, and automated trading systems by leveraging real-time market data and portfolio information. The MCP supports use cases ranging from personal finance management applications to institutional investment analysis platforms, providing reliable access to eToro's extensive financial instrument database and user portfolio data through a standardized API interface.
-
-## Details
-
-- **GitHub**: https://github.com/shlomico-tr/etoroPortfolioMCP
-- **Logo**: 

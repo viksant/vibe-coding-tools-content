@@ -11,8 +11,3 @@ tech_stack: ["Deriv API", "Automated Trading", "Financial Markets", "Real-time D
 The Deriv MCP provides seamless integration with Deriv's trading API, allowing developers to build sophisticated automated trading systems and market analysis tools. This MCP enables real-time access to trading data including symbol information, account balances, and market conditions, making it ideal for algorithmic trading platforms and financial analytics applications.
 
 Developers can leverage this MCP to create custom trading bots, portfolio management systems, and risk analysis tools that interact directly with Deriv's trading ecosystem. The integration supports various trading operations and market data retrieval, providing a foundation for building comprehensive financial applications that require reliable, real-time trading capabilities and market insights.
-
-## Details
-
-- **GitHub**: https://github.com/raju-deriv/mcp-deriv-api-server
-- **Logo**: 

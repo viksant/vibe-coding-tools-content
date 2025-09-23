@@ -11,8 +11,3 @@ tech_stack: ["Unity", "C#", "Game Development", "3D Graphics", "Real-time Engine
 Union MCP server provides deep integration between AI assistants and the Unity game development environment, offering intelligent support for game programming, asset management, and scene composition. This server enables AI tools to understand Unity's project structure, component system, and scripting API, allowing for context-aware assistance in game development workflows. Developers can receive intelligent suggestions for Unity-specific code, asset references, and best practices directly within their AI-assisted development environment.
 
 The server facilitates enhanced productivity in game development by providing AI-powered code completion, debugging assistance, and architectural guidance tailored to Unity's ecosystem. It bridges the gap between traditional game development tools and modern AI-assisted programming, making complex game development tasks more accessible while maintaining compatibility with Unity's extensive feature set and asset pipeline.
-
-## Details
-
-- **GitHub**: https://github.com/nurture-tech/unity-mcp-server/blob/main/README.md
-- **Logo**: 

@@ -11,8 +11,3 @@ tech_stack: ["Qdrant", "Vector Databases", "Semantic Search", "AI Memory", "Embe
 The Qdrant MCP enables developers to implement sophisticated semantic memory systems using the Qdrant vector search engine. This integration allows AI applications to store, retrieve, and search through high-dimensional vector embeddings efficiently, enabling semantic similarity searches and context-aware memory recall. Developers can build intelligent systems that understand and remember contextual relationships between data points, making it ideal for recommendation engines, semantic search applications, and AI agents that require persistent memory with semantic understanding.
 
 The MCP provides seamless integration with Qdrant's powerful vector database capabilities, offering features like filtering, scoring, and efficient nearest neighbor search. This enables developers to create applications that can understand natural language queries, find semantically similar content, and maintain contextual awareness across interactions. The protocol simplifies complex vector operations while maintaining high performance and scalability for production-ready semantic memory systems.
-
-## Details
-
-- **GitHub**: https://github.com/qdrant/mcp-server-qdrant/
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/tc9emb3zgon.png

@@ -9,8 +9,3 @@ tech_stack: ["HubSpot", "Salesforce", "SaaS Integration", "API Connectivity", "B
 # Maton
 
 Maton MCP provides seamless integration between AI assistants and popular SaaS tools, enabling automated workflows and data synchronization across business platforms. This connection allows AI systems to access, process, and manipulate data from services like HubSpot, Salesforce, and other enterprise applications, streamlining customer relationship management, marketing automation, and sales operations. Developers can build intelligent agents that perform complex business tasks, sync data across multiple systems, and provide real-time insights from connected SaaS platforms.
-
-## Details
-
-- **GitHub**: https://github.com/maton-ai/agent-toolkit
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/17odeqrv8eh.png

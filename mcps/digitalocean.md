@@ -11,8 +11,3 @@ tech_stack: ["DigitalOcean", "Kubernetes", "Cloud Infrastructure", "API Automati
 This MCP provides a secure, rate-limited interface to DigitalOcean's comprehensive cloud platform API, allowing developers to programmatically manage their entire cloud infrastructure. It enables automation of droplet creation, scaling, and management, along with control over Kubernetes clusters, managed databases, storage volumes, and networking components through a standardized interface.
 
 Developers can build sophisticated automation workflows for infrastructure provisioning, deployment pipelines, and operational management while maintaining security and compliance with DigitalOcean's rate limits. The MCP simplifies complex cloud operations, reduces manual intervention, and supports infrastructure-as-code practices for more reliable and scalable cloud environments.
-
-## Details
-
-- **GitHub**: https://github.com/luc-io/mcpserver
-- **Logo**: 

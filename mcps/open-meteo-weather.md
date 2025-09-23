@@ -11,8 +11,3 @@ tech_stack: ["Open-Meteo API", "HTTP/REST APIs", "Docker", "Asynchronous Program
 This MCP integrates with the Open-Meteo API to deliver comprehensive weather information for any specified location. Developers can retrieve real-time meteorological data including current temperature, wind speed, precipitation, and atmospheric conditions through simple API calls. The service uses asynchronous HTTP requests for optimal performance and reliability.
 
 The MCP is containerized using Docker for straightforward deployment across various environments, making it ideal for weather-dependent applications, IoT systems, and location-based services. It enables developers to quickly incorporate accurate weather data into their projects without managing complex infrastructure, supporting use cases ranging from travel apps and agricultural monitoring to event planning and logistics optimization.
-
-## Details
-
-- **GitHub**: https://github.com/dennj/weather-mcp
-- **Logo**: 

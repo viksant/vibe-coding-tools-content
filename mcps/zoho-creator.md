@@ -11,8 +11,3 @@ tech_stack: ["Zoho Creator", "REST API", "Low-code Platform", "Business Applicat
 This MCP provides seamless integration with the Zoho Creator API, enabling developers to programmatically manage forms and reports within their Zoho Creator applications. You can create, update, and deploy custom forms to capture business data, then generate and export detailed reports for analysis and decision-making.
 
 The integration supports automating complex workflows, syncing data across systems, and building custom business applications without manual intervention. It's ideal for businesses looking to streamline operations, create tailored CRM solutions, or develop internal tools that leverage Zoho Creator's low-code platform capabilities while maintaining full programmatic control.
-
-## Details
-
-- **GitHub**: https://github.com/mastercode-io/scaflog-zoho-mcp-server
-- **Logo**: 

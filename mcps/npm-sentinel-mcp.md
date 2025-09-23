@@ -11,8 +11,3 @@ tech_stack: ["NPM", "Node.js", "JavaScript", "TypeScript", "Package Management"]
 The NPM Sentinel MCP provides comprehensive AI-driven analysis of NPM packages through multiple specialized tools. It enables security vulnerability scanning to identify potential risks in dependencies, dependency analysis to understand package relationships and potential conflicts, package comparison to evaluate alternatives, and quality assessment to gauge maintainability and reliability. This helps developers make informed decisions about package selection and identify security risks before they impact production systems.
 
 By integrating directly with the NPM ecosystem, this MCP supports proactive security practices and dependency management workflows. Development teams can use it during code reviews, CI/CD pipelines, and package evaluation processes to ensure they're using secure, well-maintained dependencies. The AI-powered analysis provides deeper insights than traditional static analysis tools, helping teams maintain robust and secure JavaScript/TypeScript applications while optimizing their dependency trees.
-
-## Details
-
-- **GitHub**: https://github.com/Nekzus/npm-sentinel-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/9gi10jj2xke.png

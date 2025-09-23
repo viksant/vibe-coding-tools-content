@@ -11,8 +11,3 @@ tech_stack: ["AWS", "S3", "CodePipeline", "Python", "DevOps"]
 This MCP provides a Python-based interface that enables developers to programmatically interact with AWS services including S3, CodePipeline, and other cloud resources. It abstracts AWS SDK complexities into simple, reusable functions for common DevOps operations like managing storage buckets, monitoring deployment pipelines, and automating infrastructure tasks.
 
 The tool streamlines cloud operations by offering consistent patterns for AWS API interactions, reducing boilerplate code and accelerating development workflows. It's particularly valuable for teams building automation scripts, CI/CD pipelines, and infrastructure management tools that require reliable AWS integration without deep AWS expertise.
-
-## Details
-
-- **GitHub**: https://github.com/baryhuang/mcp-server-aws-resources-python
-- **Logo**: 

@@ -9,8 +9,3 @@ tech_stack: ["Browser Automation", "Web Testing", "Debugging", "OAuth", "Seleniu
 # Operative Browser Agent Debugger (Web Eval Agent)
 
 The Operative Browser Agent Debugger MCP server provides autonomous web application testing capabilities for coding agents. This powerful tool can automatically open browsers, handle OAuth logins (including Google authentication), navigate through applications, and collect comprehensive debugging data including console logs, network requests, and errors. With automated screenshot capture throughout the testing process, developers can quickly identify why web applications fail and validate functionality without manual intervention, significantly accelerating debugging and quality assurance workflows.
-
-## Details
-
-- **GitHub**: https://github.com/Operative-Sh/web-eval-agent
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/b7tcjrofqdu.png

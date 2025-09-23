@@ -9,8 +9,3 @@ tech_stack: ["Amap Maps", "Geolocation API", "Mapping Services"]
 # Amap Maps
 
 The Amap Maps MCP server provides official integration with Amap's comprehensive mapping and location services. This enables AI assistants to access geocoding, routing, points of interest, and real-time map data through standardized MCP tools. Developers can build location-aware applications with accurate Chinese mapping data, traffic information, and navigation capabilities directly within their AI workflows.
-
-## Details
-
-- **GitHub**: https://github.com/modelcontextprotocol/servers
-- **Logo**: https://r2.trys.ai/imgs/zbu4ptrd-1742910186713.png

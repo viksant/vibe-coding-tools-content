@@ -11,8 +11,3 @@ tech_stack: ["OCR API", "Image Processing", "Document Digitization"]
 This MCP integrates with a Handwriting OCR API to extract and digitize text from handwritten documents in various image formats. It enables developers to convert physical notes, manuscripts, and scanned documents into editable and searchable text, streamlining data entry and archival processes. The tool supports multiple image formats and provides accurate text recognition for handwritten content.
 
 Developers can use this MCP to build applications that automate document processing, create digital archives from historical manuscripts, or develop note-taking apps that convert handwritten input to digital text. The API handles complex handwriting styles and variations, making it suitable for educational, archival, and business applications where handwritten content needs to be digitized efficiently.
-
-## Details
-
-- **GitHub**: https://github.com/Handwriting-OCR/handwriting-ocr-mcp-server
-- **Logo**: 

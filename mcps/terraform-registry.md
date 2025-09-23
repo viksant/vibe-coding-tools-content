@@ -11,8 +11,3 @@ tech_stack: ["Terraform", "Infrastructure-as-Code", "Cloud Providers", "Terrafor
 This MCP integrates with the Terraform Registry API to provide developers with comprehensive tools for infrastructure-as-code development. It enables lookup of Terraform providers, retrieval of resource usage examples, and access to detailed schema information for various cloud resources and services. Developers can quickly find and evaluate modules, understand provider capabilities, and get accurate configuration examples.
 
 The integration streamlines IaC workflows by offering intelligent module recommendations based on project requirements and current infrastructure state. This reduces manual research time, ensures best practices are followed, and helps prevent configuration errors. Use cases include automating provider discovery during setup, validating resource schemas before deployment, and finding community-vetted modules for common infrastructure patterns across AWS, Azure, Google Cloud, and other platforms.
-
-## Details
-
-- **GitHub**: https://github.com/thrashr888/terraform-mcp-server
-- **Logo**: 

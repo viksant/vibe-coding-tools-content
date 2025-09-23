@@ -11,8 +11,3 @@ tech_stack: ["GitHub", "Git", "Filesystem", "Web Search", "Version Control"]
 This MCP provides seamless integration between GitHub repositories, local filesystems, and web search capabilities, enabling developers to perform comprehensive code analysis, research, and document handling tasks. It allows for repository management operations like cloning, branching, and commit tracking while maintaining synchronized local file access for editing and version control.
 
 The combination of GitHub integration with filesystem operations and web search creates powerful workflows for code research, documentation analysis, and project management. Developers can search for code examples, analyze repository structures, manage local project files, and maintain version control all within a unified interface, significantly improving productivity for software development and technical documentation tasks.
-
-## Details
-
-- **GitHub**: https://github.com/jamcam-me/Claude-MCP
-- **Logo**: 

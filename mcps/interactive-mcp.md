@@ -9,8 +9,3 @@ tech_stack: ["Real-time Notifications", "Feedback Systems", "Chat Integration", 
 # Interactive MCP
 
 Interactive MCP delivers real-time chat completion alerts and gathers user feedback dynamically, creating a responsive notification ecosystem for AI-assisted workflows. This system provides instant, actionable notifications that keep users informed about AI processing status while simultaneously collecting valuable feedback to improve future interactions. Developers can implement sophisticated notification systems that enhance user engagement, gather performance metrics, and create more responsive AI applications that adapt to user preferences and feedback patterns.
-
-## Details
-
-- **GitHub**: https://github.com/ttommyth/interactive-mcp
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/perlie2cf9.png

@@ -11,8 +11,3 @@ tech_stack: ["DingTalk", "Webhooks", "Chatbots", "API Integration", "Notificatio
 This MCP server provides a standardized interface for sending messages and notifications to DingTalk (DingDing) through webhook integrations. It enables developers to programmatically interact with DingTalk's chatbot ecosystem, allowing for automated alerts, team notifications, and workflow integrations directly from their applications. The server handles authentication, message formatting, and delivery to ensure reliable communication with DingTalk channels.
 
 Use cases include sending automated alerts for system monitoring, integrating with CI/CD pipelines for deployment notifications, and creating custom workflow bots for team collaboration. Developers can leverage this MCP to build sophisticated notification systems that keep teams informed in real-time, reducing manual communication overhead and improving operational efficiency across distributed teams.
-
-## Details
-
-- **GitHub**: https://github.com/HundunOnline/mcp-dingdingbot-server/blob/master/README.md
-- **Logo**: 

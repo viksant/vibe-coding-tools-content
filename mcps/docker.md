@@ -11,8 +11,3 @@ tech_stack: ["Docker", "Containerization", "TypeScript", "CI/CD", "DevOps"]
 This MCP enables comprehensive Docker container management through a TypeScript-based interface, allowing developers to programmatically control their containerized environments. It provides essential operations including listing existing containers, running new instances, stopping active containers, removing unused resources, and pulling images from Docker registries.
 
 Developers benefit from streamlined container workflows that integrate directly into their development tools and automation pipelines. This is particularly valuable for CI/CD systems, local development environments, and infrastructure management where programmatic container control is required. The TypeScript interface ensures type safety and excellent developer experience while maintaining compatibility with Docker's core functionality.
-
-## Details
-
-- **GitHub**: https://github.com/suvarchal/docker-mcp
-- **Logo**: 

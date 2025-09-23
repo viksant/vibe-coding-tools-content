@@ -11,8 +11,3 @@ tech_stack: ["Neon", "PostgreSQL", "Serverless", "Database", "SQL"]
 The Neon MCP Server provides developers with programmatic access to Neon's serverless PostgreSQL platform through the Model Context Protocol. This enables AI assistants and development tools to manage Neon databases, execute queries, monitor performance, and automate database operations directly within development workflows. Developers can create, configure, and manage serverless Postgres instances, run SQL queries, and handle database migrations through standardized MCP interfaces.
 
 The server simplifies database management by providing seamless integration with development environments, allowing for automated provisioning, schema management, and data operations. It supports both development and production use cases, from rapid prototyping with instant database creation to production-grade database management with monitoring and optimization capabilities. This reduces operational overhead and accelerates development cycles with serverless database infrastructure.
-
-## Details
-
-- **GitHub**: https://github.com/neondatabase-labs/mcp-server-neon
-- **Logo**: https://avatars.githubusercontent.com/u/183852044?v=4

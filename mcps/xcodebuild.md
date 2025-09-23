@@ -11,8 +11,3 @@ tech_stack: ["Xcode", "iOS", "Swift", "Objective-C", "macOS"]
 This MCP provides seamless integration with Xcode's command-line tools, allowing AI assistants to directly interact with iOS/macOS development workflows. Developers can automate project compilation, run tests, and parse build errors through natural language commands, significantly reducing manual CLI interactions. The tool enables real-time feedback loops where AI can suggest fixes for compilation errors, execute test suites, and validate code changes without leaving the coding environment.
 
 By bridging AI capabilities with native iOS development tools, this MCP accelerates mobile app development cycles. It supports complex workflows like multi-scheme builds, simulator testing, and continuous integration setups. Teams can maintain code quality through automated testing pipelines while leveraging AI for rapid prototyping and debugging, making it ideal for both individual developers and large-scale iOS projects requiring consistent build automation.
-
-## Details
-
-- **GitHub**: https://github.com/ShenghaiWang/xcodebuild
-- **Logo**: 

@@ -9,8 +9,3 @@ tech_stack: ["Web Scraping", "Data Extraction", "JSON APIs", "SDK Integration"]
 # Ashra MCP Server
 
 Ashra MCP Server enables structured data extraction from any website through simple SDK calls, eliminating the need for complex scraping code or headless browsers. It uses AI-powered parsing to convert web content into structured JSON data based on natural language prompts. This approach simplifies data collection workflows, reduces development overhead, and provides reliable data extraction without maintaining browser automation infrastructure.
-
-## Details
-
-- **GitHub**: https://github.com/getrupt/ashra-mcp/tree/main/src/operations
-- **Logo**: https://knhgkaawjfqqwmsgmxns.supabase.co/storage/v1/object/public/avatars/mcp/o9tfdlsaej9.svg
