@@ -3,7 +3,7 @@ title: Production-Ready ESLint Configuration
 description: >-
   Comprehensive JavaScript&amp;#x2F;TypeScript linting setup with React,
   accessibility, and Prettier integration for production-ready code quality
-author: viksant
+author: holabuenastardes6854
 date: "2025-09-23"
 tags:
   - eslint
@@ -15,7 +15,6 @@ tech_stack:
   - TypeScript
   - React
 category: configurations
-subcategory: general
 tool: vscode
 ---
 
