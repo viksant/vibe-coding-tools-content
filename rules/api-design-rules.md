@@ -3,7 +3,7 @@ title: API Design Rules
 description: >-
   RESTful API development standards and best practices for consistent, secure,
   and maintainable backend services
-author: viksant
+author: holabuenastardes6854
 date: "2025-09-23"
 tags:
   - api
@@ -15,7 +15,6 @@ tech_stack:
   - Next.js
   - Zod
 category: rules
-subcategory: general
 ---
 
 # API Design Rules
