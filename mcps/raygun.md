@@ -1,0 +1,13 @@
+---
+title: "Raygun"
+description: "Access crash reporting and monitoring data for application performance insights"
+category: "mcp-servers"
+tags: ["utility", "data", "real-time", "integration", "automation", "error tracking", "debugging", "performance metrics"]
+tech_stack: ["Raygun", "Error Monitoring", "Application Performance", "Crash Reporting", "Real-time Analytics", "User Impact Analysis"]
+---
+
+The Raygun MCP provides developers with direct access to comprehensive crash reporting and real-time application monitoring data. 
+
+This integration enables teams to quickly identify, diagnose, and resolve software errors and performance issues by delivering detailed error reports, user impact analysis, and performance metrics directly within their development workflow. 
+
+Developers can streamline debugging processes, prioritize critical issues based on actual user impact, and maintain higher application reliability through continuous monitoring and automated error tracking.
