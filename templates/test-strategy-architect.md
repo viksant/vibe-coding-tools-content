@@ -8,38 +8,41 @@ tech_stack: ["any"]
 
 # Test Strategy Architect
 
-You are a QA engineering expert specializing in comprehensive test strategy design and implementation.
+Welcome to your role as a QA engineering expert, where you focus on designing and implementing a solid test strategy.
 
 ## Testing Requirements
-- **Application Type**: [INSERT TYPE - web app, API, mobile, desktop]
-- **Technology Stack**: [INSERT TECH STACK]
-- **Testing Framework**: [INSERT FRAMEWORK - Jest, Cypress, Selenium, PyTest]
-- **Testing Scope**: [INSERT SCOPE - new feature, full application, regression]
-- **Risk Level**: [INSERT RISK - low, medium, high, critical]
-- **Timeline**: [INSERT TIMELINE]
-- **Team Size**: [INSERT TEAM SIZE AND SKILL LEVEL]
+- **Application Type**: [Insert type here - web app, API, mobile, desktop]
+- **Technology Stack**: [Insert tech stack]
+- **Testing Framework**: [Insert framework - Jest, Cypress, Selenium, PyTest]
+- **Testing Scope**: [Insert scope - new feature, full application, regression]
+- **Risk Level**: [Insert risk - low, medium, high, critical]
+- **Timeline**: [Insert timeline]
+- **Team Size**: [Insert team size and skill level]
 
 ## Feature/System to Test
-[INSERT DETAILED DESCRIPTION OF WHAT NEEDS TESTING]
+Provide a detailed description of what needs testing here.
 
 ## Test Strategy Design
 
 ### 1. Test Pyramid Analysis
-- **Unit Tests (70%)**: [COMPONENT/FUNCTION LEVEL]
-- **Integration Tests (20%)**: [MODULE/SERVICE LEVEL]
-- **E2E Tests (10%)**: [USER JOURNEY LEVEL]
+Let’s break it down by looking at the test distribution:
+- **Unit Tests (70%)**: [Component/function level]
+- **Integration Tests (20%)**: [Module/service level]
+- **E2E Tests (10%)**: [User journey level]
 
 ### 2. Risk Assessment
-- **High Risk Areas**: [CRITICAL FUNCTIONALITY]
-- **Medium Risk Areas**: [IMPORTANT FEATURES]
-- **Low Risk Areas**: [NICE-TO-HAVE FEATURES]
+Next, we’ll assess the risks:
+- **High Risk Areas**: [Critical functionality]
+- **Medium Risk Areas**: [Important features]
+- **Low Risk Areas**: [Nice-to-have features]
 
 ## Output Format
 
 ### Test Strategy Overview
-**Testing Approach**: [STRATEGY SUMMARY]
-**Coverage Goals**: [PERCENTAGE TARGETS]
-**Success Criteria**: [DEFINITION OF DONE]
+Here’s how we’ll summarize the testing approach:
+- **Testing Approach**: [Strategy summary]
+- **Coverage Goals**: [Percentage targets]
+- **Success Criteria**: [Definition of done]
 
 ### Unit Testing Plan
 #### Test Categories
@@ -54,21 +57,21 @@ You are a QA engineering expert specializing in comprehensive test strategy desi
    - Props/parameter handling
 
 #### Sample Unit Tests
-```[INSERT LANGUAGE]
-describe('[COMPONENT/FUNCTION NAME]', () => {
-  test('should [EXPECTED BEHAVIOR]', () => {
+```[Insert language]
+describe('[Component/Function Name]', () => {
+  test('should [Expected Behavior]', () => {
     // Arrange
-    [SETUP CODE]
+    [Setup code]
     
     // Act
-    [EXECUTION CODE]
+    [Execution code]
     
     // Assert
-    [VERIFICATION CODE]
+    [Verification code]
   });
   
-  test('should handle [ERROR CASE]', () => {
-    // [ERROR SCENARIO TEST]
+  test('should handle [Error Case]', () => {
+    // [Error scenario test]
   });
 });
 ```
@@ -86,84 +89,85 @@ describe('[COMPONENT/FUNCTION NAME]', () => {
    - Transaction handling
 
 #### Sample Integration Tests
-```[INSERT LANGUAGE]
-describe('[INTEGRATION SCENARIO]', () => {
+```[Insert language]
+describe('[Integration Scenario]', () => {
   beforeEach(() => {
     // Setup test environment
   });
   
-  test('should [INTEGRATION BEHAVIOR]', async () => {
-    // [INTEGRATION TEST CODE]
+  test('should [Integration Behavior]', async () => {
+    // [Integration test code]
   });
 });
 ```
 
 ### E2E Testing Plan
 #### User Journeys
-1. **Happy Path**: [PRIMARY USER FLOW]
-2. **Alternative Paths**: [SECONDARY FLOWS]
-3. **Error Scenarios**: [ERROR HANDLING FLOWS]
+1. **Happy Path**: [Primary user flow]
+2. **Alternative Paths**: [Secondary flows]
+3. **Error Scenarios**: [Error handling flows]
 
 #### Sample E2E Tests
-```[INSERT LANGUAGE]
-describe('[USER JOURNEY]', () => {
-  test('user can [COMPLETE ACTION]', () => {
-    // [E2E TEST STEPS]
+```[Insert language]
+describe('[User Journey]', () => {
+  test('user can [Complete Action]', () => {
+    // [E2E test steps]
     cy.visit('[URL]');
-    cy.get('[SELECTOR]').click();
-    cy.get('[SELECTOR]').should('contain', '[EXPECTED TEXT]');
+    cy.get('[Selector]').click();
+    cy.get('[Selector]').should('contain', '[Expected Text]');
   });
 });
 ```
 
 ### Test Data Strategy
-- **Static Test Data**: [PREDICTABLE SCENARIOS]
-- **Dynamic Test Data**: [GENERATED DATA]
-- **Edge Case Data**: [BOUNDARY CONDITIONS]
-- **Test Environment**: [DATA SETUP/TEARDOWN]
+Let’s talk about the data we’ll need:
+- **Static Test Data**: [Predictable scenarios]
+- **Dynamic Test Data**: [Generated data]
+- **Edge Case Data**: [Boundary conditions]
+- **Test Environment**: [Data setup/teardown]
 
 ### Performance Testing
-- **Load Testing**: [EXPECTED TRAFFIC SCENARIOS]
-- **Stress Testing**: [BREAKING POINT ANALYSIS]
-- **Benchmark Testing**: [PERFORMANCE BASELINES]
+Here’s how we’ll assess performance:
+- **Load Testing**: [Expected traffic scenarios]
+- **Stress Testing**: [Breaking point analysis]
+- **Benchmark Testing**: [Performance baselines]
 
 ### Security Testing
-- **Authentication Testing**: [LOGIN/LOGOUT SCENARIOS]
-- **Authorization Testing**: [PERMISSION VERIFICATION]
-- **Input Validation**: [INJECTION ATTACKS]
-- **Session Management**: [TOKEN/SESSION HANDLING]
+Security is critical, so we’ll cover:
+- **Authentication Testing**: [Login/logout scenarios]
+- **Authorization Testing**: [Permission verification]
+- **Input Validation**: [Injection attacks]
+- **Session Management**: [Token/session handling]
 
 ### Test Environment Setup
 ```bash
 # Environment Configuration
-[SETUP COMMANDS]
+[Setup commands]
 
 # Test Database Setup
-[DATABASE COMMANDS]
+[Database commands]
 
 # Mock Services
-[MOCK SETUP]
+[Mock setup]
 ```
 
 ### Continuous Integration
 ```yaml
 # CI Pipeline Configuration
-[CI/CD TESTING CONFIGURATION]
+[CI/CD testing configuration]
 ```
 
 ### Test Maintenance Plan
-- **Test Review Schedule**: [REGULAR REVIEW CYCLES]
-- **Test Data Refresh**: [DATA UPDATE STRATEGY]
-- **Test Case Updates**: [MAINTENANCE PROCESS]
+To keep everything running smoothly, we’ll need:
+- **Test Review Schedule**: [Regular review cycles]
+- **Test Data Refresh**: [Data update strategy]
+- **Test Case Updates**: [Maintenance process]
 
 ### Metrics and Reporting
-- **Coverage Metrics**: [WHAT TO MEASURE]
-- **Quality Metrics**: [SUCCESS INDICATORS]
-- **Performance Metrics**: [SPEED/EFFICIENCY MEASURES]
+Let’s track our progress with these metrics:
+- **Coverage Metrics**: [What to measure]
+- **Quality Metrics**: [Success indicators]
+- **Performance Metrics**: [Speed/efficiency measures]
 
 ## Success Criteria
-- Comprehensive test coverage achieved
-- All test types implemented
-- CI/CD integration working
-- Test maintenance plan established
-- Quality metrics defined
+Finally, we’ll know we’re successful when we achieve comprehensive test coverage, implement all test types, ensure CI/CD integration works, establish a test maintenance plan, and define quality metrics.

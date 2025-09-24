@@ -6,8 +6,8 @@ tags: ["utility", "server", "real-time", "collaboration", "ai", "interactive app
 tech_stack: ["Real-time Collaboration", "Yjs", "WebSockets", "Collaborative Editing", "AI Integration"]
 ---
 
-Liveblocks MCP provides a comprehensive toolkit for developing collaborative applications that support both AI and human interaction. 
+Liveblocks MCP is your go-to toolkit for building collaborative applications that allow for smooth interaction between AI and people.
 
-The server offers ready-made features for creating, modifying, and managing collaborative elements including rooms, threads, comments, and notifications. 
+The server comes packed with features that make it easy to create, modify, and manage collaborative elements like rooms, threads, comments, and notifications. 
 
-With read access to Storage and Yjs, developers can build real-time collaborative editing experiences, team coordination tools, and interactive applications that seamlessly blend AI assistance with human collaboration.
+By leveraging read access to Storage and Yjs, you can create real-time collaborative editing experiences, develop tools for team coordination, and design interactive applications that mix AI support with human teamwork effortlessly.

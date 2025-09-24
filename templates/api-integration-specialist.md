@@ -8,7 +8,7 @@ tech_stack: ["any"]
 
 # API Integration Specialist
 
-You are an expert at integrating third-party APIs with robust error handling and security.
+You're skilled at linking third-party APIs with solid error handling and security measures.
 
 ## Integration Requirements
 - **API Provider**: [INSERT API PROVIDER - Stripe, Twilio, AWS, etc.]
@@ -85,9 +85,8 @@ class [APIName]Client {
   // Error handling
   handleAPIError(error) {
     if (error.response) {
-      // API responded with error status
       const { status, data } = error.response;
-      
+
       switch (status) {
         case 400:
           return new APIValidationError(data.message, data);
@@ -103,10 +102,8 @@ class [APIName]Client {
           return new APIError(`API request failed with status ${status}`, data);
       }
     } else if (error.request) {
-      // Request made but no response
       return new APINetworkError('Network error - no response received');
     } else {
-      // Something else happened
       return new APIError('Request configuration error', error.message);
     }
   }
@@ -131,7 +128,6 @@ class [APIName]Client {
   }
 
   formatResponse(data) {
-    // Transform API response to application format
     return {
       success: true,
       data: data,
@@ -140,13 +136,11 @@ class [APIName]Client {
   }
 
   handleRequest(config) {
-    // Log request (remove in production)
     console.log(`[API Request] ${config.method.toUpperCase()} ${config.url}`);
     return config;
   }
 
   handleResponse(response) {
-    // Log response (remove in production)
     console.log(`[API Response] ${response.status} ${response.config.url}`);
     return response;
   }
@@ -205,7 +199,6 @@ export const [API_NAME]_CONFIG = {
   retryAttempts: 3,
   rateLimitPerMinute: [RATE_LIMIT],
   
-  // Environment-specific settings
   development: {
     debug: true,
     logRequests: true
@@ -232,26 +225,18 @@ class [APIName]Service {
 
   async [businessMethod]([businessParameters]) {
     try {
-      // Business logic transformation
       const apiParams = this.transformToAPIFormat([businessParameters]);
-      
-      // Make API call
       const result = await this.client.[primaryMethod](apiParams);
       
-      // Transform response to business format
       return this.transformFromAPIFormat(result);
       
     } catch (error) {
-      // Log error for monitoring
       this.logError(error, '[businessMethod]', [businessParameters]);
-      
-      // Re-throw with business context
       throw new Error(`Failed to [business operation]: ${error.message}`);
     }
   }
 
   transformToAPIFormat(businessData) {
-    // Convert business objects to API format
     return {
       [apiField]: businessData.[businessField],
       // ... other transformations
@@ -259,7 +244,6 @@ class [APIName]Service {
   }
 
   transformFromAPIFormat(apiData) {
-    // Convert API response to business objects
     return {
       [businessField]: apiData.[apiField],
       // ... other transformations
@@ -285,7 +269,6 @@ export default [APIName]Service;
 import [APIName]Client from '../clients/[APIName]Client';
 import axios from 'axios';
 
-// Mock axios
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
 
@@ -298,7 +281,6 @@ describe('[APIName]Client', () => {
       baseURL: 'https://api.test.com'
     });
     
-    // Clear all mocks
     jest.clearAllMocks();
   });
 
@@ -357,7 +339,6 @@ import [APIName]Service from './services/[APIName]Service';
 
 const [apiService] = new [APIName]Service();
 
-// Example usage
 async function example() {
   try {
     const result = await [apiService].[businessMethod]({
@@ -377,20 +358,18 @@ async function example() {
 // monitoring/[apiName]Monitor.js
 class [APIName]Monitor {
   static logAPICall(method, url, duration, status) {
-    // Send metrics to monitoring service
     console.log(`API Call: ${method} ${url} - ${duration}ms - ${status}`);
   }
 
   static logAPIError(error, context) {
-    // Send error to error tracking service
     console.error('API Error:', error, context);
   }
 }
 ```
 
 ## Success Criteria
-- API integration working correctly
-- Proper error handling implemented
-- Rate limiting respected
-- Authentication secure
-- Comprehensive test coverage
+- API integration works correctly
+- Error handling is in place
+- Rate limiting is respected
+- Authentication remains secure
+- Test coverage is comprehensive

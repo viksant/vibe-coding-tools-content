@@ -6,8 +6,8 @@ tags: ["server", "automation", "AI", "design", "Figma", "UI components"]
 tech_stack: ["Figma", "UI Design", "Design Systems", "AI coding agents"]
 ---
 
-The Framelink Figma MCP Server provides AI coding agents like Cursor with access to Figma design layouts, component structures, and design system information. 
+The Framelink Figma MCP Server lets AI coding agents, such as Cursor, tap into Figma design layouts, component structures, and design system details.
 
-This enables AI assistants to understand design specifications, extract UI components, and generate code that matches design requirements. 
+This connection helps AI assistants grasp design specifications, pick out UI components, and produce code that aligns with the design requirements.
 
-Developers can streamline the design-to-code workflow, ensure visual consistency, and automate UI development based on Figma designs.
+With this setup, developers can simplify the process of turning designs into code, maintain visual consistency, and automate UI development directly from Figma designs.

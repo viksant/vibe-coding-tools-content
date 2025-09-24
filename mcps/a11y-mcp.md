@@ -6,8 +6,8 @@ tags: ["web", "server", "automation", "ai", "machine-learning", "accessibility",
 tech_stack: ["axe-core", "Web Accessibility", "WCAG", "HTML/CSS", "JavaScript", "Cline", "Cursor", "GitHub Copilot"]
 ---
 
-The a11y-mcp server integrates axe-core to perform comprehensive accessibility audits on webpages, identifying WCAG compliance issues and providing detailed reports. 
+The a11y-mcp server uses axe-core to conduct thorough accessibility checks on webpages. It spots any issues related to WCAG compliance and generates in-depth reports.
 
-This enables AI assistants like Cline, Cursor, and GitHub Copilot to analyze accessibility gaps and automatically generate fixes within an agentic workflow loop. 
+This integration allows AI assistants such as Cline, Cursor, and GitHub Copilot to identify accessibility gaps and automatically suggest fixes in a smooth workflow. 
 
-Developers can streamline their accessibility testing process, ensure compliance with web standards, and deliver more inclusive user experiences through automated remediation of a11y issues.
+As a result, developers can simplify their accessibility testing, meet web standards, and create more inclusive user experiences by automating the resolution of accessibility issues.

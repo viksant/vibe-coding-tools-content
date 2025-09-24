@@ -6,8 +6,8 @@ tags: ["web", "api", "tools", "ai", "knowledge management", "webhook integration
 tech_stack: ["Knowledge Management", "Webhooks", "API Integration", "AI Development Tools"]
 ---
 
-ArcKnowledge MCP provides comprehensive knowledge management capabilities, allowing you to register, manage, and query document sources through webhook endpoints.
+ArcKnowledge MCP offers a powerful way to manage your knowledge. You can register, manage, and query your document sources using simple webhook endpoints.
 
-You can add new knowledge sources by URL, provide descriptions and API keys, and maintain a centralized knowledge repository. 
+Adding new knowledge sources is a breeze. Just provide the URL, a description, and your API keys. This helps you create a centralized knowledge repository where everything is neatly organized.
 
-The system enables intelligent querying across all registered sources or specific subsets, making organizational knowledge easily accessible to your AI development tools.
+With this system, you can perform smart queries across all your registered sources or focus on specific subsets. This makes it easy for your AI development tools to access the knowledge your organization holds.

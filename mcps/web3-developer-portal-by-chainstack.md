@@ -6,10 +6,10 @@ tags: ["deployment", "web", "utility", "api", "real-time", "documentation", "dev
 tech_stack: ["Chainstack", "Web3", "Blockchain", "Ethereum", "API Documentation", "MCP"]
 ---
 
-This MCP serves the entire Chainstack Web3 Developer Portal as a local instance, streaming all documentation including guides, API references, and release notes as structured MCP resources. 
+This MCP acts as the backbone for the entire Chainstack Web3 Developer Portal, hosting all kinds of documentation like guides, API references, and release notes in a structured way. 
 
-It provides AI agents and developer tools with immediate access to years of accumulated Web3 knowledge, eliminating the need for external API calls or manual documentation lookups.
+With this setup, AI agents and developer tools can tap into a wealth of Web3 knowledge that's been gathered over the years. That means no more waiting for external API calls or searching through documentation manually.
 
-Developers can leverage this MCP to build smarter Web3 applications that incorporate Chainstack's extensive documentation directly into their workflows. 
+Developers can make the most of this MCP to create smarter Web3 applications. They can directly integrate Chainstack's comprehensive documentation into their workflows. 
 
-This enables real-time access to deployment guides, node operation instructions, and API specifications, making it ideal for building intelligent development assistants, automated deployment pipelines, and documentation-aware development environments that understand Web3 infrastructure best practices.
+This feature allows for real-time access to deployment guides, instructions for running nodes, and API specifications. It's perfect for creating intelligent development assistants, automated deployment processes, and development environments that are well-versed in Web3 infrastructure best practices.

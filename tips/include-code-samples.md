@@ -6,10 +6,12 @@ tags: ["prompting", "code-samples", "context", "llm", "suggestions"]
 tech_stack: ["any"]
 ---
 
-To enhance the relevance of suggestions from a language model (LLM), include code samples from your existing codebase when making requests. This practice helps the LLM understand your coding style and context, leading to more tailored recommendations. 
+To make your interactions with a language model (LLM) more effective, include code samples from your own projects when you ask for help. This approach gives the LLM a better understanding of your coding style and context, resulting in more relevant recommendations.
 
-1. **Identify the relevant code snippets** that represent your coding style or the specific area you need help with.
-2. **Format your request** to the LLM by including these snippets. For example:
+Here’s how to do it:
+
+1. **Find the right code snippets** that showcase your coding style or the specific areas where you need assistance.
+2. **Format your request** to the LLM by adding these snippets. For example:
    ```
    Here’s a function I’m working on:
    ```python
@@ -18,14 +20,14 @@ To enhance the relevance of suggestions from a language model (LLM), include cod
    ```
    Can you suggest improvements or alternatives?
    ```
-3. **Submit your request** to the LLM using the formatted prompt.
-4. **Review the suggestions** provided by the LLM, focusing on how they align with your existing code.
-5. **Incorporate useful suggestions** into your codebase, adapting them as necessary.
+3. **Send your request** to the LLM with the formatted prompt.
+4. **Look over the suggestions** the LLM provides, and see how well they fit with your existing code.
+5. **Use any helpful suggestions** in your codebase, making adjustments as needed.
 
-Expected result: You will receive more relevant and context-aware suggestions that fit your coding style.
+Expected outcome: You’ll receive suggestions that are more relevant and tailored to your coding style.
 
-### Why It Works
-Including code samples provides the LLM with context, allowing it to generate suggestions that are more aligned with your existing code structure and style. Use this approach when seeking improvements, alternatives, or debugging help.
+### Why This Works
+By including code samples, you give the LLM context. This context allows it to offer suggestions that align better with your current code structure and style. Use this method when looking for improvements, alternatives, or help with debugging.
 
 ### Quick Examples
 - **Before**: 
@@ -42,7 +44,7 @@ Including code samples provides the LLM with context, allowing it to generate su
    ```
    What optimizations can I make?
    ```
-- **Expected Improvement**: More specific suggestions tailored to the `fetch_data` function.
+- **Expected Improvement**: You’ll get more specific suggestions aimed at improving the `fetch_data` function.
 
 - **Before**: 
    ```
@@ -61,14 +63,10 @@ Including code samples provides the LLM with context, allowing it to generate su
    ```
 
 ### Common Mistakes
-- **Not providing enough context**: Avoid vague requests. Include relevant code snippets.
-  - **Fix**: Always add code that illustrates your current implementation.
+- **Not providing enough context**: Vague requests can lead to less helpful responses. Always include relevant code snippets.
   
-- **Using outdated code samples**: Ensure the code reflects your current practices.
-  - **Fix**: Regularly update the snippets you share with the LLM.
+- **Using outdated code samples**: Make sure your code reflects your current practices. Regularly update the snippets you share.
 
-- **Overloading with too much code**: Including excessive code can confuse the LLM.
-  - **Fix**: Limit to 2-3 concise snippets that are directly relevant to your question.
+- **Overloading with too much code**: Too much code can confuse the LLM. Stick to 2-3 concise snippets that are directly related to your question.
 
-- **Ignoring LLM suggestions**: Dismissing suggestions without testing can miss valuable insights.
-  - **Fix**: Experiment with the suggestions before deciding against them.
+- **Ignoring LLM suggestions**: Dismissing suggestions without testing them can cause you to miss out on valuable insights. Experiment with the suggestions before deciding against them.

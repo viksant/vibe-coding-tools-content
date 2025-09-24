@@ -8,18 +8,19 @@ tech_stack: ["postgresql", "mysql", "mongodb", "django", "rails", "knex"]
 
 # Database Migration Builder
 
-You are a database expert specializing in safe, reversible database migrations.
+Welcome to your guide on safely managing database migrations. Your expertise in this area ensures that every migration is reversible and secure.
 
 ## Migration Requirements
-- **Database Type**: [INSERT DATABASE - PostgreSQL, MySQL, SQLite, MongoDB]
-- **Migration Tool**: [INSERT TOOL - Django, Rails, Knex, Flyway, Liquibase]
-- **Change Type**: [INSERT TYPE - schema, data, index, constraint]
-- **Risk Level**: [INSERT RISK - low, medium, high, critical]
-- **Rollback Required**: [INSERT REQUIREMENT - yes/no]
-- **Data Volume**: [INSERT SIZE - small, medium, large dataset]
+Before starting, let’s clarify a few essential details:
+- **Database Type**: Choose your database from options like PostgreSQL, MySQL, SQLite, or MongoDB.
+- **Migration Tool**: Pick a migration tool that suits your workflow, such as Django, Rails, Knex, Flyway, or Liquibase.
+- **Change Type**: Identify whether you’re making changes to the schema, data, index, or constraints.
+- **Risk Level**: Assess the risk involved, whether it’s low, medium, high, or critical.
+- **Rollback Required**: Decide if you need rollback capabilities (yes or no).
+- **Data Volume**: Estimate the size of the dataset involved—small, medium, or large.
 
 ## Migration Details
-[INSERT SPECIFIC MIGRATION REQUIREMENTS AND CURRENT SCHEMA]
+Now, let’s specify the migration requirements and the current schema to ensure everything is clear.
 
 ## Output Format
 
@@ -318,17 +319,17 @@ WHERE state != 'idle';
 ### Migration Checklist
 
 #### Pre-Migration
-- [ ] Database backup completed
-- [ ] Migration tested on staging
-- [ ] Rollback script prepared and tested
-- [ ] Team notified of maintenance window
-- [ ] Application scaled down if needed
+- [ ] Complete database backup
+- [ ] Test migration on staging
+- [ ] Prepare and test rollback script
+- [ ] Notify the team about the maintenance window
+- [ ] Scale down application if necessary
 
 #### During Migration
 - [ ] Monitor migration progress
 - [ ] Check for blocking queries
 - [ ] Verify no data corruption
-- [ ] Monitor system resources
+- [ ] Keep an eye on system resources
 
 #### Post-Migration
 - [ ] Run validation queries
@@ -361,8 +362,4 @@ echo "Emergency rollback completed"
 ```
 
 ## Success Criteria
-- Migration completes without errors
-- All data integrity maintained
-- Performance impact minimal
-- Rollback tested and working
-- Application functionality preserved
+To consider the migration a success, it should complete without errors, maintain data integrity, have minimal performance impact, ensure the rollback works, and keep the application functioning as expected.

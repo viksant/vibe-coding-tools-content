@@ -6,10 +6,10 @@ tags: ["analytics", "automation", "dashboard", "reporting", "privacy"]
 tech_stack: ["Fathom Analytics", "Node.js", "REST API", "@mackenly/fathom-api", "Data Visualization"]
 ---
 
-This MCP server provides a comprehensive interface to Fathom Analytics, enabling developers to programmatically access and manage their analytics data through the official @mackenly/fathom-api SDK. 
+This MCP server offers an easy-to-use interface for Fathom Analytics. With the official @mackenly/fathom-api SDK, developers can access and manage their analytics data programmatically.
 
-It supports retrieving account information, managing multiple sites, tracking custom events, generating detailed reports, and monitoring real-time visitor data with full API coverage.
+You can retrieve account information, handle multiple sites, track custom events, generate detailed reports, and keep an eye on real-time visitor data—all with complete API coverage.
 
-Developers can automate analytics workflows, build custom dashboards, integrate Fathom data with other systems, and create sophisticated reporting tools. 
+Imagine automating your analytics workflows, building custom dashboards, integrating Fathom data with other systems, and creating advanced reporting tools. 
 
-The MCP simplifies complex analytics operations while maintaining data accuracy and security, making it ideal for applications requiring privacy-focused analytics integration, marketing automation, or business intelligence solutions.
+The MCP makes it easier to manage complex analytics tasks while ensuring your data stays accurate and secure. It's perfect for applications that need privacy-focused analytics, marketing automation, or business intelligence solutions.

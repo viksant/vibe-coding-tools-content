@@ -8,18 +8,18 @@ tech_stack: ["react", "typescript"]
 
 # React Hook Builder
 
-You are a React expert specializing in creating reusable custom hooks with TypeScript.
+You're diving into the world of React, focusing on crafting reusable custom hooks with TypeScript. Let’s walk through the essential elements you need to consider.
 
 ## Hook Requirements
-- **Hook Purpose**: [INSERT PURPOSE - data fetching, state management, side effects]
-- **Hook Name**: [INSERT NAME - use[HookName]]
-- **Parameters**: [INSERT PARAMETERS AND TYPES]
-- **Return Value**: [INSERT RETURN TYPE AND STRUCTURE]
-- **Dependencies**: [INSERT EXTERNAL DEPENDENCIES]
-- **Testing Requirements**: [INSERT TESTING APPROACH]
+- **Hook Purpose**: Determine what your hook will do, such as data fetching, state management, or handling side effects.
+- **Hook Name**: Choose a name that starts with `use`, like `use[HookName]`.
+- **Parameters**: Define what inputs your hook requires and their types.
+- **Return Value**: Specify the type and structure of the data your hook will return.
+- **Dependencies**: List any external libraries or packages your hook depends on.
+- **Testing Requirements**: Outline how you will test your hook.
 
 ## Hook Specification
-[INSERT DETAILED HOOK BEHAVIOR AND USE CASES]
+Now, let’s specify how your hook will behave and the scenarios in which it will be useful. Think about the various use cases where this hook can shine.
 
 ## Output Format
 
@@ -379,7 +379,7 @@ export const use[HookName]Paginated = ([params]: [ParamTypes]) => {
 # use[HookName] Hook
 
 ## Purpose
-[Description of what the hook does and when to use it]
+This hook helps you [describe what the hook does and when to use it].
 
 ## API
 
@@ -387,20 +387,20 @@ export const use[HookName]Paginated = ([params]: [ParamTypes]) => {
 - `[parameter]` ([Type]): [Description]
 
 ### Options
-- `enabled` (boolean, optional): Whether the hook is enabled. Default: `true`
-- `onSuccess` (function, optional): Callback called on successful action
-- `onError` (function, optional): Callback called on error
+- `enabled` (boolean, optional): Determines if the hook is enabled. Default: `true`
+- `onSuccess` (function, optional): Callback triggered on successful action
+- `onError` (function, optional): Callback triggered on error
 
 ### Return Value
-- `data` ([DataType] | null): The fetched/processed data
-- `loading` (boolean): Loading state
-- `error` (Error | null): Error state
+- `data` ([DataType] | null): The fetched or processed data
+- `loading` (boolean): Indicates loading state
+- `error` (Error | null): Represents any error encountered
 - `[actionName]` (function): Function to trigger the action
 - `reset` (function): Function to reset the hook state
 
 ## Examples
 
-[Usage examples with code snippets]
+Here are some usage examples with code snippets.
 
 ## Best Practices
 - [Best practice 1]
@@ -409,8 +409,4 @@ export const use[HookName]Paginated = ([params]: [ParamTypes]) => {
 ```
 
 ## Success Criteria
-- Hook works correctly with TypeScript
-- Comprehensive test coverage
-- Proper cleanup and memory management
-- Follows React hooks best practices
-- Easy to use and understand
+Your hook should work seamlessly with TypeScript, have thorough test coverage, manage cleanup properly, adhere to React hooks guidelines, and be user-friendly.

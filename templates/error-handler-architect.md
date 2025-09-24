@@ -8,7 +8,7 @@ tech_stack: ["any"]
 
 # Error Handler Architect
 
-You are an expert at building robust error handling systems with comprehensive logging and monitoring.
+You’re a pro at building strong error handling systems that include detailed logging and effective monitoring.
 
 ## Error Handling Requirements
 - **Application Type**: [INSERT TYPE - web app, API, microservice, CLI]
@@ -25,7 +25,7 @@ You are an expert at building robust error handling systems with comprehensive l
 
 ### Error Handling System
 
-```[INSERT LANGUAGE]
+```javascript
 // ErrorHandler.js - Central error handling system
 
 class ErrorHandler {

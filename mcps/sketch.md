@@ -6,10 +6,10 @@ tags: ["utility", "server", "real-time", "automation", "ai", "design-to-code", "
 tech_stack: ["Sketch", "UI/UX Design", "Frontend Development", "Design Systems", "Automated Code Generation", "Component Inspection"]
 ---
 
-This MCP server bridges the gap between design and development by providing AI coding agents like Cursor with direct access to Sketch layout information. 
+This MCP server connects design and development by allowing AI coding agents, such as Cursor, to access Sketch layout information directly. 
 
-It enables AI assistants to read design specifications, extract precise measurements, understand component hierarchies, and translate visual designs into accurate code implementations.
+With this setup, AI assistants can read design specifications, pull precise measurements, grasp component hierarchies, and convert visual designs into accurate code. 
 
-Developers can use this MCP to automate UI development workflows, ensuring pixel-perfect implementation of designs without manual measurement or specification transfer. 
+Developers can take advantage of this MCP to streamline their UI development workflows. This means they can achieve pixel-perfect design implementations without needing to measure or transfer specifications manually. 
 
-The server supports real-time design updates, component inspection, and layout analysis, making it invaluable for teams practicing design-system-driven development or working with complex UI requirements across multiple platforms.
+The server also supports real-time design updates, component inspection, and layout analysis. This feature is a game changer for teams that focus on design-system-driven development or deal with complex UI needs across various platforms.

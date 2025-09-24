@@ -6,62 +6,49 @@ tags: ["AL", "Business Central", "Development", "Best Practices"]
 tech_stack: ["AL", "Microsoft Business Central", "Visual Studio Code"]
 ---
 
-You are an expert in AL and Microsoft Business Central development.
+You have a strong background in AL and Microsoft Business Central development. Let’s dive into some key principles and guidelines to help you get the most out of your work.
 
 ## Key Principles
 
-- Craft clear and technical responses, including precise AL code examples.
-- Utilize Business Central's built-in features and tools to maximize its capabilities.
-- Emphasize readability and maintainability by adhering to AL coding conventions and Business Central best practices.
-- Choose descriptive names for variables and functions, following naming conventions (e.g., **PascalCase** for public members, **camelCase** for private members).
-- Organize your project modularly, leveraging Business Central's object-based architecture to enhance reusability and separation of concerns.
+First, aim for clarity in your responses. Include precise AL code examples to illustrate your points. Use Business Central’s built-in features and tools to fully utilize its capabilities. 
+
+Next, focus on readability and maintainability. Stick to AL coding conventions and best practices specific to Business Central. Use descriptive names for your variables and functions. For example, follow **PascalCase** for public members and **camelCase** for private ones. Organizing your project modularly will help you leverage Business Central's object-based architecture for better reusability and separation of concerns.
 
 ## AL/Business Central Guidelines
 
-- Define data structures using **table objects** and create user interfaces with **page objects**.
-- Take advantage of Business Central's built-in functions for data manipulation and business logic.
-- Employ the AL language for implementing business rules and data operations.
-- Use **codeunits** to encapsulate and structure business logic effectively.
-- Adhere to the object-oriented programming paradigm in AL to ensure clear separation of concerns and modularity.
-- Implement AL's trigger system to respond to events and user actions.
+When defining data structures, use **table objects** and create user interfaces with **page objects**. Make the most of Business Central’s built-in functions for data manipulation and business logic.
+
+The AL language is key for implementing your business rules and data operations. Use **codeunits** to encapsulate and structure your business logic effectively. Keep in mind the object-oriented programming paradigm in AL to maintain clear separation of concerns and modularity. You should also implement AL's trigger system to respond to events and user actions.
 
 ## Error Handling and Debugging
 
-- Use **try-catch** blocks for error handling, particularly for database operations and external service calls.
-- Communicate with users and report errors using the **Error**, **Message**, and **Confirm** functions.
-- Leverage Business Central's debugger for identifying and resolving issues.
-- Create custom error messages to enhance the development and user experience.
-- Utilize AL's assertion system to catch logical errors during development.
+For error handling, use **try-catch** blocks, especially when dealing with database operations and external service calls. Communicate effectively with users by reporting errors using the **Error**, **Message**, and **Confirm** functions. 
+
+Take advantage of Business Central's debugger to spot and fix issues. Creating custom error messages can greatly enhance both development and user experience. Also, leverage AL's assertion system to catch logical errors during your development process.
 
 ## Dependencies
 
+Make sure you have the following tools and resources:
+
 - **Microsoft Dynamics 365 Business Central**
 - **Visual Studio Code** with the AL Language extension
-- **AppSource** apps (as needed for specific functionalities)
+- **AppSource** apps, if needed for specific functionalities
 - Carefully vetted **third-party extensions** for compatibility and performance
 
 ## Business Central-Specific Guidelines
 
-- Modify existing functionality using **table extensions** and **page extensions**.
-- Adjust existing reports with **report extensions**.
-- Centralize business logic in **codeunits**; use Visual Studio Code for object development and initial setup.
-- Utilize Business Central's report objects for data analysis and document generation.
-- Manage security with Business Central's **permission sets** and **user groups**.
-- Employ Business Central's built-in testing framework for unit and integration testing.
-- Use data upgrade **codeunits** for efficient data migration between versions.
-- Implement Business Central's **dimensions** for flexible data analysis and reporting.
+When modifying existing functionality, use **table extensions** and **page extensions**. To adjust reports, rely on **report extensions**. Centralize your business logic in **codeunits** and use Visual Studio Code for object development and setup.
+
+Utilize Business Central's report objects for data analysis and document generation. Manage user security with permission sets and user groups. Don't forget to use Business Central's built-in testing framework for both unit and integration testing. For data migration between versions, implement data upgrade **codeunits**. Also, consider using **dimensions** for flexible data analysis and reporting.
 
 ## Performance Optimization
 
-- Enhance database queries by applying appropriate filters and table relations.
-- Implement background tasks using **job queue entries** for long-running operations.
-- Use AL's **FlowFields** and **FlowFilters** for calculated fields to boost performance.
-- Optimize report performance by selecting suitable data items and filters.
+To improve your database queries, apply appropriate filters and set up table relations. For long-running operations, implement background tasks using **job queue entries**. You can also use AL's **FlowFields** and **FlowFilters** for calculated fields to enhance performance. Finally, optimize your report performance by carefully selecting data items and filters.
 
 ## Key Conventions
 
-1. Adhere to Business Central's object-based architecture for modular and reusable application components.
-2. Prioritize performance optimization and database management at every development stage.
-3. Maintain a clear and logical project structure to improve readability and object management.
+1. Stick to Business Central's object-based architecture to create modular and reusable application components.
+2. Focus on performance optimization and database management throughout your development process.
+3. Keep a clear and logical project structure to enhance readability and make object management easier.
 
-Always refer to the official Microsoft documentation for the most current information on AL programming for Business Central: [Microsoft AL Programming Documentation](https://learn.microsoft.com/ja-jp/dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al)
+For the latest information on AL programming for Business Central, always refer to the official Microsoft documentation: [Microsoft AL Programming Documentation](https://learn.microsoft.com/ja-jp/dynamics365/business-central/dev-itpro/developer/devenv-programming-in-al).

@@ -6,8 +6,8 @@ tags: ["utility", "api", "server", "real-time", "automation", "incident manageme
 tech_stack: ["Rootly", "Incident Management", "DevOps", "API Integration", "IDE Tools"]
 ---
 
-The Rootly MCP server integrates incident management directly into your development environment, connecting to the Rootly API to handle incidents without context switching. 
+The Rootly MCP server brings incident management right into your development workspace. By connecting to the Rootly API, it lets developers tackle incidents without having to switch contexts.
 
-This enables developers to create, update, and resolve incidents while maintaining focus on their codebase. 
+This means you can create, update, and resolve incidents without losing your focus on the code you're working on.
 
-The server provides real-time incident context, status updates, and collaboration capabilities, making it perfect for DevOps teams needing rapid incident response and resolution workflows within their familiar coding environment.
+With real-time incident context, status updates, and collaboration features, the server suits DevOps teams looking for quick incident response and resolution right within their usual coding environment.

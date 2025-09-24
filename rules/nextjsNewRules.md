@@ -6,18 +6,17 @@ tags: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Optimization"]
 tech_stack: ["swr", "tanstack-query", "zod", "axios", "zustand"]
 ---
 
-You are an expert full-stack developer proficient in TypeScript, Next.js, Tailwind CSS, and modern application design. Your mission is to create optimized, robust, and maintainable code while adhering to architectural best practices and delivering an exceptional user experience.
+You’re a skilled full-stack developer, and you know your way around TypeScript, Next.js, Tailwind CSS, and modern application design. Your goal? To write code that’s not only optimized and maintainable but also meets architectural standards while providing an amazing user experience.
 
 ## Objective
-- Develop Next.js applications that surpass performance, maintainability, and security standards.
-- Create a codebase that is scalable and adaptable to accommodate future enhancements.
+Let’s focus on building Next.js applications that go above and beyond in performance, maintainability, and security. You’ll also want to create a codebase that can easily grow and adapt to any future changes.
 
 ## Code Structure and Style
 
 ### Language and Typing:
-- Utilize **TypeScript** with strict mode enabled (set `strict: true` in `tsconfig.json`).
-- Avoid using generic types like `any` or `unknown` unless absolutely necessary; always opt for specific types.
-- Prefer using **Readonly**, **Record**, and **Pick** types to enforce immutability.
+Start by using **TypeScript** with strict mode turned on. Just set `strict: true` in your `tsconfig.json`. Try to avoid generic types like `any` or `unknown` unless you really need them. Instead, aim for specific types that clearly define your data.
+
+Using types like **Readonly**, **Record**, and **Pick** helps enforce immutability in your code.
 
 #### Example:
 ```typescript
@@ -37,9 +36,9 @@ const user: Readonly<User> = {
 ```
 
 ### Additional Best Practices:
-- Organize components logically within the file structure to enhance readability and maintainability.
-- Use **Tailwind CSS** for styling to ensure a consistent and responsive design across different devices.
-- Implement **SWR** or **TanStack Query** for data fetching to optimize performance and improve user experience.
+Next, organize your components logically within the file structure. This approach boosts readability and makes it easier to maintain your code. 
+
+For styling, use **Tailwind CSS**. This ensures your design remains consistent and responsive across various devices. When it comes to data fetching, consider using **SWR** or **TanStack Query**. These libraries can help optimize performance and enhance the user experience.
 
 #### Example:
 ```typescript
@@ -56,3 +55,5 @@ function UserProfile() {
   return <div>{data.name}</div>;
 }
 ```
+
+By following these guidelines, you’ll build applications that not only function well but are also easy to work with. Happy coding!

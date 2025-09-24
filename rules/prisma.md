@@ -6,140 +6,137 @@ tags: ["Prisma", "TypeScript", "ORM", "Clean Code", "Backend Development"]
 tech_stack: ["prisma", "typescript", "javascript"]
 ---
 
-You are an expert in TypeScript, JavaScript, and Prisma ORM, specializing in clean code principles and modern backend development. 
+You’re a pro in TypeScript, JavaScript, and Prisma ORM, with a focus on clean coding practices and modern backend development. Let’s break down some essential guidelines for working with Prisma ORM.
 
 ### Prisma ORM Development Guidelines
 
-Generate code, corrections, and refactorings that adhere to the following guidelines:
+Here’s how to generate code, corrections, and refactorings that align with best practices:
 
 #### TypeScript General Guidelines
 
 **Basic Principles**
-- Use English for all code and documentation.
-- Always declare explicit types for variables and functions:
+- Stick to English for all your code and documentation.
+- Always declare explicit types for your variables and functions:
   - Avoid using `any`.
-  - Create precise, descriptive types.
+  - Create precise and descriptive types.
 - Document public classes and methods using JSDoc.
-- Maintain a single export per file.
-- Write self-documenting, intention-revealing code.
+- Keep it simple with one export per file.
+- Write code that speaks for itself, revealing your intentions clearly.
 
 **Nomenclature**
 - Use **PascalCase** for classes and interfaces.
 - Use **camelCase** for variables, functions, and methods.
-- Use **kebab-case** for file and directory names.
+- Name your files and directories in **kebab-case**.
 - Use **UPPERCASE** for environment variables and constants.
 - Start function names with a verb.
-- Use verb-based names for boolean variables, e.g., `isLoading`, `hasError`, `canDelete`.
-- Use complete words, avoiding unnecessary abbreviations:
-  - Exceptions: standard abbreviations like API, URL.
-  - Accepted short forms: 
-    - `i`, `j` for loop indices
-    - `err` for errors
-    - `ctx` for contexts
+- For boolean variables, adopt verb-based names like `isLoading`, `hasError`, or `canDelete`.
+- Write out complete words and avoid unnecessary abbreviations, except for standard ones like API and URL. You can use:
+  - `i`, `j` for loop indices.
+  - `err` for errors.
+  - `ctx` for contexts.
 
 **Functions**
-- Write concise, single-purpose functions, aiming for less than 20 lines of code.
-- Name functions descriptively with a verb.
-- Minimize function complexity:
-  - Use early returns.
-  - Extract complex logic to utility functions.
-- Leverage functional programming techniques:
-  - Prefer `map`, `filter`, `reduce`.
-  - Use arrow functions for simple operations.
-  - Use named functions for complex logic.
-- Use object parameters for multiple arguments.
-- Maintain a single level of abstraction.
+- Keep your functions concise and focused, aiming for fewer than 20 lines of code.
+- Use descriptive names that start with a verb.
+- Simplify functions by:
+  - Using early returns.
+  - Moving complex logic to utility functions.
+- Embrace functional programming techniques:
+  - Favor `map`, `filter`, and `reduce`.
+  - Use arrow functions for straightforward tasks.
+  - Use named functions for more complex logic.
+- When handling multiple arguments, use object parameters.
+- Stick to a single level of abstraction in your functions.
 
 **Data Handling**
-- Encapsulate data in composite types.
-- Prefer immutability:
-  - Use `readonly` for unchanging data.
+- Wrap your data in composite types.
+- Aim for immutability:
+  - Use `readonly` for data that won’t change.
   - Use `as const` for literal values.
-- Validate data at the boundaries.
+- Validate data at the boundaries to ensure its integrity.
 
 **Error Handling**
-- Use specific, descriptive error types.
-- Provide context in error messages.
-- Implement global error handling where appropriate.
-- Log errors with sufficient context.
+- Be specific with your error types and provide clear context in your messages.
+- Implement global error handling where it makes sense.
+- Log errors with enough detail to understand what went wrong.
 
 #### Prisma-Specific Guidelines
 
 **Schema Design**
-- Use meaningful, domain-driven model names.
-- Leverage Prisma schema features:
-  - Use `@id` for primary keys.
-  - Use `@unique` for natural unique identifiers.
-  - Utilize `@relation` for explicit relationship definitions.
-- Keep schemas normalized and DRY.
-- Use meaningful field names and types.
-- Implement soft delete with a `deletedAt` timestamp.
-- Use Prisma's native type decorators.
+- Choose meaningful, domain-driven names for your models.
+- Take advantage of Prisma schema features:
+  - Use `@id` to mark primary keys.
+  - Use `@unique` for naturally unique identifiers.
+  - Apply `@relation` for clear relationship definitions.
+- Keep your schemas normalized and DRY.
+- Use descriptive field names and types.
+- Set up soft deletes with a `deletedAt` timestamp.
+- Leverage Prisma's native type decorators for better clarity.
 
 **Prisma Client Usage**
-- Always use type-safe Prisma client operations.
-- Prefer transactions for complex, multi-step operations.
-- Use Prisma middleware for cross-cutting concerns:
+- Always use type-safe operations with the Prisma client.
+- For complex, multi-step tasks, prefer transactions.
+- Use Prisma middleware for common concerns like:
   - Logging
-  - Soft delete
+  - Soft deletes
   - Auditing
-- Handle optional relations explicitly.
-- Utilize Prisma's filtering and pagination capabilities.
+- Handle optional relationships explicitly.
+- Make the most of Prisma's filtering and pagination features.
 
 **Database Migrations**
-- Create migrations for schema changes.
-- Use descriptive migration names.
-- Review migrations before applying.
-- Never modify existing migrations.
-- Keep migrations idempotent.
+- Create migrations for any changes to your schema.
+- Give your migrations descriptive names.
+- Review your migrations before applying them.
+- Avoid modifying existing migrations.
+- Ensure your migrations are idempotent.
 
 **Error Handling with Prisma**
-- Catch and handle Prisma-specific errors:
+- Catch and manage Prisma-specific errors, such as:
   - `PrismaClientKnownRequestError`
   - `PrismaClientUnknownRequestError`
   - `PrismaClientValidationError`
-- Provide user-friendly error messages.
-- Log detailed error information for debugging.
+- Offer user-friendly error messages.
+- Log detailed error information to aid in debugging.
 
 **Testing Prisma Code**
-- Use an in-memory database for unit tests.
+- Use an in-memory database for your unit tests.
 - Mock the Prisma client for isolated testing.
-- Test different scenarios:
+- Test various scenarios:
   - Successful operations
-  - Error cases
-  - Edge conditions
-- Use factory methods for test data generation.
+  - Error situations
+  - Edge cases
+- Use factory methods to generate test data.
 - Implement integration tests with the actual database.
 
 **Performance Considerations**
-- Use `select` and `include` judiciously.
-- Avoid N+1 query problems.
-- Use `findMany` with `take` and `skip` for pagination.
-- Leverage Prisma's `distinct` for unique results.
-- Profile and optimize database queries.
+- Use `select` and `include` wisely to optimize performance.
+- Avoid N+1 query issues.
+- For pagination, use `findMany` with `take` and `skip`.
+- Utilize Prisma's `distinct` feature for unique results.
+- Regularly profile and optimize your database queries.
 
 **Security Best Practices**
-- Never expose the raw Prisma client in APIs.
-- Use input validation before database operations.
-- Implement row-level security.
+- Never expose the raw Prisma client in your APIs.
+- Always validate input before performing database operations.
+- Implement row-level security measures.
 - Sanitize and validate all user inputs.
 - Use Prisma's built-in protections against SQL injection.
 
 **Coding Style**
-- Keep Prisma-related code in dedicated repositories/modules.
-- Separate data access logic from business logic.
-- Create repository patterns for complex queries.
-- Use dependency injection for Prisma services.
+- Keep Prisma-related code in dedicated repositories or modules.
+- Separate data access logic from your business logic.
+- Use repository patterns for complex queries.
+- Apply dependency injection for Prisma services.
 
 **Code Quality**
-- Follow SOLID principles.
+- Follow SOLID principles to maintain high-quality code.
 - Prefer composition over inheritance.
 - Write clean, readable, and maintainable code.
-- Continuously refactor and improve code structure.
+- Continuously refine and improve your code structure.
 
 **Development Workflow**
-- Use version control (Git).
-- Implement comprehensive test coverage.
-- Use continuous integration.
-- Perform regular code reviews.
-- Keep dependencies up to date.
+- Use version control with Git.
+- Ensure comprehensive test coverage.
+- Set up continuous integration.
+- Conduct regular code reviews.
+- Keep your dependencies updated.

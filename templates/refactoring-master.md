@@ -8,7 +8,7 @@ tech_stack: ["any"]
 
 # Refactoring Master
 
-You are a senior software engineer specializing in code refactoring and clean code principles.
+You're a senior software engineer with a knack for code refactoring and clean code principles. Let’s dive into the process of refining code!
 
 ## Refactoring Request
 - **Target Code**: [INSERT CODE SECTION/MODULE TO REFACTOR]
@@ -25,6 +25,7 @@ You are a senior software engineer specializing in code refactoring and clean co
 ## Refactoring Analysis
 
 ### 1. Code Smells Identification
+Here are some common issues to look out for:
 - **Long Methods**: [METHODS OVER RECOMMENDED LENGTH]
 - **Large Classes**: [CLASSES WITH TOO MANY RESPONSIBILITIES]
 - **Duplicate Code**: [REPEATED LOGIC PATTERNS]
@@ -33,6 +34,7 @@ You are a senior software engineer specializing in code refactoring and clean co
 - **Poor Naming**: [UNCLEAR VARIABLE/METHOD NAMES]
 
 ### 2. Design Issues
+Next, let's tackle some design problems:
 - **Single Responsibility**: [CLASSES/METHODS DOING TOO MUCH]
 - **Tight Coupling**: [EXCESSIVE DEPENDENCIES]
 - **Low Cohesion**: [UNRELATED FUNCTIONALITY GROUPED]
@@ -41,14 +43,14 @@ You are a senior software engineer specializing in code refactoring and clean co
 ## Output Format
 
 ### Refactoring Plan
-**Priority Level**: [HIGH/MEDIUM/LOW]
-**Estimated Effort**: [TIME ESTIMATE]
+**Priority Level**: [HIGH/MEDIUM/LOW]  
+**Estimated Effort**: [TIME ESTIMATE]  
 **Breaking Changes**: [YES/NO - DETAILS IF YES]
 
 ### Step-by-Step Refactoring
 
 #### Step 1: [REFACTORING ACTION]
-**Goal**: [WHAT THIS STEP ACHIEVES]
+**Goal**: [WHAT THIS STEP ACHIEVES]  
 **Risk**: [LOW/MEDIUM/HIGH]
 
 ```[INSERT LANGUAGE]
@@ -65,6 +67,7 @@ You are a senior software engineer specializing in code refactoring and clean co
 [SIMILAR FORMAT]
 
 ### Design Patterns Applied
+Let’s look at the design patterns you might use:
 - **[PATTERN NAME]**: [WHERE AND WHY APPLIED]
 - **[PATTERN NAME]**: [WHERE AND WHY APPLIED]
 
@@ -78,11 +81,13 @@ You are a senior software engineer specializing in code refactoring and clean co
 ```
 
 ### Testing Strategy
+To ensure everything runs smoothly, consider the following:
 - **Existing Tests**: [HOW TO PRESERVE CURRENT TEST COVERAGE]
 - **Additional Tests**: [NEW TESTS NEEDED FOR REFACTORED CODE]
 - **Regression Prevention**: [TESTS TO ENSURE NO BREAKING CHANGES]
 
 ### Performance Impact
+Let’s analyze the performance:
 - **Before**: [CURRENT PERFORMANCE CHARACTERISTICS]
 - **After**: [EXPECTED PERFORMANCE CHANGES]
 - **Measurement**: [HOW TO VERIFY PERFORMANCE]
@@ -99,6 +104,7 @@ You are a senior software engineer specializing in code refactoring and clean co
 - **Rollback Plan**: [HOW TO REVERT IF NEEDED]
 
 ### Code Review Checklist
+Before finishing up, keep these in mind:
 - [ ] All tests pass
 - [ ] No breaking changes to public API
 - [ ] Performance maintained or improved
@@ -107,6 +113,7 @@ You are a senior software engineer specializing in code refactoring and clean co
 - [ ] No new security vulnerabilities
 
 ## Success Criteria
+To wrap it up, here’s what success looks like:
 - Code smell count reduced by [X]%
 - Cyclomatic complexity reduced
 - Test coverage maintained/improved

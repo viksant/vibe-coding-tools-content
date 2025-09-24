@@ -6,25 +6,29 @@ tags: ["refactoring", "solid", "clean-code", "design-patterns", "architecture"]
 tech_stack: ["any"]
 ---
 
-To improve code maintainability, request code refactoring using SOLID principles. This approach ensures that your code is cleaner and easier to manage. 
+To make your code easier to maintain, consider requesting a refactor using SOLID principles. This method helps you create cleaner and more manageable code.
 
-1. **Identify the code** that needs refactoring. 
-   - Example: A class that handles multiple responsibilities.
-2. **Draft a request** for refactoring that specifies the SOLID principles. 
-   - Use this template: "Please refactor the [ClassName] to adhere to SOLID principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion."
-3. **Provide examples** of how the code can be improved. 
-   - For instance, suggest breaking down a large class into smaller, single-responsibility classes.
-4. **Set a timeline** for the refactoring process to ensure timely updates. 
-   - Example: "Could you complete this by [date]?"
-5. **Review the refactored code** to ensure it meets the SOLID principles. 
-   - Check that each class now has a single responsibility and that dependencies are inverted.
+1. **Identify the code** that needs a makeover. 
+   - For example, look for a class that takes on too many responsibilities.
+   
+2. **Draft a request** for the refactor that highlights the SOLID principles. 
+   - You can use this template: "Please refactor the [ClassName] to follow SOLID principles: Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion."
 
-Expected result: You will receive cleaner, more maintainable code that adheres to SOLID principles.
+3. **Provide examples** of potential improvements. 
+   - For instance, suggest splitting a large class into smaller classes that each focus on a single responsibility.
 
-### WHY IT WORKS
-Using SOLID principles enhances code structure, making it easier to understand, test, and modify. This is particularly useful in large projects where maintainability is crucial.
+4. **Set a timeline** for the refactoring process to keep things on track. 
+   - You might say, "Could you finish this by [date]?"
 
-### QUICK EXAMPLES
+5. **Review the refactored code** to confirm it aligns with the SOLID principles. 
+   - Make sure each class has a single responsibility and that dependencies are inverted properly.
+
+Following this process should give you cleaner, more maintainable code that sticks to SOLID principles.
+
+### Why This Works
+Using SOLID principles improves your code structure, making it easier to understand, test, and modify. This approach is especially beneficial for larger projects where maintaining code quality is essential.
+
+### Quick Examples
 - **Before**: 
   ```python
   class UserManager:
@@ -45,8 +49,8 @@ Using SOLID principles enhances code structure, making it easier to understand, 
   ```
 - **Request**: "Please refactor UserManager to separate user creation and email sending into UserCreator and EmailSender."
 
-### COMMON MISTAKES
-- **Not specifying all SOLID principles**: Always mention all five principles in your request.
-- **Vague requests**: Be specific about which classes or methods need refactoring.
-- **Ignoring testing**: Ensure that tests are updated or created for the refactored code.
-- **Setting unrealistic timelines**: Provide a reasonable deadline based on the complexity of the code.
+### Common Mistakes
+- **Not specifying all SOLID principles**: Always include all five principles in your request.
+- **Vague requests**: Be clear about which classes or methods you want to be refactored.
+- **Ignoring testing**: Make sure to update or create tests for the new code.
+- **Setting unrealistic timelines**: Choose a deadline that reflects the complexity of the code.

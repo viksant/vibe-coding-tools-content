@@ -6,8 +6,8 @@ tags: ["utility", "server", "data", "automation", "ai", "knowledge retrieval", "
 tech_stack: ["AWS Bedrock", "Knowledge Base", "AWS Services", "AI applications"]
 ---
 
-The AWS KB Retrieval Server MCP implementation enables AI assistants to access and query information from AWS Knowledge Bases through the Bedrock Agent Runtime. 
+The AWS Knowledge Base Retrieval Server MCP makes it easier for AI assistants to find and access information from AWS Knowledge Bases through the Bedrock Agent Runtime.
 
-This provides structured access to organizational knowledge, documentation, and data repositories stored in AWS. 
+This setup gives users structured access to valuable organizational knowledge, documentation, and data stored in AWS.
 
-Developers can build AI applications that leverage enterprise knowledge for customer support, internal documentation, and information retrieval workflows.
+With this tool, developers can create AI applications that tap into enterprise knowledge, enhancing customer support, streamlining internal documentation, and improving information retrieval processes.

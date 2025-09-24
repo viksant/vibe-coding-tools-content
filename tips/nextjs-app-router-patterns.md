@@ -6,27 +6,27 @@ tags: ["nextjs", "app-router", "react", "routing", "server-components"]
 tech_stack: ["nextjs", "react", "typescript"]
 ---
 
-To efficiently request code snippets for Next.js 13+ using App Router patterns, specify your needs clearly to ensure you receive modern, structured examples. This approach helps you leverage server components, route handlers, and layout patterns effectively.
+To request code snippets for Next.js 13+ using App Router patterns effectively, be clear about your needs. This clarity helps you get modern and structured examples that utilize server components, route handlers, and layout patterns well.
 
-1. **Define your requirements**: Clearly state what you need, such as server components or route handlers.
-   - Example: "Show me a server component for fetching user data."
-   
-2. **Specify the App Router structure**: Mention that you want the code to follow the App directory conventions.
-   - Example: "Use the App Router conventions in the code."
+1. **Define your requirements**: Start by stating exactly what you need, like server components or route handlers.
+   - For instance, you might say, "Show me a server component for fetching user data."
 
-3. **Request TypeScript support**: Indicate that you want the code in TypeScript for type safety.
-   - Example: "Please provide the code in TypeScript."
+2. **Specify the App Router structure**: Make sure to mention that you want the code to follow the App directory conventions.
+   - An example request could be, "Use the App Router conventions in the code."
 
-4. **Ask for examples**: Request concrete examples to see how the code fits together.
-   - Example: "Can you provide a complete example of a layout with nested routes?"
+3. **Request TypeScript support**: Indicate your preference for TypeScript to ensure type safety.
+   - You can say, "Please provide the code in TypeScript."
 
-5. **Review and test the code**: After receiving the code, implement it in your project to ensure it works as expected.
-   - Example: Copy the provided code into your Next.js project and run it.
+4. **Ask for examples**: Request clear examples to understand how the code fits together.
+   - Try asking, "Can you provide a complete example of a layout with nested routes?"
 
-Expected result: You will receive tailored, modern Next.js code snippets that align with your project structure and requirements.
+5. **Review and test the code**: Once you receive the code, implement it in your project to check if it works as expected.
+   - For example, copy the provided code into your Next.js project and run it.
+
+When you follow these steps, you’ll get tailored, modern Next.js code snippets that match your project structure and needs.
 
 ### Why It Works
-This method ensures you get relevant, up-to-date code that adheres to Next.js 13+ standards. Use this approach when starting new projects or migrating existing ones to take full advantage of the latest features.
+This approach guarantees you receive relevant, up-to-date code that meets Next.js 13+ standards. Use this method when starting new projects or migrating existing ones to take full advantage of the latest features available.
 
 ### Quick Examples
 - **Before**: "Show me a Next.js component."
@@ -67,14 +67,14 @@ This method ensures you get relevant, up-to-date code that adheres to Next.js 13
   ```
 
 ### Common Mistakes
-- **Vague requests**: Avoid asking for general Next.js code; be specific about App Router patterns.
+- **Vague requests**: Avoid asking for generic Next.js code; be specific about using App Router patterns.
   - **Fix**: Always include "App Router" in your request.
-  
-- **Ignoring TypeScript**: Not specifying TypeScript may result in JavaScript code.
-  - **Fix**: Explicitly state you want TypeScript in your request.
 
-- **Not testing the code**: Assuming the provided code works without testing.
+- **Ignoring TypeScript**: Not specifying TypeScript could lead to receiving JavaScript code.
+  - **Fix**: Clearly state you want TypeScript in your request.
+
+- **Not testing the code**: Don’t assume the provided code works without testing it.
   - **Fix**: Always implement and test the code in your environment.
 
-- **Overlooking version compatibility**: Using outdated patterns from earlier Next.js versions.
+- **Overlooking version compatibility**: Using outdated patterns from earlier Next.js versions might cause issues.
   - **Fix**: Specify that you need code for Next.js 13+ to ensure compatibility.

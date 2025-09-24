@@ -6,15 +6,16 @@ tags: ["sanity", "cms", "headless", "typescript", "groq"]
 tech_stack: ["Sanity", "TypeScript", "GROQ", "Next.js"]
 ---
 
-You are an expert in Sanity, TypeScript, and GROQ query optimization...
+You’re diving into the world of Sanity, TypeScript, and GROQ query optimization. Let’s go through some essential guidelines to help you navigate your development process smoothly.
 
 # Sanity Development Guidelines
 
 ## Sanity Schema Rules
 
-### 1. Use Descriptive Schema Names
+### 1. Choose Descriptive Schema Names
 
-**Example:**
+For clarity, use names that describe the purpose of your schemas. Here’s an example:
+
 ```javascript
 export default {
   name: 'blogPost',
@@ -22,26 +23,30 @@ export default {
   type: 'document'
 }
 ```
-Utilizing clear and descriptive names enhances readability and maintainability.
 
-### 2. Always Include Descriptions
+Clear names make your code easier to read and maintain.
 
-**Essential for:**
+### 2. Always Add Descriptions
+
+Descriptions are key for:
+
 - Complex fields
 - Fields with specific validation rules
-- Fields that influence other components of the system
+- Fields that impact other parts of your system
 
-Providing descriptions aids in understanding the purpose and constraints of each field.
+Adding descriptions helps everyone understand what each field does and what limitations it has.
 
-### 3. Validation Rules
+### 3. Set Up Validation Rules
 
-Ensure validation for:
+Be sure to validate your fields. Check for:
+
 - Required fields
 - String lengths
 - Number ranges
-- Custom business logic validations
+- Custom business logic
 
-**Example:**
+Here’s how you might set up validation:
+
 ```javascript
 {
   name: 'title',
@@ -51,11 +56,10 @@ Ensure validation for:
 }
 ```
 
-### 4. Use Fieldsets for Organization
+### 4. Organize with Fieldsets
 
-Group related fields to improve clarity:
+Grouping related fields can improve clarity. Here’s an example of how to do that:
 
-**Example:**
 ```javascript
 fieldsets: [
   {
@@ -66,19 +70,20 @@ fieldsets: [
 ]
 ```
 
-### 5. Consistent Icon Usage
+### 5. Keep Icon Usage Consistent
 
-Utilize icons from `@sanity/icons` or `react-icons` uniformly throughout your schemas.
+Use icons from `@sanity/icons` or `react-icons` consistently across your schemas to maintain a uniform look.
 
 ## TypeScript Integration
 
-### 1. Always Generate Types
+### 1. Generate Types Automatically
 
-Utilize tools like `sanity-codegen` to automatically generate TypeScript types from your schemas, ensuring type safety.
+Tools like `sanity-codegen` can help you automatically create TypeScript types from your schemas. This step is crucial for ensuring type safety.
 
 ### 2. Type Your Queries
 
-**Example:**
+Here’s a way to define the types for your queries:
+
 ```typescript
 import { SanityDocument } from '@sanity/client'
 
@@ -91,11 +96,10 @@ interface BlogPost extends SanityDocument {
 
 ## GROQ Query Best Practices
 
-### 1. Use Projections Efficiently
+### 1. Use Projections Wisely
 
-Fetch only the necessary fields to optimize performance:
+To boost performance, only fetch the fields you actually need. Here’s an example:
 
-**Example:**
 ```groq
 *[_type == "blogPost"] {
   _id,
@@ -105,11 +109,10 @@ Fetch only the necessary fields to optimize performance:
 }
 ```
 
-### 2. Handle References Properly
+### 2. Handle References Correctly
 
-Always utilize the arrow operator for references:
+Make sure to use the arrow operator when working with references:
 
-**Example:**
 ```groq
 *[_type == "blogPost"] {
   ...,
@@ -118,9 +121,10 @@ Always utilize the arrow operator for references:
 }
 ```
 
-### 3. Implement Proper Pagination
+### 3. Implement Pagination Properly
 
-**Example:**
+To manage large datasets, use pagination. Here’s a simple example:
+
 ```groq
 *[_type == "blogPost"] | order(_createdAt desc) [0...10]
 ```
@@ -129,15 +133,21 @@ Always utilize the arrow operator for references:
 
 ### 1. Use CDN URLs for Images
 
-Always leverage Sanity's image CDN, applying necessary transformations for optimal loading.
+Always take advantage of Sanity's image CDN and apply any necessary transformations to optimize loading times.
 
-### 2. Implement Caching Strategies
+### 2. Set Up Caching Strategies
 
-- Utilize Incremental Static Regeneration (ISR) with Next.js.
+Consider these options:
+
+- Use Incremental Static Regeneration (ISR) with Next.js.
 - Set appropriate cache headers.
-- Employ Sanity's webhook for on-demand revalidation.
+- Utilize Sanity's webhook for on-demand revalidation.
 
 ### 3. Optimize Bundle Size
 
-- Lazy load Sanity Studio components.
+To improve load times, try these techniques:
+
+- Lazy load components in Sanity Studio.
 - Use dynamic imports for larger preview components to reduce initial load time.
+
+By following these guidelines, you’ll be well on your way to creating a well-structured and efficient application using Sanity, TypeScript, and GROQ. Happy coding!

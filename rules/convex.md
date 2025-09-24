@@ -6,30 +6,46 @@ tags: ["Convex", "React", "Web Development", "TypeScript"]
 tech_stack: ["Convex", "React", "Vite", "Shadcn", "Tailwind CSS"]
 ---
 
-You are an expert in Convex, React, and web development practices. This guide provides essential rules and examples for effective development using Convex and related technologies.
+You’re diving into Convex, React, and web development practices. This guide will help you navigate effective development using Convex and its related technologies.
 
 # Convex Development Guide
 
 ## General Development Specifications
-- **Style**: Use concise TypeScript, functional programming, declarations, iterations, modular structures, and descriptive variable names. Structure components as:
+
+Let’s start with some general guidelines.
+
+- **Style**: Keep your TypeScript concise. Use functional programming, create modular structures, and choose descriptive variable names. Structure your components like this:
   - **Exported components**
   - **Subcomponents**
   - **Helpers**
   - **Static types**
-- **Naming Conventions**: Use dash-separated directory names and named exports.
+  
+- **Naming Conventions**: Stick to dash-separated directory names and named exports.
+
 - **TypeScript Guidelines**:
-  - Use `interface` instead of `type` where applicable.
-  - Avoid using enums; prefer function components.
-- **Syntax**: Favor concise function keywords and declaration JSX.
-- **Error Handling**: Log errors early, provide user messages, utilize Zod for form validation, and return values with error bounds.
-- **UI Frameworks**: Use Shadcn, Radix, Tailwind CSS, ensuring responsiveness with a mobile-first approach.
-- **Performance**: Minimize the use of `useClient`, `useEffect`, and `useState`. Leverage RSC, Suspense, dynamic loading, and image optimization.
-- **Key Considerations**: Utilize Nuxt URL, monitor Web Vitals, and limit the use of `useClient`.
-- **Documentation**: Refer to Convex documentation for data fetching, file storage, and HTTP actions. Use `react-router-dom` for routing and Tailwind CSS for styling.
+  - Use `interface` instead of `type` when you can.
+  - Skip enums; go for function components instead.
+
+- **Syntax**: Opt for concise function keywords and declaration JSX.
+
+- **Error Handling**: Log errors early, provide helpful messages to users, use Zod for form validation, and return values with error bounds.
+
+- **UI Frameworks**: Use Shadcn, Radix, and Tailwind CSS. Make sure your design is responsive and takes a mobile-first approach.
+
+- **Performance**: Limit the use of `useClient`, `useEffect`, and `useState`. Use RSC, Suspense, dynamic loading, and optimize images.
+
+- **Key Considerations**: Check out Nuxt URL, keep an eye on Web Vitals, and limit `useClient`.
+
+- **Documentation**: Always refer to Convex documentation for guidance on data fetching, file storage, and HTTP actions. For routing, use `react-router-dom` and rely on Tailwind CSS for styling.
 
 ## Convex Specifics
 
+Now, let’s look at some specific examples.
+
 ### Query Example
+
+Here’s how you can set up a query:
+
 ```typescript
 import { query } from "./_generated/server";
 import { v } from "convex/values";
@@ -46,17 +62,19 @@ export const getTaskList = query({
   }
 });
 ```
-- **Naming**: Use `path + file + export = api.path.name`.
+
+- **Naming**: Format it like `path + file + export = api.path.name`.
 - **Nesting**: For example, `convex/foo/file.ts = api.foo.file.fn`.
 - **Definition**: Use `export default = api.file.default`.
 - **Non-JS**: Specify strings as `"path/file:fn"`.
 - **Constructor**: Use `query({ handler: () => {} })`.
-- **Arguments**: The second parameter should be named and serialized.
-- **Context**: The first parameter includes `db`, `storage`, and `auth`.
+- **Arguments**: Ensure the second parameter is named and serialized.
+- **Context**: The first parameter should include `db`, `storage`, and `auth`.
 - **Helper Function**: Define as `async function helper(ctx: QueryCtx, arg) {}`.
 - **NPM Import**: Example: `import { faker } from "@faker-js/faker"`.
 
-**IMPORTANT**: Prefer using Convex indexes over filters. Here’s an example:
+**Important**: Always prefer using Convex indexes over filters. Take a look at this example:
+
 ```typescript
 import { defineSchema, defineTable } from "convex/server";
 import { v } from "convex/values";
@@ -71,7 +89,9 @@ export default defineSchema({
     .index("by_channel_user", ["channel", "user"]),
 });
 ```
-Using an index:
+
+Using an index looks like this:
+
 ```typescript
 const messages = await ctx.db
   .query("messages")
@@ -85,6 +105,9 @@ const messages = await ctx.db
 ```
 
 ### Mutation Example
+
+Here’s a straightforward mutation example:
+
 ```typescript
 import { mutation } from "./_generated/server";
 import { v } from "convex/values";
@@ -99,6 +122,9 @@ export const createTask = mutation({
 ```
 
 ### Action Example
+
+Now let’s look at an action:
+
 ```typescript
 import { action } from "./_generated/server";
 import { internal } from "./_generated/api";
@@ -122,6 +148,9 @@ export const sendGif = action({
 ```
 
 ### HTTP Router Example
+
+Setting up an HTTP router is also simple:
+
 ```typescript
 import { httpRouter } from "convex/server";
 
@@ -140,6 +169,9 @@ export default http;
 ```
 
 ### Scheduled Jobs Example
+
+Creating scheduled jobs can be done like this:
+
 ```typescript
 import { cronJobs } from "convex/server";
 import { internal } from "./_generated/api";
@@ -160,9 +192,11 @@ export default crons;
 ```
 
 ### File Handling
-**Upload Process**: Consists of three steps (generate URL, POST, save ID).
+
+Let’s talk about file handling. The upload process involves three steps: generating a URL, posting the upload, and saving the ID.
 
 **Generate Upload URL**:
+
 ```typescript
 import { mutation } from "./_generated/server";
 
@@ -172,6 +206,7 @@ export const generateUploadUrl = mutation(async (ctx) => {
 ```
 
 **Save File ID**:
+
 ```typescript
 import { mutation } from "./_generated/server";
 import { v } from "convex/values";
@@ -187,4 +222,5 @@ export const sendImage = mutation({
   }
 });
 ```
-Refer to Convex documentation for data fetching, file storage, vector databases, and authentication. Follow TanStack documentation for routing.
+
+For more details on data fetching, file storage, vector databases, and authentication, check out the Convex documentation. Also, consult TanStack documentation for routing guidance.

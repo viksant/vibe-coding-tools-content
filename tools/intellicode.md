@@ -7,50 +7,51 @@ tech_stack: ["csharp", "python", "typescript", "java", "cpp", "javascript", "rub
 ---
 
 ### Tool Benefits
-**Microsoft IntelliCode** enhances the development experience by providing AI-driven IntelliSense suggestions based on best practices from thousands of open-source projects. Key benefits include:
-- **Contextual Suggestions**: Offers relevant code completions based on the context of your code, improving coding speed and accuracy.
-- **Whole-Line Completions**: Suggests entire lines of code, reducing the amount of typing required.
-- **Custom Team Models**: Allows teams to create models based on their own codebases, ensuring suggestions align with team-specific coding styles and practices.
-- **Refactoring Suggestions**: Identifies opportunities for code improvements, enhancing code quality and maintainability.
-- **Cross-Platform Support**: Available for both Visual Studio and VS Code, catering to a wide range of developers.
+Microsoft IntelliCode makes coding smoother by using AI to offer smart IntelliSense suggestions drawn from thousands of open-source projects. Here’s what it brings to the table:
+
+- **Contextual Suggestions**: It provides relevant code completions that fit the context of what you're writing, helping you code faster and with fewer errors.
+- **Whole-Line Completions**: Instead of just suggesting snippets, IntelliCode can offer entire lines of code, cutting down on how much you need to type.
+- **Custom Team Models**: Teams can create tailored models based on their own codebases. This way, suggestions match your team's unique coding style and practices.
+- **Refactoring Suggestions**: It spots chances to improve your code, which helps maintain quality and makes your code easier to manage.
+- **Cross-Platform Support**: IntelliCode works with both Visual Studio and VS Code, making it accessible for a variety of developers.
 
 ### Setup & Installation
 #### Visual Studio
-1. Open **Visual Studio**.
-2. Navigate to **Extensions** > **Manage Extensions**.
-3. Search for **IntelliCode** in the **Online** section.
-4. Click **Download** and follow the prompts to install.
-5. Restart Visual Studio to activate the extension.
+1. Launch **Visual Studio**.
+2. Go to **Extensions** and select **Manage Extensions**.
+3. In the **Online** section, search for **IntelliCode**.
+4. Hit **Download** and follow the prompts to install.
+5. Restart Visual Studio to enable the extension.
 
 #### Visual Studio Code
 1. Open **Visual Studio Code**.
-2. Go to the **Extensions** view by clicking on the Extensions icon in the Activity Bar.
+2. Click on the Extensions icon in the Activity Bar to open the **Extensions** view.
 3. Search for **IntelliCode**.
 4. Click **Install**.
 5. Reload the window when prompted.
 
 ### Configuration
-- **Enable/Disable IntelliCode**: Go to `File` > `Preferences` > `Settings`, search for `IntelliCode`, and toggle the settings as needed.
-- **Custom Team Models**: To use team models, ensure you have access to the Azure DevOps organization where the models are hosted. Use the command palette (`Ctrl+Shift+P`) and type `IntelliCode: Get Team Models`.
-- **Adjust Completion Behavior**: Modify settings such as `Editor: Quick Suggestions` to control when suggestions appear.
+- **Enable/Disable IntelliCode**: Head to `File`, then `Preferences`, and click on `Settings`. Search for `IntelliCode` and toggle the settings as needed.
+- **Custom Team Models**: To use team models, make sure you have access to the Azure DevOps organization where the models reside. Use the command palette (`Ctrl+Shift+P`) and enter `IntelliCode: Get Team Models`.
+- **Adjust Completion Behavior**: Tweak settings like `Editor: Quick Suggestions` to manage when suggestions pop up.
 
 ### Usage Guide
-- **Basic Usage**: Start typing a method or variable name, and IntelliCode will suggest completions. Use the arrow keys to navigate suggestions and `Tab` to accept.
-- **Whole-Line Completion**: Type the beginning of a line, and IntelliCode will suggest a full line of code. For example, typing `for` will suggest a complete for-loop structure.
-- **Refactoring**: Highlight a piece of code, right-click, and select **Refactor** to see suggestions for improving your code.
+- **Basic Usage**: As you start typing a method or variable name, IntelliCode will offer completions. Use the arrow keys to scroll through suggestions and hit `Tab` to accept one.
+- **Whole-Line Completion**: Begin typing a line, and IntelliCode will suggest a complete line of code. For instance, typing `for` will bring up a full for-loop structure.
+- **Refactoring**: Highlight a section of code, right-click, and choose **Refactor** to see suggestions for improving your code.
 
 ### Advanced Features
-- **Custom Models**: Train IntelliCode on your codebase by using the command `IntelliCode: Train Model`. This requires a connection to Azure DevOps.
-- **Integration with GitHub**: IntelliCode can analyze your GitHub repositories to provide tailored suggestions based on your coding patterns.
-- **Multi-Language Support**: Works seamlessly across multiple languages, including C#, Python, TypeScript, and more. Use the appropriate language extensions for enhanced support.
+- **Custom Models**: You can train IntelliCode on your own codebase with the command `IntelliCode: Train Model`, but you'll need a connection to Azure DevOps.
+- **Integration with GitHub**: IntelliCode can analyze your GitHub repositories to give you suggestions tailored to your coding habits.
+- **Multi-Language Support**: It works well with various languages, including C#, Python, TypeScript, and more. Make sure to use the right language extensions for better support.
 
 ### Troubleshooting
-- **IntelliCode Not Suggesting**: Ensure that IntelliCode is enabled in your settings. Check for any conflicts with other extensions.
-- **Slow Performance**: If IntelliCode is slow, consider disabling other extensions temporarily to identify conflicts. Also, ensure your system meets the minimum requirements.
-- **Model Training Issues**: If you encounter issues while training custom models, verify your Azure DevOps permissions and ensure the repository is accessible.
+- **IntelliCode Not Suggesting**: First, check if IntelliCode is enabled in your settings. Also, look for conflicts with other extensions.
+- **Slow Performance**: If IntelliCode runs slowly, try disabling other extensions temporarily to see if there are conflicts. Also, ensure your system meets the minimum requirements.
+- **Model Training Issues**: If problems arise while training custom models, check your Azure DevOps permissions and confirm that the repository is accessible.
 
 ### Best Practices
-- **Use Team Models**: Leverage custom team models to ensure suggestions are aligned with your team's coding standards.
-- **Regularly Update**: Keep IntelliCode updated to benefit from the latest features and improvements.
-- **Combine with Other Tools**: Use IntelliCode alongside other code quality tools like linters and formatters for optimal results.
-- **Explore Settings**: Regularly review and adjust settings based on your workflow to maximize productivity.
+- **Use Team Models**: Take advantage of custom team models to ensure suggestions align with your team's coding standards.
+- **Regularly Update**: Keep IntelliCode updated to enjoy the latest features and enhancements.
+- **Combine with Other Tools**: Pair IntelliCode with other code quality tools like linters and formatters for the best results.
+- **Explore Settings**: Regularly review and adjust settings based on your workflow to boost your productivity.

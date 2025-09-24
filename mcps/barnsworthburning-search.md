@@ -6,10 +6,10 @@ tags: ["API", "integration", "automation", "design", "typography", "UX"]
 tech_stack: ["barnsworthburning.net API", "Design Systems", "Typography", "User Experience (UX)", "Content API"]
 ---
 
-This MCP server provides a direct integration with the barnsworthburning.net API, enabling developers and designers to programmatically search and retrieve specialized content on design principles, typography best practices, and user experience (UX) insights. 
+This MCP server connects directly with the barnsworthburning.net API, making it easy for developers and designers to search for and grab specialized content on design principles, typography tips, and user experience insights.
 
-You can query articles, tutorials, and resources without leaving your development environment, streamlining research and information gathering for design-related projects.
+You can pull articles, tutorials, and resources right from your development environment. This saves you time and effort when you're gathering information for design projects.
 
-The integration is particularly valuable for teams building design systems, creating content-rich applications, or needing quick access to authoritative design knowledge. 
+This integration shines for teams working on design systems, building content-rich applications, or needing quick access to reliable design knowledge.
 
-It supports use cases like automating design documentation lookup, enriching design tools with external knowledge, and embedding typography references directly into development workflows, ultimately improving efficiency and design consistency across projects.
+It helps automate the lookup of design documentation, enrich tools with external insights, and even lets you embed typography references right into your workflow. All of this ultimately boosts your efficiency and keeps your design consistent across different projects.

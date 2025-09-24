@@ -8,54 +8,54 @@ tech_stack: ["any"]
 
 # Technical Documentation Generator
 
-You are a technical writing expert specializing in clear, comprehensive documentation.
+Welcome to your guide for creating clear and comprehensive technical documentation.
 
 ## Documentation Request
-- **Subject**: [INSERT WHAT TO DOCUMENT - API, library, system, feature]
-- **Audience**: [INSERT TARGET AUDIENCE - developers, end-users, ops team]
-- **Documentation Type**: [INSERT TYPE - API docs, README, user guide, architecture docs]
-- **Technical Level**: [INSERT LEVEL - beginner, intermediate, advanced]
-- **Project Context**: [INSERT PROJECT BACKGROUND]
+- **Subject**: What do you want to document? (API, library, system, feature)
+- **Audience**: Who are you writing for? (developers, end-users, ops team)
+- **Documentation Type**: What type of documentation do you need? (API docs, README, user guide, architecture docs)
+- **Technical Level**: What's the knowledge level of your audience? (beginner, intermediate, advanced)
+- **Project Context**: Share some background about the project.
 
 ## Source Material
-[INSERT CODE, SPECS, OR SYSTEM DESCRIPTION TO DOCUMENT]
+Provide the code, specifications, or system description you want to document.
 
 ## Generate Documentation
 
 ### Structure Requirements:
 1. **Clear Introduction**
-   - Purpose and scope
-   - Prerequisites
-   - Quick start guide
+   - Explain the purpose and scope.
+   - List any prerequisites.
+   - Include a quick start guide.
 
 2. **Detailed Content**
-   - Step-by-step instructions
-   - Code examples
-   - Configuration details
-   - Best practices
+   - Offer step-by-step instructions.
+   - Include code examples.
+   - Provide configuration details.
+   - Share best practices.
 
 3. **Reference Material**
-   - API endpoints/methods
-   - Parameters and responses
-   - Error codes and handling
+   - List API endpoints and methods.
+   - Describe parameters and responses.
+   - Explain error codes and how to handle them.
 
 4. **Supporting Information**
-   - Troubleshooting guide
-   - FAQ section
-   - Additional resources
+   - Add a troubleshooting guide.
+   - Create an FAQ section.
+   - Link to additional resources.
 
 ## Output Format
 
 # [TITLE]
 
 ## Overview
-[Brief description of purpose and functionality]
+Provide a brief description of the purpose and functionality.
 
 ## Table of Contents
-- [Auto-generated based on content]
+- This will auto-generate based on the content.
 
 ## Prerequisites
-- [Required knowledge/tools/dependencies]
+- List the required knowledge, tools, and dependencies.
 
 ## Quick Start
 ```bash
@@ -63,7 +63,7 @@ You are a technical writing expert specializing in clear, comprehensive document
 ```
 
 ## Installation
-[Step-by-step installation instructions]
+Walk through the installation steps.
 
 ## Basic Usage
 ### Example 1: [Common Use Case]
@@ -78,7 +78,7 @@ You are a technical writing expert specializing in clear, comprehensive document
 
 ## API Reference (if applicable)
 ### Endpoint/Method Name
-- **Description**: [What it does]
+- **Description**: Explain what it does.
 - **Parameters**: 
   - `param1` (type): Description
   - `param2` (type, optional): Description
@@ -92,40 +92,40 @@ You are a technical writing expert specializing in clear, comprehensive document
 ```
 
 ## Configuration
-[Configuration options and examples]
+Discuss configuration options and provide examples.
 
 ## Advanced Usage
-[Complex scenarios and edge cases]
+Explore complex scenarios and edge cases.
 
 ## Troubleshooting
 ### Common Issues
-**Issue**: [Problem description]
-**Solution**: [Step-by-step fix]
+**Issue**: Describe the problem.
+**Solution**: Offer a step-by-step fix.
 
-**Issue**: [Another problem]
-**Solution**: [Another fix]
+**Issue**: Describe another problem.
+**Solution**: Provide another fix.
 
 ## Best Practices
-- [Recommended approaches]
-- [Performance tips]
-- [Security considerations]
+- Share recommended approaches.
+- Offer performance tips.
+- Highlight security considerations.
 
 ## FAQ
-**Q**: [Common question]
-**A**: [Clear answer]
+**Q**: Address a common question.
+**A**: Provide a clear answer.
 
 ## Contributing
-[How to contribute if applicable]
+Explain how people can contribute if applicable.
 
 ## License
-[License information]
+Include license information.
 
 ## Support
-[How to get help]
+Outline how to get help.
 
 ## Success Criteria
-- Documentation is complete and accurate
-- Examples work as written
-- Appropriate for target audience
-- Well-organized and scannable
-- Includes troubleshooting guidance
+- Ensure the documentation is complete and accurate.
+- Confirm examples work as written.
+- Make sure it suits the target audience.
+- Organize the content for easy scanning.
+- Include troubleshooting guidance.

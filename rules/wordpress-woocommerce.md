@@ -6,19 +6,19 @@ tags: ["WordPress", "WooCommerce", "PHP", "Web Development"]
 tech_stack: ["WordPress", "WooCommerce", "PHP"]
 ---
 
-You are an expert in WordPress, WooCommerce, PHP, and related web development technologies.
+You have a strong grasp of WordPress, WooCommerce, PHP, and other web development technologies. Let’s break down some key principles that can guide your coding practices.
 
 ### Key Principles
-- Write **concise** and **technical** code, ensuring to include accurate PHP examples.
-- Adhere to **WordPress** and **WooCommerce** coding standards and best practices.
-- Implement **object-oriented programming** where suitable, emphasizing **modularity**.
-- Prefer **iteration** and **modularization** over code duplication.
-- Utilize **descriptive** names for functions, variables, and files to enhance readability.
-- Use **lowercase** with **hyphens** for directory names (e.g., `wp-content/themes/my-theme`, `wp-content/plugins/my-plugin`).
-- Favor the use of **hooks** (actions and filters) to extend functionality effectively.
+- Keep your code **concise** and **technical**. Make sure to include clear PHP examples.
+- Stick to the **WordPress** and **WooCommerce** coding standards for consistency.
+- Use **object-oriented programming** when it makes sense, focusing on **modularity** to keep things organized.
+- Choose **iteration** and **modularization** over duplicating code. This keeps your projects clean and manageable.
+- Opt for **descriptive** names for your functions, variables, and files. This enhances readability for anyone looking at your code later.
+- When naming directories, stick to **lowercase** and separate words with **hyphens**. For example, use paths like `wp-content/themes/my-theme` and `wp-content/plugins/my-plugin`.
+- Take advantage of **hooks** (actions and filters) to effectively extend functionality.
 
 ### PHP/WordPress/WooCommerce Guidelines
-- Leverage features from **PHP 7.4+** when applicable, such as typed properties and arrow functions. 
+- Make the most of features from **PHP 7.4+** when you can. This includes using typed properties and arrow functions. Here’s a quick example:
   ```php
   class MyClass {
       public function __construct(private string $name) {}
@@ -27,11 +27,13 @@ You are an expert in WordPress, WooCommerce, PHP, and related web development te
       }
   }
   ```
-- Follow the **WordPress PHP Coding Standards** to ensure consistency and quality in your code.
-- Use **strict typing** whenever possible to enhance type safety:
+- Follow the **WordPress PHP Coding Standards** to maintain quality and consistency in your work.
+- Apply **strict typing** whenever possible. This adds an extra layer of type safety to your code. Here’s how:
   ```php
   declare(strict_types=1);
   function addNumbers(int $a, int $b): int {
       return $a + $b;
   }
-  ```
+  ``` 
+
+By following these guidelines, you'll not only improve your coding skills but also contribute to a better development environment for everyone involved. Happy coding!

@@ -6,12 +6,12 @@ tags: ["Angular", "TypeScript", "SASS", "best practices"]
 tech_stack: ["Angular", "TypeScript", "SASS"]
 ---
 
-You are an expert in Angular, SASS, and TypeScript, dedicated to crafting scalable and high-performance web applications. This document outlines essential coding principles and examples that align with best practices in modularity, performance, and maintainability.
+You’re well-versed in Angular, SASS, and TypeScript, and your focus is on building scalable and high-performance web applications. This document highlights some key coding principles and provides examples that reflect effective practices in modularity, performance, and maintainability.
 
 ### Key Development Principles
 
 - **Provide Clear Examples**  
-  Share concise Angular and TypeScript examples, ensuring they are accompanied by clear explanations. For instance:
+  It’s helpful to share straightforward Angular and TypeScript examples, making sure to include clear explanations. For instance, take a look at this simple Angular component:
   ```typescript
   // Example of a simple Angular component
   import { Component } from '@angular/core';
@@ -24,7 +24,7 @@ You are an expert in Angular, SASS, and TypeScript, dedicated to crafting scalab
   ```
 
 - **Immutability & Pure Functions**  
-  Emphasize immutability and the use of pure functions in your code, particularly in services and state management. This practice leads to predictable outcomes and simplifies debugging. For example:
+  Focus on immutability and using pure functions in your code, especially in services and state management. This approach leads to predictable results and makes debugging easier. Here’s a quick example:
   ```typescript
   // Using a pure function
   function add(a: number, b: number): number {
@@ -33,7 +33,7 @@ You are an expert in Angular, SASS, and TypeScript, dedicated to crafting scalab
   ```
 
 - **Component Composition**  
-  Prioritize component composition over inheritance to improve modularity, which facilitates reusability and easier maintenance. For example:
+  Favor component composition instead of inheritance to boost modularity. This choice not only enhances reusability but also simplifies maintenance. Check out this example:
   ```typescript
   // Parent component using child components
   @Component({
@@ -44,11 +44,11 @@ You are an expert in Angular, SASS, and TypeScript, dedicated to crafting scalab
   ```
 
 - **Meaningful Naming**  
-  Utilize descriptive variable names to enhance code readability and maintainability. For instance, instead of using generic names, opt for:
+  Use descriptive variable names to improve code readability and make maintenance easier. Instead of sticking with generic names, consider this approach:
   ```typescript
   // Good naming convention
   const userList: User[] = [];
   ```
 
 - **Follow Angular's Style Guide**  
-  Adhere to Angular's official style guide to maintain consistency and quality across your codebase. This includes proper file structure, naming conventions, and coding practices.
+  Stick to Angular's official style guide to keep your code consistent and of high quality. This includes paying attention to file structure, naming conventions, and coding practices.

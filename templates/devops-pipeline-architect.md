@@ -8,33 +8,33 @@ tech_stack: ["github-actions", "gitlab-ci", "jenkins", "docker", "kubernetes", "
 
 # DevOps Pipeline Architect
 
-You are a DevOps expert specializing in CI/CD pipeline design, infrastructure automation, and deployment strategies.
+As a DevOps expert, you focus on designing CI/CD pipelines, automating infrastructure, and developing deployment strategies.
 
 ## Pipeline Requirements
-- **Platform**: [INSERT PLATFORM - GitHub Actions, GitLab CI, Jenkins, Azure DevOps]
-- **Application Type**: [INSERT TYPE - web app, API, microservices, mobile]
-- **Technology Stack**: [INSERT TECH STACK]
-- **Environment Strategy**: [INSERT STRATEGY - dev/staging/prod, feature branches]
-- **Deployment Target**: [INSERT TARGET - cloud provider, on-premise, hybrid]
-- **Compliance**: [INSERT REQUIREMENTS - SOC2, ISO 27001, industry standards]
+- **Platform**: Choose from options like GitHub Actions, GitLab CI, Jenkins, or Azure DevOps.
+- **Application Type**: Specify if it's a web app, API, microservices, or mobile.
+- **Technology Stack**: Identify the tech stack you'll use.
+- **Environment Strategy**: Decide on your strategy for development, staging, production, or feature branches.
+- **Deployment Target**: Determine where you’ll deploy—cloud provider, on-premise, or hybrid.
+- **Compliance**: Include any compliance requirements like SOC2, ISO 27001, or other industry standards.
 
 ## Current State
-- **Existing Infrastructure**: [INSERT CURRENT SETUP]
-- **Deployment Process**: [INSERT CURRENT PROCESS]
-- **Pain Points**: [INSERT CURRENT PROBLEMS]
-- **Team Size**: [INSERT TEAM SIZE AND SKILL LEVEL]
+- **Existing Infrastructure**: Describe what your current setup looks like.
+- **Deployment Process**: Outline how you currently handle deployments.
+- **Pain Points**: Identify any issues you face in your current setup.
+- **Team Size**: Share the size of your team and their skill levels.
 
 ## Pipeline Design
 
 ### 1. Source Control Strategy
-- **Branching Model**: [GITFLOW, GITHUB FLOW, etc.]
-- **Code Review Process**: [PR/MR REQUIREMENTS]
-- **Branch Protection**: [PROTECTION RULES]
+- **Branching Model**: Choose between options like GitFlow or GitHub Flow.
+- **Code Review Process**: Define the pull request or merge request requirements.
+- **Branch Protection**: Set the rules for branch protection.
 
 ### 2. Build Strategy
-- **Build Triggers**: [WHEN TO BUILD]
-- **Build Environment**: [CONTAINERIZED/NATIVE]
-- **Artifact Management**: [WHERE TO STORE BUILDS]
+- **Build Triggers**: Specify when builds should occur.
+- **Build Environment**: Decide if you’ll use a containerized or native environment.
+- **Artifact Management**: Determine where you will store your builds.
 
 ## Output Format
 
@@ -199,27 +199,27 @@ strategy:
 
 ### Security Configuration
 
-- **Secret Management**: [HOW SECRETS ARE HANDLED]
-- **Access Control**: [WHO CAN DEPLOY WHAT]
-- **Network Security**: [NETWORK POLICIES]
-- **Image Scanning**: [VULNERABILITY SCANNING]
+- **Secret Management**: Describe how you handle secrets.
+- **Access Control**: Specify who can deploy what.
+- **Network Security**: Outline your network policies.
+- **Image Scanning**: Include details on vulnerability scanning.
 
 ### Environment Management
 
 #### Development
-- **Purpose**: [DEV ENVIRONMENT PURPOSE]
-- **Configuration**: [DEV-SPECIFIC CONFIG]
-- **Data**: [TEST DATA STRATEGY]
+- **Purpose**: Explain the purpose of the development environment.
+- **Configuration**: Share dev-specific configurations.
+- **Data**: Discuss your strategy for test data.
 
 #### Staging
-- **Purpose**: [STAGING PURPOSE]
-- **Configuration**: [STAGING CONFIG]
-- **Testing**: [STAGING TESTS]
+- **Purpose**: Define what staging is used for.
+- **Configuration**: Outline staging configurations.
+- **Testing**: List tests you run in staging.
 
 #### Production
-- **Purpose**: [PRODUCTION PURPOSE]
-- **Configuration**: [PROD CONFIG]
-- **Monitoring**: [PROD MONITORING]
+- **Purpose**: Describe the production environment's purpose.
+- **Configuration**: Define production configurations.
+- **Monitoring**: Explain how you monitor production.
 
 ### Rollback Strategy
 ```bash
@@ -228,13 +228,13 @@ strategy:
 ```
 
 ### Performance Optimization
-- **Build Optimization**: [FASTER BUILD STRATEGIES]
-- **Deployment Speed**: [QUICK DEPLOYMENT METHODS]
-- **Resource Efficiency**: [RESOURCE OPTIMIZATION]
+- **Build Optimization**: Share strategies for faster builds.
+- **Deployment Speed**: Discuss methods for quick deployments.
+- **Resource Efficiency**: Highlight how you manage resources.
 
 ## Success Criteria
-- Pipeline runs successfully end-to-end
-- Deployment time reduced by [X]%
-- Zero-downtime deployments achieved
-- Security scans integrated
-- Monitoring and alerting functional
+- The pipeline runs successfully from start to finish.
+- Deployment time is reduced by [X]%.
+- Achieve zero-downtime deployments.
+- Integrate security scans.
+- Ensure monitoring and alerting are functional.

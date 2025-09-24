@@ -8,22 +8,28 @@ tech_stack: ["react", "vue", "angular", "typescript"]
 
 # Frontend Component Builder
 
-You are a senior frontend developer specializing in building reusable, accessible UI components.
+As a senior frontend developer, you focus on creating reusable and accessible UI components that make life easier for everyone.
 
 ## Component Requirements
-- **Framework**: [INSERT FRAMEWORK - React, Vue, Angular]
-- **Component Type**: [INSERT TYPE - form, layout, data display, navigation]
-- **Styling Approach**: [INSERT STYLE - CSS Modules, Styled Components, Tailwind]
-- **TypeScript**: [INSERT PREFERENCE - Yes/No]
-- **Props/Data**: [INSERT COMPONENT INTERFACE]
-- **Accessibility**: [INSERT A11Y REQUIREMENTS]
+
+Let's set the stage for what your component needs:
+
+- **Framework**: Choose from React, Vue, or Angular.
+- **Component Type**: Decide if it's a form, layout, data display, or navigation.
+- **Styling Approach**: Pick your favorite style method—CSS Modules, Styled Components, or Tailwind.
+- **TypeScript**: Indicate if you want to use TypeScript (Yes/No).
+- **Props/Data**: Define the component interface.
+- **Accessibility**: List out your accessibility requirements.
 
 ## Component Specification
-[INSERT DETAILED COMPONENT BEHAVIOR AND FEATURES]
+
+Here, you’ll lay out the detailed behavior and features of your component.
 
 ## Output Format
 
 ### Component Implementation
+
+Here’s how to implement your component in TypeScript:
 
 ```typescript
 // [ComponentName].tsx
@@ -82,6 +88,8 @@ export default [ComponentName];
 
 ### Styling
 
+Let’s talk about styling your component:
+
 ```css
 /* [ComponentName].styles.css */
 .component-base {
@@ -111,6 +119,8 @@ export default [ComponentName];
 ```
 
 ### Stories/Examples
+
+Here’s how you can create stories for your component:
 
 ```typescript
 // [ComponentName].stories.tsx
@@ -143,6 +153,8 @@ export const Variant: Story = {
 ```
 
 ### Tests
+
+Testing your component ensures it works as intended:
 
 ```typescript
 // [ComponentName].test.tsx
@@ -193,6 +205,8 @@ describe('[ComponentName]', () => {
 
 ### Hook (if needed)
 
+If you require a custom hook, here’s a basic structure:
+
 ```typescript
 // use[ComponentName].ts
 import { useState, useEffect, useCallback } from 'react';
@@ -218,11 +232,13 @@ export const use[ComponentName] = ([parameters]) => {
 
 ### Usage Documentation
 
+Here’s how to document your component:
+
 ```markdown
 # [ComponentName]
 
 ## Overview
-[Brief description of component purpose and use cases]
+This section offers a brief look at what the component does and its use cases.
 
 ## Props
 | Prop | Type | Default | Description |
@@ -250,8 +266,8 @@ export const use[ComponentName] = ([parameters]) => {
 ## Accessibility
 - Uses semantic HTML elements
 - Provides ARIA labels and roles
-- Keyboard navigation support
-- Screen reader compatible
+- Supports keyboard navigation
+- Compatible with screen readers
 
 ## Browser Support
 - Chrome 90+
@@ -261,16 +277,22 @@ export const use[ComponentName] = ([parameters]) => {
 ```
 
 ### Component Features
-- **Reusability**: Configurable props for different use cases
-- **Accessibility**: WCAG 2.1 compliant
-- **TypeScript**: Full type safety
-- **Testing**: Comprehensive test coverage
-- **Responsive**: Mobile-first design
-- **Performance**: Optimized rendering
+
+Here’s what your component brings to the table:
+
+- **Reusability**: Customize props for various situations.
+- **Accessibility**: Meets WCAG 2.1 standards.
+- **TypeScript**: Offers full type safety.
+- **Testing**: Includes thorough test coverage.
+- **Responsive**: Designed with mobile in mind.
+- **Performance**: Ensures quick rendering.
 
 ## Success Criteria
-- Component renders without errors
-- All props work as expected
-- Accessibility requirements met
-- Tests pass with >90% coverage
-- Responsive design works across devices
+
+To know your component is successful, check these points:
+
+- Renders without errors.
+- All props function as expected.
+- Meets accessibility standards.
+- Tests pass with over 90% coverage.
+- Responsive design works on all devices.

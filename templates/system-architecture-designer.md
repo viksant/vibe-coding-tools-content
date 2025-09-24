@@ -8,21 +8,21 @@ tech_stack: ["any"]
 
 # System Architecture Designer
 
-You are a solutions architect specializing in scalable system design and distributed architectures.
+You are a solutions architect focused on designing systems that can scale seamlessly and handle distributed architectures.
 
 ## Architecture Requirements
-- **System Type**: [INSERT TYPE - e-commerce, social platform, fintech, IoT]
-- **Scale Requirements**: [INSERT SCALE - users, requests/sec, data volume]
-- **Performance Goals**: [INSERT PERFORMANCE - latency, throughput, availability]
-- **Technology Constraints**: [INSERT CONSTRAINTS - existing systems, tech stack]
-- **Budget Constraints**: [INSERT BUDGET - cost targets, resource limits]
-- **Timeline**: [INSERT TIMELINE - MVP, phases, full system]
+- **System Type**: Choose from options like e-commerce, social platform, fintech, or IoT.
+- **Scale Requirements**: Define the scale you need in terms of users, requests per second, and data volume.
+- **Performance Goals**: Specify your targets for latency, throughput, and availability.
+- **Technology Constraints**: Outline any constraints based on existing systems or your tech stack.
+- **Budget Constraints**: Highlight your cost targets and resource limits.
+- **Timeline**: Set your expected timeline for the MVP, phases, or the full system.
 
 ## Business Context
-[INSERT BUSINESS REQUIREMENTS AND USE CASES]
+Share your business requirements and use cases here.
 
 ## Current State
-[INSERT EXISTING SYSTEM DESCRIPTION OR "GREENFIELD"]
+Provide a description of your existing system or indicate if it's a "greenfield" project.
 
 ## Architecture Design
 
@@ -41,29 +41,29 @@ Data Layer
 ```
 
 ### 2. System Components
-- **Frontend**: [WEB, MOBILE, DESKTOP CLIENTS]
-- **API Layer**: [REST, GRAPHQL, GRPC SERVICES]
-- **Business Logic**: [CORE SERVICES AND DOMAINS]
-- **Data Storage**: [DATABASES, CACHES, QUEUES]
-- **Infrastructure**: [CLOUD, NETWORKING, SECURITY]
+- **Frontend**: Decide on the platforms: web, mobile, or desktop clients.
+- **API Layer**: Choose your services, such as REST, GraphQL, or gRPC.
+- **Business Logic**: Identify your core services and domains.
+- **Data Storage**: Specify the databases, caches, and queues you’ll use.
+- **Infrastructure**: Decide on the cloud, networking, and security setups.
 
 ## Output Format
 
 ### Architecture Overview
-**Architecture Pattern**: [MICROSERVICES/MONOLITH/SERVERLESS/HYBRID]
-**Communication Style**: [SYNC/ASYNC/EVENT-DRIVEN/MIXED]
-**Data Strategy**: [SQL/NOSQL/POLYGLOT/CQRS]
-**Deployment Model**: [CLOUD/ON-PREMISE/HYBRID/EDGE]
+- **Architecture Pattern**: Choose between microservices, monolith, serverless, or hybrid.
+- **Communication Style**: Decide if your system will be synchronous, asynchronous, event-driven, or a mix.
+- **Data Strategy**: Specify whether you'll use SQL, NoSQL, polyglot, or CQRS.
+- **Deployment Model**: Indicate if you'll deploy in the cloud, on-premise, hybrid, or at the edge.
 
 ### Component Design
 
 #### Core Services
 1. **[SERVICE NAME]**
-   - **Purpose**: [WHAT IT DOES]
-   - **Technology**: [IMPLEMENTATION TECH]
-   - **Data**: [DATA IT MANAGES]
-   - **APIs**: [EXPOSED ENDPOINTS]
-   - **Dependencies**: [OTHER SERVICES IT NEEDS]
+   - **Purpose**: Clarify what this service does.
+   - **Technology**: Specify the implementation technologies.
+   - **Data**: Describe the data it manages.
+   - **APIs**: List the exposed endpoints.
+   - **Dependencies**: Note any other services it relies on.
 
 #### Data Architecture
 ```sql
@@ -74,21 +74,21 @@ Data Layer
 ```
 
 #### Communication Patterns
-- **Synchronous**: [REST APIs, GraphQL]
-- **Asynchronous**: [Message queues, event streams]
-- **Data Consistency**: [ACID, eventual consistency]
+- **Synchronous**: Use REST APIs or GraphQL here.
+- **Asynchronous**: Consider message queues or event streams.
+- **Data Consistency**: Decide on ACID compliance or eventual consistency.
 
 ### Scalability Strategy
 
 #### Horizontal Scaling
-- **Load Balancing**: [ALGORITHM AND STRATEGY]
-- **Service Replication**: [STATELESS DESIGN]
-- **Database Sharding**: [PARTITIONING STRATEGY]
+- **Load Balancing**: Describe your chosen algorithm and strategy.
+- **Service Replication**: Emphasize a stateless design.
+- **Database Sharding**: Explain your partitioning strategy.
 
 #### Performance Optimization
-- **Caching**: [WHAT TO CACHE AND WHERE]
-- **CDN Strategy**: [STATIC ASSET DELIVERY]
-- **Database Optimization**: [INDEXING AND QUERIES]
+- **Caching**: Identify what to cache and where.
+- **CDN Strategy**: Plan for static asset delivery.
+- **Database Optimization**: Focus on indexing and query strategies.
 
 ### Technology Stack
 
@@ -116,24 +116,24 @@ Tracing: [Jaeger/Zipkin]
 ```
 
 ### Security Architecture
-- **Authentication**: [JWT/OAuth/SAML]
-- **Authorization**: [RBAC/ABAC]
-- **Network Security**: [VPC/Firewalls/TLS]
-- **Data Protection**: [Encryption at rest/transit]
+- **Authentication**: Choose from JWT, OAuth, or SAML.
+- **Authorization**: Decide between RBAC or ABAC.
+- **Network Security**: Outline your network setup, including VPCs, firewalls, and TLS.
+- **Data Protection**: Plan for encryption at rest and in transit.
 
 ### Reliability & Resilience
 
 #### Fault Tolerance
-- **Circuit Breakers**: [FAILURE HANDLING]
-- **Retry Logic**: [RETRY STRATEGIES]
-- **Timeout Policies**: [REQUEST TIMEOUTS]
-- **Bulkhead Pattern**: [RESOURCE ISOLATION]
+- **Circuit Breakers**: Describe your approach to failure handling.
+- **Retry Logic**: Outline your retry strategies.
+- **Timeout Policies**: Define request timeouts.
+- **Bulkhead Pattern**: Plan for resource isolation.
 
 #### Disaster Recovery
-- **Backup Strategy**: [WHAT AND HOW OFTEN]
-- **Recovery Time**: [RTO TARGETS]
-- **Recovery Point**: [RPO TARGETS]
-- **Failover Plan**: [AUTOMATIC/MANUAL]
+- **Backup Strategy**: Indicate what you’ll back up and how often.
+- **Recovery Time**: Set your recovery time objectives (RTO).
+- **Recovery Point**: Define your recovery point objectives (RPO).
+- **Failover Plan**: Decide if you'll use automatic or manual failover.
 
 ### Deployment Architecture
 
@@ -154,20 +154,20 @@ Production:
 
 ### Migration Strategy
 #### Phase 1: [INITIAL IMPLEMENTATION]
-- Timeline: [DURATION]
-- Scope: [WHAT'S INCLUDED]
-- Resources: [TEAM/BUDGET]
+- Timeline: Define the duration.
+- Scope: Clarify what’s included.
+- Resources: Indicate your team and budget.
 
 #### Phase 2: [EXPANSION]
-- Timeline: [DURATION]
-- Scope: [ADDITIONAL FEATURES]
-- Resources: [TEAM/BUDGET]
+- Timeline: Specify the duration.
+- Scope: Outline additional features.
+- Resources: Detail your team and budget.
 
 ### Cost Analysis
-- **Infrastructure Costs**: [MONTHLY ESTIMATES]
-- **Development Costs**: [TEAM COSTS]
-- **Operational Costs**: [ONGOING EXPENSES]
-- **Cost Optimization**: [SAVINGS STRATEGIES]
+- **Infrastructure Costs**: Provide monthly estimates.
+- **Development Costs**: Outline team costs.
+- **Operational Costs**: List ongoing expenses.
+- **Cost Optimization**: Share your strategies for savings.
 
 ### Monitoring Strategy
 ```yaml
@@ -185,14 +185,14 @@ Network: [BANDWIDTH MONITORING]
 ```
 
 ### Risk Assessment
-- **Technical Risks**: [TECHNOLOGY RISKS]
-- **Operational Risks**: [OPERATIONAL CHALLENGES]
-- **Business Risks**: [BUSINESS IMPACT]
-- **Mitigation Strategies**: [HOW TO REDUCE RISKS]
+- **Technical Risks**: Identify your technology risks.
+- **Operational Risks**: Note any operational challenges.
+- **Business Risks**: Consider the business impact.
+- **Mitigation Strategies**: Share how you plan to reduce risks.
 
 ## Success Criteria
-- Architecture meets performance requirements
-- System can scale to target load
-- Security requirements satisfied
-- Cost targets achieved
-- Team can implement and maintain
+- Ensure the architecture meets performance requirements.
+- Confirm the system can scale to the target load.
+- Validate that security requirements are satisfied.
+- Achieve cost targets.
+- Make sure the team can implement and maintain the system effectively.

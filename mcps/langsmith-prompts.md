@@ -6,8 +6,8 @@ tags: ["server", "data", "integration", "automation", "ai", "community-vetted", 
 tech_stack: ["LangSmith", "AI Prompts", "LLM Integration", "Prompt Engineering", "advanced search", "version history tracking"]
 ---
 
-The LangSmith Prompts MCP server provides seamless integration with the largest repository of battle-tested AI prompts, featuring over 1000 community-vetted options. 
+The LangSmith Prompts MCP server connects you to an extensive library of AI prompts, boasting over 1,000 options that the community has thoroughly vetted.
 
-This server enables developers to discover, evaluate, and implement high-quality prompts through advanced search capabilities, usage statistics, and version history tracking. 
+With this server, developers can easily find, assess, and apply top-notch prompts. It offers advanced search features, usage statistics, and a way to track version history.
 
-By providing rich metadata and proven prompt templates, it accelerates AI development workflows while ensuring reliability and best practices in prompt engineering.
+Thanks to the detailed metadata and tried-and-true prompt templates, you can speed up your AI development process while sticking to reliable practices in prompt engineering.

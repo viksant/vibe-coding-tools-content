@@ -8,9 +8,10 @@ tech_stack: ["any"]
 
 # Code Generator Pro
 
-You are an expert developer specializing in generating high-quality, production-ready code.
+Welcome to your go-to tool for creating top-notch, production-ready code. You’re an expert developer, and let's harness that expertise to streamline your coding process.
 
 ## Code Generation Request
+Start by filling out the details for your code generation request:
 - **Language/Framework**: [INSERT TECH STACK]
 - **Code Type**: [INSERT TYPE - component, service, API, utility, class]
 - **Functionality**: [INSERT WHAT THE CODE SHOULD DO]
@@ -19,6 +20,7 @@ You are an expert developer specializing in generating high-quality, production-
 - **Dependencies**: [INSERT EXTERNAL LIBRARIES/FRAMEWORKS]
 
 ## Specifications
+Here’s where you can detail your specifications and requirements:
 [INSERT DETAILED SPECIFICATIONS AND REQUIREMENTS]
 
 ## Output Format
@@ -54,18 +56,21 @@ You are an expert developer specializing in generating high-quality, production-
 ### Implementation Guide
 
 #### Installation Requirements
+You’ll need to set up some packages. Here’s how:
 ```bash
 # Package installations
 [PACKAGE MANAGER COMMANDS]
 ```
 
 #### Configuration
+Next, configure your environment:
 ```[FORMAT]
 # Configuration file or environment variables
 [CONFIGURATION SETTINGS]
 ```
 
 #### Usage Examples
+Here are some examples to get you started:
 ```[INSERT LANGUAGE]
 // Basic usage
 [SIMPLE USAGE EXAMPLE]
@@ -80,23 +85,27 @@ You are an expert developer specializing in generating high-quality, production-
 ### Code Features
 
 #### Core Functionality
+Let’s highlight the key features:
 - **[FEATURE 1]**: [DESCRIPTION]
 - **[FEATURE 2]**: [DESCRIPTION]
 - **[FEATURE 3]**: [DESCRIPTION]
 
 #### Built-in Safeguards
+Your code will include these important safeguards:
 - **Input Validation**: [VALIDATION METHODS]
 - **Error Handling**: [ERROR HANDLING STRATEGY]
 - **Type Safety**: [TYPE CHECKING APPROACH]
 - **Security**: [SECURITY MEASURES]
 
 #### Performance Considerations
+Keep these performance aspects in mind:
 - **Optimization**: [PERFORMANCE OPTIMIZATIONS]
 - **Memory Management**: [MEMORY HANDLING]
 - **Scalability**: [SCALABILITY FEATURES]
 
 ### Testing Code
 
+You’ll want to ensure your code works perfectly. Here’s a template for your unit tests:
 ```[INSERT LANGUAGE]
 // Unit tests
 [COMPREHENSIVE TEST SUITE INCLUDING:]
@@ -109,6 +118,7 @@ You are an expert developer specializing in generating high-quality, production-
 ### Documentation
 
 #### API Documentation
+Clear documentation helps others understand your code:
 ```[FORMAT]
 /**
  * [FUNCTION/CLASS NAME]
@@ -122,24 +132,28 @@ You are an expert developer specializing in generating high-quality, production-
 ```
 
 #### Integration Notes
+Make sure to include these integration details:
 - **Dependencies**: [WHAT NEEDS TO BE INSTALLED]
 - **Compatibility**: [VERSION REQUIREMENTS]
 - **Migration**: [HOW TO INTEGRATE INTO EXISTING CODE]
 
 ### Customization Options
+Tailor your code to fit your needs:
 - **Configuration Parameters**: [WHAT CAN BE CUSTOMIZED]
 - **Extension Points**: [HOW TO EXTEND FUNCTIONALITY]
 - **Plugin System**: [IF APPLICABLE]
 
 ### Best Practices Implemented
+Your code will adhere to these best practices:
 - **Code Style**: [FOLLOWS LANGUAGE CONVENTIONS]
 - **Design Patterns**: [PATTERNS USED AND WHY]
 - **SOLID Principles**: [HOW PRINCIPLES ARE APPLIED]
 - **Clean Code**: [READABILITY AND MAINTAINABILITY]
 
 ## Success Criteria
-- Code compiles/runs without errors
-- All requirements implemented
-- Follows language best practices
-- Includes comprehensive error handling
-- Well-documented and maintainable
+To wrap it up, here’s what to aim for:
+- The code compiles and runs without errors
+- All requirements are implemented
+- It follows language best practices
+- The code includes comprehensive error handling
+- It's well-documented and maintainable

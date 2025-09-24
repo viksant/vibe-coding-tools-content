@@ -6,8 +6,8 @@ tags: ["server", "data", "integration", "automation", "ai", "observability", "da
 tech_stack: ["Cribl", "REST API", "Observability", "Log Management", "Data Pipelines", "AI Systems"]
 ---
 
-This MCP server creates a seamless connection between AI systems and Cribl's observability pipeline platform. 
+This MCP server builds a smooth link between AI systems and Cribl's observability pipeline platform. 
 
-It enables AI agents to query, configure, and manage Cribl's data processing workflows through natural language commands. Agents can inspect pipeline configurations, modify routing rules, monitor data flows, and troubleshoot logging issues programmatically. 
+It lets AI agents use natural language commands to ask questions, set up, and manage Cribl's data processing workflows. With this setup, agents can check pipeline configurations, change routing rules, keep an eye on data flows, and fix logging issues—all through programming.
 
-This integration allows organizations to automate their observability operations, optimize data routing decisions, and maintain consistent logging policies across distributed systems through intelligent automation.
+This integration helps organizations automate their observability tasks, make better data routing choices, and ensure consistent logging policies across their distributed systems with smart automation.

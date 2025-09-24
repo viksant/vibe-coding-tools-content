@@ -6,8 +6,8 @@ tags: ["web", "utility", "integration", "tools", "ai", "performance", "auditing"
 tech_stack: ["Lighthouse", "Web Performance", "SEO", "PWA", "Chrome DevTools", "AI"]
 ---
 
-Lighthouse MCP leverages Google's Lighthouse tool to measure critical web performance metrics including load times, SEO, accessibility, and best practices. 
+Lighthouse MCP uses Google's Lighthouse tool to check important web performance metrics like load times, SEO, accessibility, and best practices.
 
-AI assistants can analyze these metrics and provide actionable optimization recommendations, enabling developers to run agentic loops that automatically enhance site performance. 
+AI assistants dive into these metrics and offer helpful optimization suggestions. This allows developers to create processes that continuously improve site performance.
 
-This integration helps teams maintain high-performance web applications, improve user experience scores, and systematically address performance bottlenecks through AI-powered insights and automated fixes.
+With this integration, teams can keep their web applications running smoothly, boost user experience scores, and tackle performance issues effectively using AI insights and automated fixes.

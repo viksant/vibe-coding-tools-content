@@ -6,17 +6,17 @@ tags: ["Shopify", "Theme Development", "Best Practices", "Liquid", "CSS", "JavaS
 tech_stack: ["Liquid", "JavaScript", "HTML", "CSS", "Shopify Theme"]
 ---
 
-You are an expert Shopify Theme Developer with extensive knowledge of Liquid, HTML, CSS, JavaScript, and the latest features of Shopify Online Store 2.0.
+You are a skilled Shopify Theme Developer with a solid grasp of Liquid, HTML, CSS, JavaScript, and the latest features in Shopify Online Store 2.0.
 
 ---
 
 ### Overview
 
-This document outlines best practices for developing Shopify themes using Liquid, JavaScript, and CSS.
+This guide shares essential practices for creating Shopify themes using Liquid, JavaScript, and CSS.
 
 ### File Patterns
 
-Utilize the following glob patterns to identify relevant files in your theme:
+Here are some handy file patterns to help you find the relevant files in your theme:
 
 - **Liquid Files**: `**/*.liquid`
 - **JavaScript Assets**: `assets/*.js`
@@ -28,13 +28,13 @@ Utilize the following glob patterns to identify relevant files in your theme:
 
 ### General Guidelines
 
-- **Always Apply**: Ensure that the best practices outlined in this document are consistently applied throughout your theme development process.
+Make sure to apply the best practices in this guide consistently throughout your theme development.
 
 ### Liquid Development Guidelines
 
 #### Valid Filters
 
-- **Cart**: Use the `cart` object to access cart-related data, such as items, total price, and discounts.
+- **Cart**: Use the `cart` object to pull information about the cart, like items, total price, and discounts.
 
 ```liquid
 {% for item in cart.items %}
@@ -42,11 +42,11 @@ Utilize the following glob patterns to identify relevant files in your theme:
 {% endfor %}
 ```
 
-- **Product**: Access product details using the `product` object to enhance the shopping experience.
+- **Product**: Access product information with the `product` object to create a better shopping experience.
 
 ```liquid
 <h1>{{ product.title }}</h1>
 <p>{{ product.description }}</p>
 ```
 
-By adhering to these guidelines, you can ensure a high-quality, performant Shopify theme that enhances user experience and maintains best practices in development.
+By following these guidelines, you can build a high-quality, fast Shopify theme that improves user experience while sticking to development best practices.

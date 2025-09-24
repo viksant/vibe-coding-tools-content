@@ -6,8 +6,8 @@ tags: ["server", "data", "ai", "blockchain", "natural language processing", "con
 tech_stack: ["Blockchain", "Web3", "Transaction Analysis", "Data Visualization", "Smart Contracts", "AI Assistants"]
 ---
 
-The Noves MCP Server bridges the gap between complex blockchain data and natural language understanding. 
+The Noves MCP Server makes it easier to connect with complex blockchain data using natural language. 
 
-It provides AI assistants with the ability to query, analyze, and explain blockchain transactions in human-readable formats. This allows developers to quickly understand transaction flows, identify patterns, troubleshoot issues, and gain insights without needing deep blockchain expertise. 
+It empowers AI assistants to query, analyze, and explain blockchain transactions in a way that’s easy to understand. This helps developers get a clear picture of transaction flows, spot patterns, troubleshoot issues, and gather insights—all without needing to be blockchain experts. 
 
-The server transforms raw blockchain data into actionable intelligence through conversational interfaces.
+By turning raw blockchain data into usable information, the server creates a more conversational experience.

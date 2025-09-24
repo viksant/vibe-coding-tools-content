@@ -6,10 +6,10 @@ tags: ["utility", "data", "real-time", "integration", "automation", "AI-assisted
 tech_stack: ["Stata", "Visual Studio Code", "Cursor IDE", "Statistical Analysis", "Data Science", "MCP protocol", "AI assistants"]
 ---
 
-This MCP extension bridges the gap between Stata statistical software and modern development environments, enabling data scientists and researchers to work within their preferred coding environment. 
+This MCP extension connects Stata statistical software with today’s development environments. This connection lets data scientists and researchers work in the coding tools they prefer.
 
-It allows direct execution of Stata commands, .do files, and real-time output viewing without switching applications. The integration with MCP protocol provides AI assistants with contextual understanding of Stata workflows, enabling intelligent code completion, error detection, and statistical analysis assistance directly within the editor.
+With this extension, users can run Stata commands and .do files directly, while also viewing output in real time—all without needing to switch between different applications. Plus, the integration with the MCP protocol helps AI assistants understand Stata workflows. This means you get smart code suggestions, error detection, and help with statistical analysis right in your editor.
 
-Developers can leverage this extension for enhanced productivity in statistical programming, data analysis pipelines, and research workflows. 
+Developers can take advantage of this extension to boost their productivity in statistical programming, data analysis pipelines, and research tasks.
 
-The real-time feedback loop and AI integration make complex statistical operations more accessible while maintaining the full power of Stata's analytical capabilities within a modern development environment.
+Thanks to the real-time feedback and AI features, tackling complex statistical operations becomes easier. You can enjoy all of Stata's powerful analysis tools, seamlessly integrated into a modern coding environment.

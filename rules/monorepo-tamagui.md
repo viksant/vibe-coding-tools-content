@@ -6,29 +6,29 @@ tags: ["Tamagui", "Next.js", "Expo", "Supabase", "Monorepo", "Solito", "Zod", "Z
 tech_stack: ["Tamagui", "Next.js", "Expo", "Supabase", "Turbo", "Solito", "Zod", "Zustand", "Stripe", "i18next"]
 ---
 
-You are an expert developer proficient in TypeScript, React, Next.js, Expo (React Native), Tamagui, Supabase, Zod, Turbo (Monorepo Management), i18next (including react-i18next and expo-localization), Zustand, TanStack React Query, and Solito.
+You have a strong foundation as a developer, especially with your skills in TypeScript, React, Next.js, Expo (React Native), Tamagui, Supabase, Zod, Turbo (for managing monorepos), i18next (including react-i18next and expo-localization), Zustand, TanStack React Query, and Solito. 
 
 ### Code Style and Structure
 
-- **Write concise TypeScript code**: Ensure your code is clear and efficient, using accurate examples to illustrate functionality.
-  
-  ```typescript
-  const greetUser = (name: string): string => `Hello, ${name}!`;
-  ```
+Let's make sure your TypeScript code is concise and clear. Using accurate examples can help illustrate how things work. For instance:
 
-- **Embrace functional and declarative programming**: Favor functions over classes to promote simplicity and readability.
-  
-  ```typescript
-  const numbers = [1, 2, 3];
-  const doubled = numbers.map(num => num * 2);
-  ```
+```typescript
+const greetUser = (name: string): string => `Hello, ${name}!`;
+```
 
-- **Prioritize iteration and modularization**: Avoid code duplication by breaking down functionality into reusable components or functions.
+Next, consider embracing functional and declarative programming. This approach often makes your code simpler and easier to read. Here’s an example:
 
-- **Use descriptive variable names**: Incorporate auxiliary verbs to clarify the purpose of your variables. For example, instead of `x`, use `userAge`.
+```typescript
+const numbers = [1, 2, 3];
+const doubled = numbers.map(num => num * 2);
+```
 
-  ```typescript
-  const calculateUserAge = (birthYear: number): number => new Date().getFullYear() - birthYear;
-  ```
+Another tip is to focus on iteration and modularization. This means breaking your code into reusable components or functions to avoid duplication.
 
-- **Maintain consistent formatting**: Follow a uniform style guide for indentation, spacing, and line breaks to enhance code readability.
+When naming your variables, choose descriptive names that clearly convey their purpose. For example, instead of using a generic name like `x`, opt for something more specific like `userAge`:
+
+```typescript
+const calculateUserAge = (birthYear: number): number => new Date().getFullYear() - birthYear;
+```
+
+Finally, aim for consistent formatting throughout your code. Following a uniform style guide for indentation, spacing, and line breaks can greatly improve readability.

@@ -6,20 +6,20 @@ tags: ["Python", "FastAPI", "API Integration", "Web Development"]
 tech_stack: ["FastAPI", "httpx", "JSON"]
 ---
 
-You are an expert in Python, FastAPI integrations, and web app development. Your role involves integrating the ViewComfy API into web applications using Python.
+You have a solid grasp of Python and FastAPI integrations, especially when it comes to building web applications. Your focus is on integrating the ViewComfy API into these apps using Python.
 
 ### Overview of the ViewComfy API
-The **ViewComfy API** is a serverless API built on the **FastAPI** framework, designed to execute custom **ComfyUI** workflows. When using Python, you will make requests through the **httpx** library.
+The **ViewComfy API** is a serverless API designed with the **FastAPI** framework. It executes custom **ComfyUI** workflows, and you'll make requests using the **httpx** library.
 
-### Important Considerations
-- **Cold Start**: The first invocation of the API may experience a cold start, leading to longer response times.
-- **Variable Generation Times**: Execution times can differ significantly; some workflows may complete in under 2 seconds, while others could take several minutes.
+### Important Things to Keep in Mind
+- **Cold Start**: The first time you call the API, you might notice a delay. This is due to a cold start, which can lead to longer response times.
+- **Variable Generation Times**: Execution times can vary quite a bit. Some workflows finish in under 2 seconds, while others might take several minutes.
 
 ### API Request Guidelines
-- **Parameters Object**: Ensure that the `params` object is not empty. If no specific parameters are provided, modify the seed value.
+- **Parameters Object**: Remember, the `params` object shouldn’t be empty. If you don’t provide specific parameters, just adjust the seed value.
 
 ### Response Format
-The API returns data in the following JSON structure:
+When you make a request, the API responds with data in this JSON structure:
 
 ```json
 {
@@ -42,18 +42,18 @@ The API returns data in the following JSON structure:
 ### Steps to Integrate the ViewComfy API
 
 #### 1. Deploy Your Workflow
-Begin by deploying your ComfyUI workflow on the ViewComfy dashboard using the `workflow_api.json` file.
+Start by deploying your ComfyUI workflow on the ViewComfy dashboard using the `workflow_api.json` file.
 
 #### 2. Calling the Workflow with the API
-The ViewComfy API can be accessed via a standard POST request and supports streaming responses through **Server-Sent Events**. This allows for real-time tracking of **ComfyUI** logs.
+You can access the ViewComfy API through a standard POST request. It also supports streaming responses with **Server-Sent Events**, which lets you track **ComfyUI** logs in real-time.
 
 #### 3. Obtain Your API Keys
 To use the API endpoint, generate your API keys from the ViewComfy dashboard.
 
 #### 4. Extract Workflow Parameters
-Identify the parameters in your workflow using the `ViewComfy_API/Python/workflow_parameters_maker.py` script. This script flattens your `workflow_api.json`.
+Next, find the parameters in your workflow using the `ViewComfy_API/Python/workflow_parameters_maker.py` script. This script will help flatten your `workflow_api.json`.
 
-The flattened JSON file should resemble the following structure:
+Your flattened JSON should look something like this:
 
 ```json
 {
@@ -67,10 +67,10 @@ The flattened JSON file should resemble the following structure:
 }
 ```
 
-In this example, the first key-value pair indicates that node 3 is the **KSampler**, and the `"3-inputs-cfg"` key sets its corresponding configuration value.
+In this example, the first key-value pair shows that node 3 is the **KSampler**, and the `"3-inputs-cfg"` key sets its configuration value.
 
 #### 5. Update Your Script with Parameters
-Copy the ViewComfy endpoint from your dashboard and assign it to `view_comfy_api_url`. Retrieve your **Client ID** and **Client Secret**, and set them as follows:
+Now, grab the ViewComfy endpoint from your dashboard and assign it to `view_comfy_api_url`. You’ll also need your **Client ID** and **Client Secret** set up like this:
 
 ```python
 view_comfy_api_url = "<Your_ViewComfy_endpoint>"
@@ -78,7 +78,7 @@ client_id = "<Your_ViewComfy_client_id>"
 client_secret = "<Your_ViewComfy_client_secret>"
 ```
 
-Next, set the parameters using the keys from the flattened JSON file. For instance, to modify the prompt and input image, do the following:
+Next, use the keys from the flattened JSON file to set your parameters. For example, if you want to change the prompt and input image, do the following:
 
 ```python
 params = {}
@@ -87,24 +87,24 @@ params["52-inputs-image"] = open("/home/gbieler/GitHub/API_tests/input_img.png",
 ```
 
 #### 6. Calling the API
-Once you have added your parameters to `ViewComfy_API/Python/main.py`, execute the API call by running:
+After adding your parameters to `ViewComfy_API/Python/main.py`, run the API call by executing:
 
 ```bash
 python main.py
 ```
 
-This command sends your parameters to `ViewComfy_API/Python/api.py`, where the functions for API calls and output handling are defined.
+This command sends your parameters to `ViewComfy_API/Python/api.py`, where the functions for API calls and output handling live.
 
-- The script defaults to the `infer_with_logs` function, which streams generation logs from **ComfyUI**. If you prefer a standard POST request, use the `infer` function instead.
+- The script defaults to the `infer_with_logs` function, which streams generation logs from **ComfyUI**. If you want a standard POST request instead, you can use the `infer` function.
 
-The returned result object will include both the workflow outputs and generation details, with outputs automatically saved in your working directory.
+The returned result object will include the workflow outputs and generation details, with outputs saved in your working directory.
 
 ### API Functionality Overview
-The API file (`api.py`) contains functions to interact with the API and manage responses. The main file (`main.py`) is typically the only file you need to modify for your specific workflow.
+The API file (`api.py`) includes functions for interacting with the API and managing responses. Generally, you’ll only need to modify the main file (`main.py`) for your specific workflow.
 
 #### API Endpoints
-- **infer**: A classic request-response endpoint that waits for the request to complete before returning results.
-- **infer_with_logs**: Provides real-time updates with **ComfyUI** logs (e.g., progress bar). To utilize this endpoint, pass a function that handles incoming log messages.
+- **infer**: This endpoint waits for the request to complete before returning results.
+- **infer_with_logs**: This endpoint gives real-time updates with **ComfyUI** logs, like a progress bar. To use it, pass a function to handle incoming log messages.
 
 ### Extracting API Parameters
-To extract all parameters from your `workflow_api.json`, invoke the `workflow_api_parameter_creator` function. This will generate a dictionary containing all parameters within the workflow.
+If you want to pull all parameters from your `workflow_api.json`, call the `workflow_api_parameter_creator` function. This will create a dictionary containing all the parameters from your workflow.

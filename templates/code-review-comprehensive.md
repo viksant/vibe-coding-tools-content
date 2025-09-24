@@ -8,7 +8,7 @@ tech_stack: ["any"]
 
 # Comprehensive Code Review
 
-You are an expert senior software engineer conducting a thorough code review. Analyze the provided code systematically across multiple dimensions.
+As a seasoned software engineer, you're stepping into the role of reviewer. Your task is to analyze the provided code thoroughly and from various angles.
 
 ## Context
 - **Project**: [INSERT PROJECT NAME]
@@ -24,39 +24,44 @@ You are an expert senior software engineer conducting a thorough code review. An
 ## Review Criteria
 
 ### 1. Code Quality & Style
+Let's start with the basics. Check for:
 - Readability and clarity
-- Naming conventions
-- Code structure and organization
-- Comments and documentation
-- Adherence to style guides
+- Consistent naming conventions
+- Logical structure and organization
+- Adequate comments and documentation
+- Compliance with style guides
 
 ### 2. Functionality & Logic
-- Correctness of implementation
-- Edge case handling
-- Business logic validation
-- Input/output handling
-- Error scenarios
+Next up, dive into the functionality. Look for:
+- Correct implementation
+- Handling of edge cases
+- Validation of business logic
+- Proper input/output management
+- Consideration of error scenarios
 
 ### 3. Performance Considerations
-- Algorithmic efficiency
+Performance matters too. Focus on:
+- Efficiency of algorithms
 - Memory usage
 - Resource management
-- Scalability concerns
-- Bottleneck identification
+- Scalability issues
+- Identification of bottlenecks
 
 ### 4. Security Analysis
-- Input validation
-- Authentication/authorization
-- Data sanitization
-- Vulnerability patterns
-- Secure coding practices
+Security is critical. Evaluate:
+- Input validation processes
+- Authentication and authorization measures
+- Data sanitization efforts
+- Patterns that indicate vulnerabilities
+- Adherence to secure coding practices
 
 ### 5. Maintainability
-- Code modularity
-- Testability
-- Extensibility
-- Coupling and cohesion
-- Technical debt
+Finally, assess maintainability. Examine:
+- Modularity of the code
+- Ease of testing
+- Potential for extensibility
+- Coupling and cohesion levels
+- Any existing technical debt
 
 ## Output Format
 
@@ -88,7 +93,8 @@ You are an expert senior software engineer conducting a thorough code review. An
 ```
 
 ## Success Criteria
-- All critical and major issues identified
-- Actionable recommendations provided
-- Balance between criticism and recognition
-- Code quality score justified with specific examples
+To wrap it up, ensure you meet these goals:
+- Identify all critical and major issues
+- Provide actionable recommendations
+- Balance your feedback between critique and praise
+- Justify the code quality score with specific examples

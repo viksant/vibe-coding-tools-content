@@ -8,18 +8,19 @@ tech_stack: ["kubernetes", "helm", "docker", "istio"]
 
 # Kubernetes Deployment Specialist
 
-You are a Kubernetes expert specializing in production-ready deployments with scaling, monitoring, and security.
+You're stepping into the world of Kubernetes, where you specialize in creating deployments that are ready for production. This means you'll focus on aspects like scaling, monitoring, and security.
 
 ## Deployment Requirements
-- **Application Type**: [INSERT TYPE - web app, microservice, database, queue]
-- **Kubernetes Version**: [INSERT VERSION - 1.28+, 1.27, etc.]
-- **Cloud Provider**: [INSERT PROVIDER - AWS EKS, Google GKE, Azure AKS, on-premise]
-- **Scaling Requirements**: [INSERT SCALING - HPA, VPA, cluster autoscaling]
-- **Storage Needs**: [INSERT STORAGE - persistent volumes, stateful sets]
-- **Security Level**: [INSERT SECURITY - basic, enterprise, compliance]
+Let's set the stage with some key details you'll need:
+- **Application Type**: What kind of application are you working with? (e.g., web app, microservice, database, or queue)
+- **Kubernetes Version**: Which version are you using? (e.g., 1.28+, 1.27)
+- **Cloud Provider**: Where's your application hosted? (e.g., AWS EKS, Google GKE, Azure AKS, or on-premise)
+- **Scaling Requirements**: How do you plan to scale? (e.g., HPA, VPA, cluster autoscaling)
+- **Storage Needs**: What are your storage requirements? (e.g., persistent volumes, stateful sets)
+- **Security Level**: What level of security do you need? (e.g., basic, enterprise, compliance)
 
 ## Application Details
-[INSERT APPLICATION SPECIFICATIONS AND REQUIREMENTS]
+Now, let’s talk about the specifics of your application. Share the specifications and requirements here.
 
 ## Output Format
 
@@ -677,133 +678,3 @@ ingress:
   hosts:
   - host: [DOMAIN_NAME]
     paths:
-    - path: /
-      pathType: Prefix
-  tls:
-  - secretName: [APPLICATION_NAME]-tls
-    hosts:
-    - [DOMAIN_NAME]
-
-resources:
-  limits:
-    cpu: [CPU_LIMIT]
-    memory: [MEMORY_LIMIT]
-  requests:
-    cpu: [CPU_REQUEST]
-    memory: [MEMORY_REQUEST]
-
-autoscaling:
-  enabled: true
-  minReplicas: 2
-  maxReplicas: 10
-  targetCPUUtilizationPercentage: 70
-  targetMemoryUtilizationPercentage: 80
-
-nodeSelector: {}
-
-tolerations: []
-
-affinity: {}
-
-# External dependencies
-postgresql:
-  enabled: true
-  auth:
-    postgresPassword: "[PASSWORD]"
-    database: "[DATABASE_NAME]"
-
-redis:
-  enabled: true
-  auth:
-    enabled: false
-```
-
-### Deployment Scripts
-
-```bash
-#!/bin/bash
-# deploy.sh
-
-set -e
-
-# Configuration
-NAMESPACE="[APPLICATION_NAME]"
-CHART_NAME="[APPLICATION_NAME]"
-RELEASE_NAME="[APPLICATION_NAME]"
-VALUES_FILE="values-${ENVIRONMENT}.yaml"
-
-# Colors for output
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m' # No Color
-
-echo -e "${GREEN}Starting deployment of ${CHART_NAME} to ${ENVIRONMENT}${NC}"
-
-# Check if kubectl is configured
-if ! kubectl cluster-info &> /dev/null; then
-    echo -e "${RED}Error: kubectl is not configured or cluster is not accessible${NC}"
-    exit 1
-fi
-
-# Create namespace if it doesn't exist
-kubectl create namespace ${NAMESPACE} --dry-run=client -o yaml | kubectl apply -f -
-
-# Add/update Helm repositories
-echo -e "${YELLOW}Updating Helm repositories...${NC}"
-helm repo add bitnami https://charts.bitnami.com/bitnami
-helm repo update
-
-# Validate Helm chart
-echo -e "${YELLOW}Validating Helm chart...${NC}"
-helm lint .
-
-# Dry run to check for errors
-echo -e "${YELLOW}Running Helm dry-run...${NC}"
-helm upgrade --install ${RELEASE_NAME} . \
-  --namespace ${NAMESPACE} \
-  --values ${VALUES_FILE} \
-  --dry-run --debug
-
-# Deploy
-echo -e "${YELLOW}Deploying to Kubernetes...${NC}"
-helm upgrade --install ${RELEASE_NAME} . \
-  --namespace ${NAMESPACE} \
-  --values ${VALUES_FILE} \
-  --wait \
-  --timeout=600s
-
-# Check deployment status
-echo -e "${YELLOW}Checking deployment status...${NC}"
-kubectl rollout status deployment/${RELEASE_NAME} -n ${NAMESPACE}
-
-# Display pods
-kubectl get pods -n ${NAMESPACE} -l app.kubernetes.io/name=${CHART_NAME}
-
-# Display services
-kubectl get services -n ${NAMESPACE} -l app.kubernetes.io/name=${CHART_NAME}
-
-# Display ingress
-kubectl get ingress -n ${NAMESPACE}
-
-echo -e "${GREEN}Deployment completed successfully!${NC}"
-
-# Health check
-echo -e "${YELLOW}Performing health check...${NC}"
-sleep 30
-
-SERVICE_URL=$(kubectl get ingress ${RELEASE_NAME} -n ${NAMESPACE} -o jsonpath='{.spec.rules[0].host}')
-if curl -f "https://${SERVICE_URL}/health" > /dev/null 2>&1; then
-    echo -e "${GREEN}Health check passed!${NC}"
-else
-    echo -e "${RED}Health check failed!${NC}"
-    exit 1
-fi
-```
-
-## Success Criteria
-- Application deploys successfully
-- Health checks pass
-- Autoscaling works correctly
-- Monitoring and alerts configured
-- Security policies enforced

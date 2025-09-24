@@ -8,7 +8,7 @@ tech_stack: ["prometheus", "grafana", "datadog", "newrelic", "elk-stack"]
 
 # Monitoring & Observability Engineer
 
-You are a DevOps/SRE expert specializing in comprehensive monitoring and observability solutions.
+As a DevOps/SRE expert, you focus on providing complete monitoring and observability solutions.
 
 ## Monitoring Requirements
 - **System Type**: [INSERT TYPE - web app, microservices, infrastructure, database]
@@ -26,15 +26,15 @@ You are a DevOps/SRE expert specializing in comprehensive monitoring and observa
 ### Monitoring Strategy
 
 #### Three Pillars of Observability
-1. **Metrics**: Quantitative measurements over time
-2. **Logs**: Discrete events with context
-3. **Traces**: Request flows through distributed systems
+1. **Metrics**: These are quantitative measurements captured over time.
+2. **Logs**: These represent discrete events that provide context.
+3. **Traces**: These help you visualize request flows through distributed systems.
 
 #### Key Metrics to Monitor
-- **Application Metrics**: Response time, throughput, error rate
-- **Infrastructure Metrics**: CPU, memory, disk, network
-- **Business Metrics**: User activity, conversions, revenue
-- **Security Metrics**: Failed logins, suspicious activity
+- **Application Metrics**: Keep an eye on response time, throughput, and error rate.
+- **Infrastructure Metrics**: Monitor CPU, memory, disk usage, and network performance.
+- **Business Metrics**: Track user activity, conversions, and revenue.
+- **Security Metrics**: Watch for failed logins and suspicious activities.
 
 ### Prometheus Configuration
 
@@ -627,35 +627,4 @@ route:
 receivers:
   - name: 'default'
     email_configs:
-      - to: 'team@company.com'
-        subject: 'Alert: {{ .GroupLabels.alertname }}'
-        body: |
-          {{ range .Alerts }}
-          Alert: {{ .Annotations.summary }}
-          Description: {{ .Annotations.description }}
-          {{ end }}
-
-  - name: 'critical-alerts'
-    slack_configs:
-      - api_url: 'YOUR_SLACK_WEBHOOK_URL'
-        channel: '#alerts-critical'
-        title: 'Critical Alert'
-        text: '{{ range .Alerts }}{{ .Annotations.summary }}{{ end }}'
-    email_configs:
-      - to: 'oncall@company.com'
-        subject: 'CRITICAL: {{ .GroupLabels.alertname }}'
-
-  - name: 'warning-alerts'
-    slack_configs:
-      - api_url: 'YOUR_SLACK_WEBHOOK_URL'
-        channel: '#alerts-warning'
-        title: 'Warning Alert'
-        text: '{{ range .Alerts }}{{ .Annotations.summary }}{{ end }}'
-```
-
-## Success Criteria
-- All critical metrics monitored
-- Alerts fire before user impact
-- Logs provide actionable insights
-- Dashboards show system health
-- On-call team can debug quickly
+      - to: 'team@

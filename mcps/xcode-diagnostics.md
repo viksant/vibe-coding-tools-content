@@ -6,10 +6,10 @@ tags: ["server", "data", "integration", "automation", "tools", "diagnostics", "S
 tech_stack: ["Xcode", "Swift", "iOS Development", "macOS Development", "CI/CD", "automated testing"]
 ---
 
-This MCP server extracts and parses Xcode build diagnostics from DerivedData logs, transforming raw compiler output into structured diagnostic information. 
+This MCP server takes the Xcode build diagnostics from DerivedData logs and turns the raw compiler output into organized diagnostic information. 
 
-It captures detailed error and warning data including file paths, line numbers, error messages, and fix-it suggestions, making it easier to identify and resolve build issues in Swift projects.
+It collects important details like error and warning data, including file paths, line numbers, error messages, and suggestions for fixes. This makes it much simpler to spot and tackle build issues in Swift projects. 
 
-The tool enables developers to programmatically access build diagnostics for integration with CI/CD pipelines, automated testing frameworks, and developer tools. 
+Developers can use this tool to access build diagnostics programmatically, which is perfect for integrating with CI/CD pipelines, automated testing frameworks, and other developer tools. 
 
-By providing machine-readable diagnostic data, it supports automated error analysis, build monitoring, and intelligent code assistance workflows that help teams maintain code quality and accelerate development cycles.
+By offering machine-readable diagnostic data, it helps with automated error analysis, keeps an eye on builds, and supports smart code assistance workflows. This way, teams can maintain high code quality and speed up their development cycles.

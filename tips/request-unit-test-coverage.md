@@ -6,27 +6,27 @@ tags: ["testing", "unit-tests", "jest", "pytest", "coverage"]
 tech_stack: ["any"]
 ---
 
-To ensure robust software quality, always **request unit tests** alongside your implementation code. This guarantees that your code is thoroughly tested for edge cases, error conditions, and standard use cases. Here’s how to do it effectively:
+To ensure your software quality is top-notch, always ask for unit tests along with your implementation code. This step helps confirm that your code is tested for edge cases, error conditions, and standard use cases. Let’s break down how to do this effectively:
 
-1. **Specify your requirements**: Clearly state that you want unit tests included with the code.
-   - Example request: "Please provide unit tests with the implementation code."
-   
-2. **Define the coverage areas**: Mention the specific scenarios you want the tests to cover.
-   - Example: "Include tests for edge cases, error handling, and typical user flows."
+1. **Specify your requirements**: Make it clear that you expect unit tests to accompany the code.
+   - For example, you might say, "Please provide unit tests with the implementation code."
 
-3. **Choose your testing framework**: Specify the framework that aligns with your tech stack.
-   - Example: "Use Jest for JavaScript or pytest for Python."
+2. **Define the coverage areas**: Identify the specific scenarios you want the tests to cover.
+   - You could request, "Include tests for edge cases, error handling, and typical user flows."
+
+3. **Choose your testing framework**: Indicate the framework that fits your tech stack.
+   - An example would be, "Use Jest for JavaScript or pytest for Python."
 
 4. **Request documentation**: Ask for comments or documentation within the tests to explain their purpose.
-   - Example: "Please add comments to clarify the intent of each test case."
+   - You might say, "Please add comments to clarify the intent of each test case."
 
-5. **Review the tests**: After receiving the code, ensure that the tests are comprehensive and run them to verify functionality.
-   - Command to run tests: `npm test` (for Jest) or `pytest` (for pytest).
+5. **Review the tests**: Once you receive the code, check that the tests are comprehensive and run them to ensure everything works.
+   - You can run the tests using: `npm test` for Jest or `pytest` for pytest.
 
-Expected result: You will receive a complete implementation with corresponding unit tests that validate functionality and edge cases.
+By following these steps, you can expect a complete implementation paired with unit tests that validate functionality and edge cases.
 
-### Why It Works
-Requesting unit tests ensures that your code is not only functional but also resilient against unexpected inputs and conditions. This practice is essential when working in collaborative environments or when handing off code to other developers.
+### Why This Matters
+Requesting unit tests guarantees your code is not just functional but also robust against unexpected inputs and situations. This practice is especially important in collaborative settings or when passing code to other developers.
 
 ### Quick Examples
 - **Before**: "Please send me the code."
@@ -36,14 +36,14 @@ Requesting unit tests ensures that your code is not only functional but also res
 - **After**: "I need this function with pytest tests for normal and edge cases."
 
 ### Common Mistakes
-- **Not specifying frameworks**: Always mention which testing framework to use.
-  - Fix: Include the framework in your request, e.g., "Use Jest for JavaScript."
-  
-- **Vague test coverage requests**: Be specific about what scenarios to test.
-  - Fix: List out specific cases, e.g., "Test for null inputs and boundary values."
+- **Not specifying frameworks**: Always state which testing framework to use.
+  - Fix: Include the framework in your request, like "Use Jest for JavaScript."
 
-- **Neglecting documentation**: Tests without explanations can be hard to understand.
-  - Fix: Request comments in the test code for clarity.
+- **Vague test coverage requests**: Be clear about which scenarios to test.
+  - Fix: Specify cases, such as "Test for null inputs and boundary values."
 
-- **Skipping test execution**: Failing to run tests can lead to unnoticed issues.
-  - Fix: Always run the tests using the appropriate command after receiving the code.
+- **Neglecting documentation**: Tests without explanations can be confusing.
+  - Fix: Ask for comments in the test code for better understanding.
+
+- **Skipping test execution**: Not running tests can lead to unnoticed problems.
+  - Fix: Always execute the tests using the right command after receiving the code.

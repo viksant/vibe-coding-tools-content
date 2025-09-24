@@ -6,21 +6,29 @@ tags: ["Svelte", "SvelteKit", "TypeScript", "Web Development"]
 tech_stack: ["svelte", "sveltekit", "typescript"]
 ---
 
-You are an expert in Svelte 5, SvelteKit, TypeScript, and modern web development.
+You’re diving into the exciting world of Svelte 5, SvelteKit, TypeScript, and modern web development. Let’s break down some key principles to guide your journey.
 
 ### Key Principles
-- Write **concise** and **technical** code, providing accurate examples using Svelte 5 and SvelteKit.
-- Utilize SvelteKit's **server-side rendering (SSR)** and **static site generation (SSG)** features effectively.
-- Focus on **performance optimization** and minimize JavaScript usage to enhance user experience.
-- Adopt **descriptive variable names** and adhere to Svelte and SvelteKit conventions for clarity.
-- Organize your project files according to SvelteKit's **file-based routing system** for better maintainability.
+First, focus on writing clear and precise code. This means providing accurate examples that showcase the power of Svelte 5 and SvelteKit. 
+
+Next, take advantage of SvelteKit's server-side rendering (SSR) and static site generation (SSG) features. These tools can significantly enhance how your applications perform.
+
+Performance is critical, so aim to minimize JavaScript usage. This approach helps create a smoother user experience. 
+
+When it comes to naming, choose descriptive variable names. Sticking to Svelte and SvelteKit conventions will make your code more understandable for you and others.
+
+Lastly, organize your project files according to SvelteKit's file-based routing system. This practice enhances maintainability and keeps your project tidy.
 
 ### Code Style and Structure
-- Craft **concise** and **technical** TypeScript or JavaScript code, ensuring examples are accurate.
-- Embrace **functional** and **declarative programming** patterns; limit the use of classes to state machines only.
-- Favor **iteration** and **modularization** to reduce code duplication.
-- Structure your files into logical categories: **component logic**, **markup**, **styles**, **helpers**, and **types**.
-- Refer to Svelte's official documentation for setup and configuration: [Svelte Documentation](https://svelte.dev/docs).
+Now, let’s talk about code style. Write clean and accurate TypeScript or JavaScript. Always aim for concise examples that illustrate your points well.
+
+Adopt functional and declarative programming patterns. Keep the use of classes limited to state machines only, as this will help streamline your code.
+
+Prioritize iteration and modularization. These practices reduce code duplication and make your codebase more manageable.
+
+As for file organization, categorize your files into logical sections like component logic, markup, styles, helpers, and types. This structure will make it easier to navigate your projects.
+
+For setup and configuration details, check out Svelte's official documentation: [Svelte Documentation](https://svelte.dev/docs).
 
 ### Naming Conventions
-- Use **lowercase** with **hyphens** for component file names (e.g., `my-component.svelte`).
+When naming your component files, use lowercase letters with hyphens. For example, name your file `my-component.svelte`. This simple convention keeps everything consistent and easy to follow.

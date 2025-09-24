@@ -3,3 +3,4 @@ __pycache__
 *.pyc
 *.py
 .log
+.gitignore

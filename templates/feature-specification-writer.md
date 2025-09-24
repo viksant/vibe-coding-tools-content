@@ -6,30 +6,13 @@ tags: ["product-management", "requirements", "user-stories", "specifications", "
 tech_stack: ["any"]
 ---
 
-# Feature Specification Writer
-
-You are a product manager expert specializing in writing clear, actionable feature specifications.
-
-## Feature Overview
-- **Feature Name**: [INSERT FEATURE NAME]
-- **Product Area**: [INSERT PRODUCT AREA]
-- **Target Users**: [INSERT USER PERSONAS]
-- **Business Goal**: [INSERT BUSINESS OBJECTIVE]
-- **Success Metrics**: [INSERT KPIs/METRICS]
-- **Priority Level**: [INSERT PRIORITY - P0/P1/P2/P3]
-
-## Context
-[INSERT FEATURE BACKGROUND AND MOTIVATION]
-
-## Output Format
-
 # Feature Specification: [FEATURE NAME]
 
 ## Executive Summary
-**Problem**: [PROBLEM BEING SOLVED]
-**Solution**: [PROPOSED SOLUTION]
-**Impact**: [EXPECTED BUSINESS IMPACT]
-**Timeline**: [ESTIMATED DELIVERY]
+**Problem**: [What issue are we addressing?]  
+**Solution**: [What’s the proposed fix?]  
+**Impact**: [What business benefit do we expect?]  
+**Timeline**: [When do we plan to deliver this?]  
 
 ## User Stories
 
@@ -37,61 +20,61 @@ You are a product manager expert specializing in writing clear, actionable featu
 As a [USER TYPE], I want [CAPABILITY] so that [BENEFIT].
 
 #### Story 1: [STORY TITLE]
-**As a** [USER ROLE]
-**I want** [FUNCTIONALITY]
-**So that** [BUSINESS VALUE]
+**As a** [USER ROLE]  
+**I want** [FUNCTIONALITY]  
+**So that** [BUSINESS VALUE]  
 
 **Acceptance Criteria:**
-- [ ] [SPECIFIC TESTABLE REQUIREMENT]
-- [ ] [ANOTHER REQUIREMENT]
-- [ ] [EDGE CASE HANDLING]
+- [ ] [SPECIFIC TESTABLE REQUIREMENT]  
+- [ ] [ANOTHER REQUIREMENT]  
+- [ ] [EDGE CASE HANDLING]  
 
 **Definition of Done:**
-- [ ] Feature implemented and tested
-- [ ] Documentation updated
-- [ ] Performance criteria met
-- [ ] Security review completed
+- [ ] Feature implemented and tested  
+- [ ] Documentation updated  
+- [ ] Performance criteria met  
+- [ ] Security review completed  
 
 #### Story 2: [STORY TITLE]
-[SIMILAR FORMAT]
+[Continue in a similar format]
 
 ## Technical Requirements
 
 ### Functional Requirements
-1. **[REQUIREMENT CATEGORY]**
-   - [SPECIFIC REQUIREMENT]
-   - [SPECIFIC REQUIREMENT]
+1. **[REQUIREMENT CATEGORY]**  
+   - [SPECIFIC REQUIREMENT]  
+   - [SPECIFIC REQUIREMENT]  
 
 ### Non-Functional Requirements
-- **Performance**: [RESPONSE TIME, THROUGHPUT]
-- **Security**: [SECURITY REQUIREMENTS]
-- **Scalability**: [SCALE REQUIREMENTS]
-- **Reliability**: [UPTIME, ERROR RATES]
-- **Usability**: [UX REQUIREMENTS]
+- **Performance**: [RESPONSE TIME, THROUGHPUT]  
+- **Security**: [SECURITY REQUIREMENTS]  
+- **Scalability**: [SCALE REQUIREMENTS]  
+- **Reliability**: [UPTIME, ERROR RATES]  
+- **Usability**: [UX REQUIREMENTS]  
 
 ### Integration Requirements
-- **APIs**: [EXTERNAL SYSTEMS TO INTEGRATE]
-- **Data Sources**: [DATA DEPENDENCIES]
-- **Third-party Services**: [EXTERNAL DEPENDENCIES]
+- **APIs**: [EXTERNAL SYSTEMS TO INTEGRATE]  
+- **Data Sources**: [DATA DEPENDENCIES]  
+- **Third-party Services**: [EXTERNAL DEPENDENCIES]  
 
 ## User Experience Design
 
 ### User Flow
 ```
-1. User lands on [STARTING POINT]
-2. User clicks/selects [ACTION]
-3. System displays [RESPONSE]
-4. User completes [FINAL ACTION]
-5. System confirms [SUCCESS STATE]
+1. User lands on [STARTING POINT]  
+2. User clicks/selects [ACTION]  
+3. System displays [RESPONSE]  
+4. User completes [FINAL ACTION]  
+5. System confirms [SUCCESS STATE]  
 ```
 
 ### Wireframes/Mockups
-[DESCRIPTION OF KEY UI ELEMENTS AND LAYOUT]
+[Describe the key UI elements and layout]
 
 ### Error Scenarios
-- **Scenario**: [ERROR CONDITION]
-- **User Experience**: [HOW ERROR IS HANDLED]
-- **Recovery**: [HOW USER CAN RECOVER]
+- **Scenario**: [Describe the error condition]  
+- **User Experience**: [Explain how the error is handled]  
+- **Recovery**: [Outline how the user can recover]  
 
 ## Technical Specification
 
@@ -117,80 +100,80 @@ As a [USER TYPE], I want [CAPABILITY] so that [BENEFIT].
 ```
 
 ### Business Logic
-- **Rule 1**: [BUSINESS RULE DESCRIPTION]
-- **Rule 2**: [ANOTHER BUSINESS RULE]
-- **Validation**: [INPUT VALIDATION REQUIREMENTS]
+- **Rule 1**: [Describe the business rule]  
+- **Rule 2**: [Another business rule]  
+- **Validation**: [Input validation requirements]  
 
 ## Testing Strategy
 
 ### Test Scenarios
-1. **Happy Path**: [NORMAL USER FLOW]
-2. **Edge Cases**: [BOUNDARY CONDITIONS]
-3. **Error Handling**: [ERROR SCENARIOS]
-4. **Performance**: [LOAD TESTING REQUIREMENTS]
+1. **Happy Path**: [Describe the normal user flow]  
+2. **Edge Cases**: [Outline boundary conditions]  
+3. **Error Handling**: [Describe error scenarios]  
+4. **Performance**: [Specify load testing requirements]  
 
 ### Quality Assurance
-- **Browser Support**: [SUPPORTED BROWSERS]
-- **Device Support**: [MOBILE/TABLET/DESKTOP]
-- **Accessibility**: [A11Y REQUIREMENTS]
+- **Browser Support**: [List supported browsers]  
+- **Device Support**: [Specify mobile/tablet/desktop]  
+- **Accessibility**: [Outline accessibility requirements]  
 
 ## Dependencies
 
 ### Internal Dependencies
-- **Team**: [WHICH TEAM OWNS DEPENDENCY]
-- **Timeline**: [WHEN DEPENDENCY NEEDED]
-- **Description**: [WHAT'S NEEDED]
+- **Team**: [Which team owns this dependency?]  
+- **Timeline**: [When do we need it?]  
+- **Description**: [What’s required?]  
 
 ### External Dependencies
-- **Vendor**: [EXTERNAL PROVIDER]
-- **Service**: [WHAT SERVICE/API]
-- **Timeline**: [AVAILABILITY TIMELINE]
+- **Vendor**: [Which external provider?]  
+- **Service**: [What service or API?]  
+- **Timeline**: [When will it be available?]  
 
 ## Risk Assessment
 
 ### Technical Risks
-- **Risk**: [TECHNICAL CHALLENGE]
-- **Impact**: [HIGH/MEDIUM/LOW]
-- **Mitigation**: [HOW TO REDUCE RISK]
+- **Risk**: [Describe the technical challenge]  
+- **Impact**: [Assess the impact: high/medium/low]  
+- **Mitigation**: [Explain how to reduce this risk]  
 
 ### Business Risks
-- **Risk**: [BUSINESS CHALLENGE]
-- **Impact**: [HIGH/MEDIUM/LOW]
-- **Mitigation**: [HOW TO REDUCE RISK]
+- **Risk**: [Describe the business challenge]  
+- **Impact**: [Assess the impact: high/medium/low]  
+- **Mitigation**: [Explain how to reduce this risk]  
 
 ## Success Metrics
 
 ### Key Performance Indicators
-- **Metric 1**: [METRIC NAME] - Target: [TARGET VALUE]
-- **Metric 2**: [METRIC NAME] - Target: [TARGET VALUE]
+- **Metric 1**: [METRIC NAME] - Target: [TARGET VALUE]  
+- **Metric 2**: [METRIC NAME] - Target: [TARGET VALUE]  
 
 ### Analytics Requirements
-- **Events to Track**: [USER ACTIONS TO MEASURE]
-- **Reporting Needs**: [DASHBOARDS/REPORTS NEEDED]
+- **Events to Track**: [User actions to measure]  
+- **Reporting Needs**: [Dashboards/reports needed]  
 
 ## Implementation Plan
 
 ### Phase 1: [PHASE NAME] (Week [X])
-- [ ] [DELIVERABLE]
-- [ ] [DELIVERABLE]
+- [ ] [DELIVERABLE]  
+- [ ] [DELIVERABLE]  
 
 ### Phase 2: [PHASE NAME] (Week [X])
-- [ ] [DELIVERABLE]
-- [ ] [DELIVERABLE]
+- [ ] [DELIVERABLE]  
+- [ ] [DELIVERABLE]  
 
 ### Launch Plan
-- **Feature Flag**: [ROLLOUT STRATEGY]
-- **User Communication**: [HOW TO ANNOUNCE]
-- **Support Preparation**: [SUPPORT DOCUMENTATION]
+- **Feature Flag**: [Rollout strategy]  
+- **User Communication**: [How will we announce it?]  
+- **Support Preparation**: [What support documentation is needed?]  
 
 ## Future Considerations
-- **Potential Enhancements**: [FUTURE IMPROVEMENTS]
-- **Scalability Concerns**: [LONG-TERM CONSIDERATIONS]
-- **Technical Debt**: [KNOWN COMPROMISES]
+- **Potential Enhancements**: [Future improvements]  
+- **Scalability Concerns**: [Long-term considerations]  
+- **Technical Debt**: [Known compromises]  
 
 ## Success Criteria
-- Feature meets all acceptance criteria
-- Performance targets achieved
-- User feedback positive
-- Business metrics improved
+- Feature meets all acceptance criteria  
+- Performance targets achieved  
+- User feedback positive  
+- Business metrics improved  
 - No critical bugs reported

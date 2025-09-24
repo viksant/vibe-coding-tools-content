@@ -6,10 +6,10 @@ tags: ["api", "integration", "automation", "machine-learning", "documentation", 
 tech_stack: ["Svelte", "SvelteKit", "JavaScript", "TypeScript", "Frontend Development"]
 ---
 
-This MCP provides seamless integration with Svelte's official documentation, enabling developers to quickly search and retrieve framework-specific information without leaving their development environment. 
+This MCP connects smoothly with Svelte's official documentation, making it easy for developers to search for and find framework-specific information right from their development environment.
 
-It supports natural language queries for Svelte concepts, APIs, and best practices, delivering precise documentation snippets relevant to current coding tasks.
+You can ask questions in natural language about Svelte concepts, APIs, and best practices. The tool delivers exact documentation snippets that relate to what you're currently working on.
 
-Developers can accelerate their Svelte development workflow by instantly accessing component lifecycle documentation, reactivity patterns, store implementations, and SvelteKit routing guides. 
+With this resource, developers can speed up their Svelte development process. You can quickly access information on component lifecycles, reactivity patterns, store implementations, and SvelteKit routing guides.
 
-This eliminates context switching between code editor and browser, reduces development friction, and ensures developers have accurate framework guidance at their fingertips when building Svelte applications.
+This setup cuts out the hassle of switching between your code editor and the browser. It reduces interruptions during development and keeps the right framework guidance readily available while you build your Svelte applications.

@@ -6,58 +6,27 @@ tags: ["React Native", "React Three Fiber", "TypeScript", "Expo", "Vite", "Tailw
 tech_stack: ["React", "three.js", "Next UI"]
 ---
 
-You are an expert in TypeScript, React Native, Expo, React, Vite, Tailwind CSS, three.js, React Three Fiber, and Next UI.
+You have a solid foundation in TypeScript, React Native, Expo, React, Vite, Tailwind CSS, three.js, React Three Fiber, and Next UI. Let’s dive into some best practices to keep your code clean and effective.
 
 ### Code Style and Structure
-- Write **concise** and **type-safe** TypeScript code.
-- Prefer **functional components** and **hooks** over class components.
-- Ensure components are **modular**, **reusable**, and **maintainable**.
-- Organize files by **feature**, grouping related components, hooks, and styles.
+Start by writing TypeScript code that is both clear and type-safe. Functional components and hooks should be your go-to choices instead of class components. Keep your components modular, reusable, and maintainable. Organize your files by feature, grouping related components, hooks, and styles together for better clarity.
 
 ### Naming Conventions
-- Use **camelCase** for variable and function names (e.g., `fetchData`, `handleSubmit`).
-- Use **lowercase with dashes** for directory names (e.g., `components/auth-wizard`).
+When it comes to naming, use camelCase for your variable and function names. For example, you might have names like `fetchData` or `handleSubmit`. For directory names, stick to lowercase with dashes, such as `components/auth-wizard`.
 
 ### Key Principles
-- Write concise, technical responses with accurate React examples.
-- Embrace **functional** and **declarative programming**; avoid classes.
-- Favor **iteration** and **modularization** over duplication.
-- Use **descriptive variable names** with auxiliary verbs (e.g., `isLoading`).
-- Prefer **named exports** for components.
-- Implement the **Receive an Object, Return an Object (RORO)** pattern.
+Aim to write concise and technical responses with precise React examples. Embrace functional and declarative programming, steering clear of classes. Focus on iteration and modularization rather than duplicating code. Use descriptive variable names that include auxiliary verbs, like `isLoading`. It’s also a good idea to prefer named exports for your components. Don’t forget to implement the Receive an Object, Return an Object (RORO) pattern for clarity.
 
 ### JavaScript Practices
-- Use the `function` keyword for pure functions; omit semicolons.
-- Utilize **TypeScript** for all code; prefer interfaces over types and avoid enums in favor of maps.
-- Follow this file structure: exported component, subcomponents, helpers, static content, types.
-- Avoid unnecessary curly braces in conditional statements.
-- For single-line statements in conditionals, omit curly braces:
-  ```javascript
-  if (condition) doSomething();
-  ```
+For pure functions, use the `function` keyword and leave out semicolons where possible. Always use TypeScript for your code; prefer interfaces over types and choose maps instead of enums. Follow this structure: start with the exported component, then subcomponents, helpers, static content, and finally, types. Keep your conditional statements clean by avoiding unnecessary curly braces. For single-line statements, you can skip the curly braces entirely:
+```javascript
+if (condition) doSomething();
+```
 
 ### Error Handling and Validation
-- Prioritize error handling and edge cases:
-  - Handle errors and edge cases at the start of functions.
-  - Use **early returns** for error conditions to prevent deeply nested if statements.
-  - Place the **happy path** last in the function for enhanced readability.
-  - Avoid unnecessary else statements; adopt the **if-return** pattern instead.
-  - Use **guard clauses** to manage preconditions and invalid states early.
-  - Implement proper error logging and user-friendly error messages.
-  - Consider using **custom error types** or error factories for consistent error handling.
+Make error handling and edge cases a priority. Handle these situations right at the start of your functions. Using early returns for error conditions helps you avoid deeply nested if statements. Place the happy path at the end of the function to improve readability. Instead of using unnecessary else statements, consider the if-return pattern. Use guard clauses to manage preconditions and invalid states early on. Implement proper error logging and ensure your error messages are user-friendly. It might also be helpful to consider using custom error types or error factories for consistent handling.
 
 ### React-Specific Guidelines
-- Utilize functional components and interfaces.
-- Write declarative JSX.
-- Define components using `function`, not `const`.
-- Leverage **Next UI** and **Tailwind CSS** for components and styling.
-- Implement **responsive design** with Tailwind CSS.
-- Place static content and interfaces at the end of the file.
-- Use content variables for static content outside render functions.
-- Wrap client components in **Suspense** with a fallback.
-- Employ **dynamic loading** for non-critical components.
-- Optimize images: use **WebP format**, provide size data, and enable **lazy loading**.
-- Model expected errors as return values; avoid using try/catch for expected errors in Server Actions. Use `useActionState` to manage these errors and return them to the client.
-- Implement **error boundaries** for unexpected errors using `error.tsx` and `global-error.tsx` files to handle unexpected errors and provide a fallback UI.
-- Use `useActionState` with **react-hook-form** for form validation.
-- Always throw user-friendly errors that **tanStackQuery** can catch and display to the user.
+Stick with functional components and interfaces. Write declarative JSX and define your components using the `function` keyword instead of `const`. Use Next UI and Tailwind CSS for your components and styling. Make sure your designs are responsive with Tailwind CSS. Keep static content and interfaces towards the end of your file, and use content variables for static content outside of render functions. Wrap client components in Suspense with a fallback to manage loading states. For non-critical components, employ dynamic loading. Optimize your images by using the WebP format, providing size data, and enabling lazy loading.
+
+When dealing with expected errors, model them as return values. Avoid using try/catch blocks for these errors in Server Actions. Instead, leverage `useActionState` to manage these errors and pass them back to the client. Implement error boundaries for unexpected errors by using `error.tsx` and `global-error.tsx` files. This will help you handle unforeseen issues and provide a fallback UI. For form validation, use `useActionState` together with react-hook-form. Always throw user-friendly errors that tanStackQuery can catch and display to users effectively.

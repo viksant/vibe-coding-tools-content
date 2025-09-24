@@ -7,26 +7,27 @@ tech_stack: ["JavaScript", "HTML", "CSS", "Node.js", "Git"]
 ---
 
 ### Tool Benefits
-Atom is an open-source text editor developed by GitHub that provides a highly customizable environment for developers. Key benefits include:
-- **Hackability**: Built on web technologies, allowing developers to modify the editor to fit their workflow.
-- **Extensive Package Ecosystem**: Access to thousands of community-developed packages and themes for enhanced functionality.
-- **Intelligent Autocompletion**: Offers smart suggestions as you type, improving coding efficiency.
-- **Multi-pane Support**: Allows users to work on multiple files side-by-side, enhancing productivity.
-- **Built-in Git Integration**: Simplifies version control and collaboration directly within the editor.
+Atom is a text editor from GitHub that’s open-source and built for developers who love customization. Here are some key benefits that make it stand out:
+
+- **Hackability**: Since it’s built on web technologies, you can easily tweak the editor to match your workflow.
+- **Extensive Package Ecosystem**: With thousands of community-created packages and themes, you can enhance Atom’s functionality to your liking.
+- **Intelligent Autocompletion**: As you type, Atom offers smart suggestions that help speed up your coding.
+- **Multi-pane Support**: You can work on multiple files side-by-side, which boosts your productivity.
+- **Built-in Git Integration**: This feature simplifies version control and collaboration without leaving the editor.
 
 ### Setup & Installation
 #### Windows
-1. Download the installer from the [Atom website](https://atom.io/).
-2. Run the downloaded `.exe` file.
-3. Follow the installation prompts to complete the setup.
+1. Head over to the [Atom website](https://atom.io/) and download the installer.
+2. Open the downloaded `.exe` file.
+3. Follow the prompts to finish the installation.
 
 #### macOS
 1. Download the `.zip` file from the [Atom website](https://atom.io/).
-2. Extract the `.zip` file.
-3. Drag the `Atom.app` to the Applications folder.
+2. Extract the downloaded file.
+3. Drag the `Atom.app` into your Applications folder.
 
 #### Linux
-1. Use the following commands to install Atom via the terminal:
+1. Open your terminal and run these commands to install Atom:
    ```bash
    sudo add-apt-repository ppa:webupd8team/atom
    sudo apt-get update
@@ -34,34 +35,34 @@ Atom is an open-source text editor developed by GitHub that provides a highly cu
    ```
 
 ### Configuration
-- **User Settings**: Access user settings by navigating to `File > Settings` or using the shortcut `Ctrl + ,`.
-- **Keymap Customization**: Modify keybindings in the `keymap.cson` file located in the `~/.atom` directory.
-- **Theme Selection**: Change themes by going to `Settings > Themes` and selecting from the available options.
+- **User Settings**: You can reach your user settings by going to `File > Settings` or by using `Ctrl + ,`.
+- **Keymap Customization**: Adjust keybindings in the `keymap.cson` file found in the `~/.atom` directory.
+- **Theme Selection**: Change themes easily by navigating to `Settings > Themes` and picking one you like.
 
 ### Usage Guide
-- **Creating a New File**: Use `File > New File` or the shortcut `Ctrl + N`.
-- **Opening a File**: Use `File > Open File` or the shortcut `Ctrl + O`.
-- **Using the Terminal**: Open the integrated terminal with the `platformio-ide-terminal` package:
+- **Creating a New File**: Go to `File > New File` or hit `Ctrl + N`.
+- **Opening a File**: Click on `File > Open File` or use `Ctrl + O` for a quick open.
+- **Using the Terminal**: You can open the integrated terminal with the `platformio-ide-terminal` package:
   ```bash
   apm install platformio-ide-terminal
   ```
-- **Version Control**: Use the Git panel to stage, commit, and push changes directly from Atom.
+- **Version Control**: Manage your Git workflow directly from Atom using the Git panel to stage, commit, and push changes.
 
 ### Advanced Features
-- **Custom Packages**: Create your own packages by following the guide at [Atom Flight Manual](https://flight-manual.atom.io/hacking/).
-- **Snippets**: Define custom code snippets in the `snippets.cson` file for faster coding.
-- **Linter Integration**: Install the `linter` package to get real-time feedback on code quality:
+- **Custom Packages**: Want to build your own packages? Check out the guide at [Atom Flight Manual](https://flight-manual.atom.io/hacking/).
+- **Snippets**: Speed up your coding by defining custom snippets in the `snippets.cson` file.
+- **Linter Integration**: Get real-time feedback on your code quality by installing the `linter` package:
   ```bash
   apm install linter
   ```
 
 ### Troubleshooting
-- **Editor Not Opening**: Ensure that Atom is not already running in the background. Check the task manager and terminate any existing Atom processes.
-- **Package Installation Issues**: Run `apm install <package-name>` in the terminal to manually install packages.
-- **Slow Performance**: Disable unused packages in `Settings > Packages` to improve speed.
+- **Editor Not Opening**: If Atom won’t launch, check if it’s already running in the background. Use the task manager to close any existing Atom processes.
+- **Package Installation Issues**: Try installing packages manually by running `apm install <package-name>` in the terminal.
+- **Slow Performance**: If Atom feels sluggish, turn off any unused packages in `Settings > Packages` to help speed things up.
 
 ### Best Practices
-- **Regularly Update Packages**: Keep packages updated to benefit from the latest features and bug fixes.
-- **Use Version Control**: Always use Git for version control to manage changes effectively.
-- **Customize Your Environment**: Spend time customizing Atom to suit your workflow, including themes, keybindings, and packages.
-- **Leverage Community Resources**: Explore the Atom community for new packages and themes that can enhance your development experience.
+- **Regularly Update Packages**: Keeping your packages updated helps you access the latest features and fixes.
+- **Use Version Control**: Always rely on Git for version control to manage your changes smoothly.
+- **Customize Your Environment**: Take some time to personalize Atom with themes, keybindings, and packages that enhance your workflow.
+- **Leverage Community Resources**: Dive into the Atom community for new packages and themes that can elevate your development experience.

@@ -8,18 +8,19 @@ tech_stack: ["graphql", "apollo-server", "relay", "prisma"]
 
 # GraphQL API Designer
 
-You are a GraphQL expert specializing in designing scalable, efficient GraphQL APIs.
+Welcome to the GraphQL API Designer, where you can create scalable and effective GraphQL APIs. Let’s dive into what you need to get started.
 
 ## GraphQL API Requirements
-- **Framework**: [INSERT FRAMEWORK - Apollo Server, GraphQL Yoga, Mercurius]
-- **Database**: [INSERT DATABASE - PostgreSQL, MongoDB, Prisma]
-- **Authentication**: [INSERT AUTH - JWT, OAuth, Session-based]
-- **Real-time**: [INSERT REAL-TIME - Subscriptions, Live Queries]
-- **Caching**: [INSERT CACHING - Redis, DataLoader, Query caching]
-- **Client**: [INSERT CLIENT - Apollo Client, Relay, urql]
+Here’s a quick checklist for your API setup:
+- **Framework**: Choose from options like Apollo Server, GraphQL Yoga, or Mercurius.
+- **Database**: Pick a database that suits your needs, like PostgreSQL, MongoDB, or Prisma.
+- **Authentication**: Decide how users will authenticate. Options include JWT, OAuth, or session-based authentication.
+- **Real-time**: Implement real-time features using subscriptions or live queries.
+- **Caching**: Improve performance with caching options like Redis, DataLoader, or basic query caching.
+- **Client**: Select a client library such as Apollo Client, Relay, or urql.
 
 ## Schema Requirements
-[INSERT DOMAIN MODEL AND BUSINESS REQUIREMENTS]
+Fill in your specific domain model and business requirements here.
 
 ## Output Format
 
@@ -290,7 +291,7 @@ type Subscription {
   # Real-time comments
   commentAdded(postId: ID!): Comment!
   commentUpdated(id: ID!): Comment!
-  commentDeleted: ID!
+  commentDeleted(id: ID!): Comment!
   
   # User notifications
   notificationAdded(userId: ID!): Notification!
@@ -312,7 +313,7 @@ const Upload = new GraphQLScalarType({
   description: 'The `Upload` scalar type represents a file upload.',
 });
 
-// DataLoader for N+1 problem resolution
+// DataLoader for resolving N+1 problems
 const createLoaders = ({ db }) => ({
   userById: new DataLoader(async (ids) => {
     const users = await db.user.findMany({
@@ -665,7 +666,7 @@ import costAnalysis from 'graphql-cost-analysis';
 import typeDefs from './schema.graphql';
 import resolvers from './resolvers/index.js';
 
-// Rate limiting
+// Rate limiting setup
 const rateLimiter = new RateLimiterMemory({
   keyName: 'ip',
   points: 100, // Number of requests
@@ -689,252 +690,4 @@ const isOwner = rule({ cache: 'contextual' })(
   async (parent, { id }, { user, db }) => {
     if (!user) return false;
     
-    const resource = await db.post.findUnique({ where: { id } });
-    return resource && resource.authorId === user.id;
-  }
-);
-
-// Permissions shield
-const permissions = shield({
-  Query: {
-    me: isAuthenticated,
-    users: isAuthenticated,
-  },
-  Mutation: {
-    createUser: isAdmin,
-    updateUser: or(isAdmin, isOwner),
-    deleteUser: isAdmin,
-    createPost: isAuthenticated,
-    updatePost: and(isAuthenticated, isOwner),
-    deletePost: and(isAuthenticated, isOwner),
-  }
-}, {
-  allowExternalErrors: true,
-  fallbackError: 'Insufficient permissions'
-});
-
-// Create executable schema
-const schema = makeExecutableSchema({
-  typeDefs,
-  resolvers,
-});
-
-// Apply middleware
-const protectedSchema = applyMiddleware(schema, permissions);
-
-// Create Apollo Server
-const server = new ApolloServer({
-  schema: protectedSchema,
-  plugins: [
-    // Query complexity analysis
-    costAnalysis({
-      maximumCost: 1000,
-      defaultCost: 1,
-      scalarCost: 1,
-      objectCost: 1,
-      listFactor: 10,
-      introspectionCost: 1000,
-      createError: (max, actual) => {
-        return new Error(`Query cost ${actual} exceeds maximum cost ${max}`);
-      }
-    }),
-    
-    // Development-only query playground
-    ...(process.env.NODE_ENV === 'development' ? [
-      require('@apollo/server/plugin/landingPage/graphQLPlayground').default()
-    ] : [])
-  ],
-  validationRules: [
-    depthLimit(10), // Limit query depth
-  ],
-  formatError: (error) => {
-    // Log error for monitoring
-    console.error('GraphQL Error:', error);
-    
-    // Don't expose internal errors in production
-    if (process.env.NODE_ENV === 'production') {
-      if (error.message.startsWith('Database')) {
-        return new Error('Internal server error');
-      }
-    }
-    
-    return error;
-  }
-});
-
-// Context function
-const createContext = async ({ req }) => {
-  // Rate limiting
-  try {
-    await rateLimiter.consume(req.ip);
-  } catch (rejRes) {
-    throw new Error('Too many requests');
-  }
-  
-  // Authentication
-  let user = null;
-  const token = req.headers.authorization?.replace('Bearer ', '');
-  
-  if (token) {
-    try {
-      const decoded = jwt.verify(token, process.env.JWT_SECRET);
-      user = await db.user.findUnique({ where: { id: decoded.userId } });
-    } catch (error) {
-      // Invalid token - continue without user
-    }
-  }
-  
-  return {
-    db,
-    user,
-    loaders: createLoaders({ db }),
-    pubsub
-  };
-};
-
-// Start server
-const { url } = await startStandaloneServer(server, {
-  listen: { port: process.env.PORT || 4000 },
-  context: createContext
-});
-
-console.log(`🚀 Server ready at ${url}`);
-```
-
-### Client-side Usage (Apollo Client)
-
-```typescript
-// client/apollo.ts
-import { ApolloClient, InMemoryCache, createHttpLink, from } from '@apollo/client';
-import { setContext } from '@apollo/client/link/context';
-import { onError } from '@apollo/client/link/error';
-import { createUploadLink } from 'apollo-upload-client';
-
-// HTTP link for queries and mutations
-const httpLink = createHttpLink({
-  uri: process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT,
-});
-
-// Upload link for file uploads
-const uploadLink = createUploadLink({
-  uri: process.env.NEXT_PUBLIC_GRAPHQL_ENDPOINT,
-});
-
-// Auth link
-const authLink = setContext((_, { headers }) => {
-  const token = localStorage.getItem('token');
-  
-  return {
-    headers: {
-      ...headers,
-      authorization: token ? `Bearer ${token}` : "",
-    }
-  };
-});
-
-// Error link
-const errorLink = onError(({ graphQLErrors, networkError, operation, forward }) => {
-  if (graphQLErrors) {
-    graphQLErrors.forEach(({ message, locations, path }) => {
-      console.error(`GraphQL error: Message: ${message}, Location: ${locations}, Path: ${path}`);
-    });
-  }
-  
-  if (networkError) {
-    console.error(`Network error: ${networkError}`);
-    
-    // Handle authentication errors
-    if (networkError.statusCode === 401) {
-      localStorage.removeItem('token');
-      window.location.href = '/login';
-    }
-  }
-});
-
-// Create Apollo Client
-export const client = new ApolloClient({
-  link: from([
-    errorLink,
-    authLink,
-    uploadLink
-  ]),
-  cache: new InMemoryCache({
-    typePolicies: {
-      User: {
-        fields: {
-          posts: {
-            merge(existing = { edges: [] }, incoming) {
-              return {
-                ...incoming,
-                edges: [...existing.edges, ...incoming.edges]
-              };
-            }
-          }
-        }
-      }
-    }
-  }),
-  defaultOptions: {
-    watchQuery: {
-      errorPolicy: 'all'
-    }
-  }
-});
-
-// GraphQL queries and mutations
-export const GET_POSTS = gql`
-  query GetPosts($first: Int, $after: String) {
-    posts(pagination: { first: $first, after: $after }) {
-      edges {
-        node {
-          id
-          title
-          content
-          publishedAt
-          author {
-            id
-            name
-            avatar
-          }
-          commentsCount
-          likesCount
-        }
-        cursor
-      }
-      pageInfo {
-        hasNextPage
-        endCursor
-      }
-    }
-  }
-`;
-
-export const CREATE_POST = gql`
-  mutation CreatePost($input: CreatePostInput!) {
-    createPost(input: $input) {
-      success
-      message
-      post {
-        id
-        title
-        content
-        author {
-          id
-          name
-        }
-      }
-      errors {
-        field
-        message
-      }
-    }
-  }
-`;
-```
-
-## Success Criteria
-- Schema follows GraphQL best practices
-- N+1 queries resolved with DataLoaders
-- Proper authentication and authorization
-- Real-time subscriptions working
-- Query complexity and rate limiting implemented
+    const

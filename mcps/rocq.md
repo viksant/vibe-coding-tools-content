@@ -6,10 +6,10 @@ tags: ["tools", "security", "ai", "natural language processing", "formal methods
 tech_stack: ["Coq", "Dependent Types", "Formal Verification", "Theorem Proving", "Natural Language Processing"]
 ---
 
-RoCQ MCP bridges the gap between natural language and formal verification by enabling developers to interact with the Coq proof assistant using conversational inputs. 
+RoCQ MCP makes it easier for developers to connect natural language with formal verification. It allows users to engage with the Coq proof assistant using simple conversational inputs. 
 
-This allows for automated dependent type checking, inductive type definition, and property proving without requiring deep expertise in Coq's formal syntax. Developers can describe mathematical properties, program specifications, or logical constraints in plain English, and RoCQ translates these into precise Coq definitions and proof scripts.
+With this tool, you can enjoy automated dependent type checking, define inductive types, and prove properties without needing to be an expert in Coq's formal syntax. You can describe mathematical properties, program specifications, or logical constraints in everyday language, and RoCQ will convert these into accurate Coq definitions and proof scripts.
 
-The tool significantly lowers the barrier to entry for formal methods, making theorem proving accessible for software verification, security analysis, and correctness proofs. 
+This tool really helps remove the hurdles for using formal methods. It opens the door for theorem proving, making it more approachable for software verification, security analysis, and correctness proofs. 
 
-It supports use cases ranging from verifying algorithm correctness to ensuring security properties in smart contracts. By automating the translation from intuitive descriptions to rigorous formal proofs, RoCQ accelerates the adoption of formal verification in mainstream software development while maintaining mathematical precision.
+RoCQ supports a variety of applications—from verifying the correctness of algorithms to ensuring security features in smart contracts. By handling the translation from clear, intuitive descriptions to rigorous formal proofs, RoCQ speeds up the use of formal verification in everyday software development while keeping everything mathematically sound.
