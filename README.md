@@ -1,10 +1,10 @@
 # Vibe Coding Tools
 
-![Vibe Coding Tools](share.png)
+![Vibe Coding Tools](./share.png)
 
 **Your go-to platform for vibe coders and AI development**
 
-This massive collection gives you access to AI development resources, coding practices, and automation tools for modern software work. You get over **1,200 curated documents** that cover specialized AI agents and proven development practices.
+This massive collection gives you access to AI development resources, coding practices, and automation tools for modern software work. You get over **1,200 curated documents** that cover specialized AI agents and proven development practices!
 
 ## 🎯 What We Do
 
