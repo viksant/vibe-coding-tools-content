@@ -1,6 +1,6 @@
 # Vibe Coding Tools
 
-![Vibe Coding Tools](./share.png)
+![Vibe Coding Tools](./homepage.png)
 
 **Your go-to platform for vibe coders and AI development**
 
@@ -62,7 +62,7 @@ Want to help out? We'd love your contributions! Pick one of these two ways:
 
 Use our **contribution system** right from the web app:
 
-![Contribute Interface](contribute.png)
+![Contribute Interface](share.png)
 
 Here's how it works:
 
