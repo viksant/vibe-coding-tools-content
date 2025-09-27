@@ -1,6 +1,6 @@
 # Vibe Coding Tools
 
-![Vibe Coding Tools](./share.png)
+![Vibe Coding Tools](./homepage.png)
 
 **Your go-to platform for vibe coders and AI development**
 
